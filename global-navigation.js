@@ -40,7 +40,20 @@
     }, { passive: true });
   };
 
+  const alignLandingNavigation = () => {
+    if (!document.body.classList.contains("gaming-mods-page")) return;
+    const oldGithub = document.querySelector(".site-nav .nav-github");
+    if (!oldGithub) return;
+    oldGithub.classList.remove("nav-github");
+    oldGithub.classList.add("nav-downloads");
+    oldGithub.href = "#projects";
+    oldGithub.removeAttribute("data-brand");
+    oldGithub.dataset.i18n = "nav.downloads";
+    oldGithub.textContent = "Downloads";
+  };
+
   const init = () => {
+    alignLandingNavigation();
     const menus = [...document.querySelectorAll("[data-global-menu]")];
     menus.forEach(initMenu);
     document.addEventListener("click", (event) => {
