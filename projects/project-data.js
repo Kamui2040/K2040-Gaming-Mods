@@ -65,7 +65,7 @@ window.K2040_PROJECTS = {
           "1.0.0.9 — Added a patch for the H&K 45C Mk24.",
           "1.0.0.8 — Added patches for AQUILA and the X12 Plasmacaster.",
           "1.0.0.6 — Added patches for DKS-501 Redux and ACR-W17.",
-          "1.0.0.4 — Initial release with patches for the HK USP, DKS-501, .357 Cattleman Revolver, MW19 FAL."
+          "1.0.0.4 — Initial release with patches for the HK USP, DKS-501, .357 Cattleman Revolver, and MW19 FAL."
         ]
       },
       {
