@@ -1,0 +1,66 @@
+window.K2040_GAMING_UPDATES = [
+  {
+    id: "dirde-ue-linux-release",
+    date: "2026-08-22",
+    href: "https://www.nexusmods.com/deadislandriptide/mods/31",
+    source: "nexus",
+    strings: {
+      en: { category: "Dead Island: Riptide", title: "DIRDE UE Linux released", summary: "The native Linux port of the Ultimate Edition Mod Menu is now publicly available." },
+      de: { category: "Dead Island: Riptide", title: "DIRDE UE Linux veröffentlicht", summary: "Der native Linux-Port des Ultimate Edition Mod Menu ist jetzt öffentlich verfügbar." },
+      "pt-PT": { category: "Dead Island: Riptide", title: "DIRDE UE Linux publicado", summary: "O port nativo para Linux do Ultimate Edition Mod Menu está agora disponível publicamente." },
+      es: { category: "Dead Island: Riptide", title: "DIRDE UE Linux publicado", summary: "El port nativo para Linux del Ultimate Edition Mod Menu ya está disponible públicamente." },
+      fr: { category: "Dead Island: Riptide", title: "DIRDE UE Linux publié", summary: "Le portage Linux natif de l’Ultimate Edition Mod Menu est désormais disponible publiquement." }
+    }
+  },
+  {
+    id: "xedit-json-exporter-added",
+    date: "2026-06-23",
+    href: "https://www.nexusmods.com/fallout4/mods/105775",
+    source: "nexus",
+    strings: {
+      en: { category: "Fallout 4", title: "xEdit JSON Exporter added", summary: "xEdit JSON Exporter now has a dedicated Gaming Mods project page and official Nexus Mods link." },
+      de: { category: "Fallout 4", title: "xEdit JSON Exporter hinzugefügt", summary: "xEdit JSON Exporter hat jetzt eine eigene Gaming-Mods-Projektseite mit offiziellem Nexus-Mods-Link." },
+      "pt-PT": { category: "Fallout 4", title: "xEdit JSON Exporter adicionado", summary: "O xEdit JSON Exporter tem agora uma página própria em Gaming Mods e uma ligação oficial para o Nexus Mods." },
+      es: { category: "Fallout 4", title: "xEdit JSON Exporter añadido", summary: "xEdit JSON Exporter ya tiene una página propia en Gaming Mods y un enlace oficial a Nexus Mods." },
+      fr: { category: "Fallout 4", title: "xEdit JSON Exporter ajouté", summary: "xEdit JSON Exporter dispose maintenant d’une page dédiée dans Gaming Mods et d’un lien officiel Nexus Mods." }
+    }
+  },
+  {
+    id: "page-launch",
+    date: "2026-06-22",
+    href: null,
+    strings: {
+      en: { category: "Website", title: "Gaming Mods page added", summary: "The released game-mod projects received a dedicated multilingual home." },
+      de: { category: "Webseite", title: "Gaming-Mods-Seite hinzugefügt", summary: "Die veröffentlichten Spiele-Mod-Projekte haben einen eigenen mehrsprachigen Bereich erhalten." },
+      "pt-PT": { category: "Website", title: "Página Gaming Mods adicionada", summary: "Os projetos de mods publicados passaram a ter uma página inicial multilingue própria." },
+      es: { category: "Sitio web", title: "Página Gaming Mods añadida", summary: "Los proyectos de mods publicados recibieron una página principal multilingüe propia." },
+      fr: { category: "Site web", title: "Page Gaming Mods ajoutée", summary: "Les projets de mods publiés disposent désormais de leur propre accueil multilingue." }
+    }
+  },
+  {
+    id: "single-patches",
+    date: "2026-05-31",
+    href: "https://www.nexusmods.com/fallout4/mods/105464",
+    source: "nexus",
+    strings: {
+      en: { category: "Fallout 4", title: "ECO Quick Menu Single Patches updated", summary: "The individual-patch collection received newly published optional files." },
+      de: { category: "Fallout 4", title: "ECO Quick Menu Single Patches aktualisiert", summary: "Die Sammlung einzelner Patches erhielt neu veröffentlichte optionale Dateien." },
+      "pt-PT": { category: "Fallout 4", title: "ECO Quick Menu Single Patches atualizado", summary: "A coleção de patches individuais recebeu novos ficheiros opcionais publicados." },
+      es: { category: "Fallout 4", title: "ECO Quick Menu Single Patches actualizado", summary: "La colección de parches individuales recibió nuevos archivos opcionales publicados." },
+      fr: { category: "Fallout 4", title: "ECO Quick Menu Single Patches mis à jour", summary: "La collection de patchs individuels a reçu de nouveaux fichiers facultatifs publiés." }
+    }
+  },
+  {
+    id: "aio-update",
+    date: "2026-05-29",
+    href: "https://www.nexusmods.com/fallout4/mods/105461",
+    source: "nexus",
+    strings: {
+      en: { category: "Fallout 4", title: "ECO Quick Menu Additions AiO updated", summary: "A new all-in-one installer release was published on Nexus Mods." },
+      de: { category: "Fallout 4", title: "ECO Quick Menu Additions AiO aktualisiert", summary: "Eine neue Version des All-in-One-Installers wurde auf Nexus Mods veröffentlicht." },
+      "pt-PT": { category: "Fallout 4", title: "ECO Quick Menu Additions AiO atualizado", summary: "Foi publicada no Nexus Mods uma nova versão do instalador tudo-em-um." },
+      es: { category: "Fallout 4", title: "ECO Quick Menu Additions AiO actualizado", summary: "Se publicó en Nexus Mods una nueva versión del instalador todo en uno." },
+      fr: { category: "Fallout 4", title: "ECO Quick Menu Additions AiO mis à jour", summary: "Une nouvelle version de l’installateur tout-en-un a été publiée sur Nexus Mods." }
+    }
+  }
+];
