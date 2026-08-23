@@ -9,11 +9,11 @@
     "eco-single": "eco-quick-menu-additions"
   };
   const sourceLabels = {
-    en: { nexus: "Nexus Mods", github: "GitHub Releases", original: "Original mod · Nexus Mods" },
-    de: { nexus: "Nexus Mods", github: "GitHub Releases", original: "Original-Mod · Nexus Mods" },
-    "pt-PT": { nexus: "Nexus Mods", github: "GitHub Releases", original: "Mod original · Nexus Mods" },
-    es: { nexus: "Nexus Mods", github: "GitHub Releases", original: "Mod original · Nexus Mods" },
-    fr: { nexus: "Nexus Mods", github: "GitHub Releases", original: "Mod original · Nexus Mods" }
+    en: { nexus: "Nexus Mods", github: "GitHub Releases", githubRepo: "GitHub", original: "Original mod · Nexus Mods" },
+    de: { nexus: "Nexus Mods", github: "GitHub Releases", githubRepo: "GitHub", original: "Original-Mod · Nexus Mods" },
+    "pt-PT": { nexus: "Nexus Mods", github: "GitHub Releases", githubRepo: "GitHub", original: "Mod original · Nexus Mods" },
+    es: { nexus: "Nexus Mods", github: "GitHub Releases", githubRepo: "GitHub", original: "Mod original · Nexus Mods" },
+    fr: { nexus: "Nexus Mods", github: "GitHub Releases", githubRepo: "GitHub", original: "Mod original · Nexus Mods" }
   };
 
   const requestedId = new URLSearchParams(location.search).get("project");
@@ -112,11 +112,11 @@
       const description = document.createElement("p");
       description.textContent = variant.description;
 
-      const action = document.createElement("a");
-      action.className = "text-link";
-      action.href = variant.nexus;
-      action.textContent = labels.nexus;
-      action.dataset.brand = "nexus";
+      const actions = document.createElement("div");
+      actions.className = "featured-project-actions";
+      addLink(actions, variant.githubRepo, labels.githubRepo, "github");
+      addLink(actions, variant.github, labels.github, "github");
+      addLink(actions, variant.nexus, labels.nexus, "nexus");
 
       const heading = document.createElement("h4");
       heading.textContent = detailStrings.changelogTitle || "Changelog";
@@ -129,7 +129,7 @@
         return line;
       }));
 
-      item.append(title, description, action, heading, changelog);
+      item.append(title, description, actions, heading, changelog);
       return item;
     }));
 
@@ -167,9 +167,11 @@
     const downloads = document.querySelector("[data-project-downloads]");
     const links = document.querySelector("[data-project-links]");
     addLink(downloads, project.nexus, labels.nexus, "nexus");
+    addLink(downloads, project.githubRepo, labels.githubRepo, "github");
     addLink(downloads, project.github, labels.github, "github");
     addLink(links, project.nexus, labels.nexus, "nexus");
     addLink(links, project.originalNexus, labels.original, "nexus");
+    addLink(links, project.githubRepo, labels.githubRepo, "github");
     addLink(links, project.github, labels.github, "github");
 
     const hasVariants = renderVariants(detailStrings, labels);
