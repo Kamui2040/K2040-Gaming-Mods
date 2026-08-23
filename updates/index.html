@@ -3,21 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Published updates for K2040 Gaming Mods projects.">
   <meta name="color-scheme" content="light dark">
-  <title>K2040 Gaming Mods</title>
+  <title>Updates · K2040 Gaming Mods</title>
   <link rel="stylesheet" href="../styles.css?v=20260823a">
   <link rel="stylesheet" href="../navigation.css?v=20260822e">
   <link rel="stylesheet" href="../responsive.css?v=20260823a">
   <link rel="stylesheet" href="../mobile-navigation.css?v=20260823">
   <link rel="stylesheet" href="../redesign.css?v=20260823r1">
   <script src="../translations.js?v=20260823r1"></script>
+  <script src="2026.js?v=20260823r1"></script>
+  <script src="../updates-data.js?v=20260823r1"></script>
   <script src="../global-navigation.js?v=20260823r1"></script>
-  <script src="project-data.js?v=20260823a"></script>
-  <script src="project-translations.js?v=20260823a"></script>
-  <script src="project-page.js?v=20260823a"></script>
   <script src="../site.js?v=20260823b"></script>
+  <script src="../page-meta.js?v=20260823r1"></script>
 </head>
-<body class="project-detail-page">
+<body class="updates-page" data-page-title-key="pages.updates.metaTitle" data-page-description-key="pages.updates.metaDescription">
   <div class="page-shell">
     <header class="site-header">
       <div class="site-brand">
@@ -52,12 +53,12 @@
               <button type="button" role="tab" aria-selected="false" aria-controls="fallout-projects" id="fallout-game" data-project-game-button="fallout">Fallout 4 <span aria-hidden="true">›</span></button>
             </div>
             <div class="project-menu-mods" hidden>
-              <section role="tabpanel" id="dead-island-projects" aria-labelledby="dead-island-game" data-project-game-panel="dead-island" hidden><p class="project-menu-label">Dead Island: Riptide DE</p><a href="project.html?project=dirde-ue-linux"><strong>DIRDE UE Linux</strong><small data-i18n="menu.dirdeDescription">Ultimate Edition Mod Menu · Linux</small></a></section>
-              <section role="tabpanel" id="fallout-projects" aria-labelledby="fallout-game" data-project-game-panel="fallout" hidden><p class="project-menu-label">Fallout 4</p><a href="project.html?project=eco-quick-menu-additions"><strong>ECO Quick Menu Additions</strong><small data-i18n="menu.ecoDescription">AiO installer and individual patches</small></a><div class="project-menu-separator" aria-hidden="true"></div><a href="project.html?project=xedit-json-exporter"><strong>xEdit JSON Exporter</strong><small data-i18n="menu.xeditDescription">FO4Edit export utility</small></a></section>
+              <section role="tabpanel" id="dead-island-projects" aria-labelledby="dead-island-game" data-project-game-panel="dead-island" hidden><p class="project-menu-label">Dead Island: Riptide DE</p><a href="../projects/project.html?project=dirde-ue-linux"><strong>DIRDE UE Linux</strong><small data-i18n="menu.dirdeDescription">Ultimate Edition Mod Menu · Linux</small></a></section>
+              <section role="tabpanel" id="fallout-projects" aria-labelledby="fallout-game" data-project-game-panel="fallout" hidden><p class="project-menu-label">Fallout 4</p><a href="../projects/project.html?project=eco-quick-menu-additions"><strong>ECO Quick Menu Additions</strong><small data-i18n="menu.ecoDescription">AiO installer and individual patches</small></a><div class="project-menu-separator" aria-hidden="true"></div><a href="../projects/project.html?project=xedit-json-exporter"><strong>xEdit JSON Exporter</strong><small data-i18n="menu.xeditDescription">FO4Edit export utility</small></a></section>
             </div>
           </div>
         </details>
-        <a class="nav-link nav-downloads" href="#project-downloads" data-project-downloads-nav data-i18n="nav.downloads">Downloads</a>
+        <a class="nav-link nav-updates" href="../index.html#updates" aria-current="page" data-i18n="nav.updates">Updates</a>
         <a class="nav-link nav-about" href="../index.html#about" data-i18n="nav.about">About</a>
         <a class="nav-link nav-github" href="https://github.com/Kamui2040" data-brand="github">GitHub</a>
         <label class="nav-language-control"><span class="visually-hidden" data-i18n="controls.language">Language</span><select class="nav-language-select" data-language-select aria-label="Language" data-i18n-aria-label="controls.language"><option value="en">🇬🇧 English</option><option value="de">🇩🇪 Deutsch</option><option value="pt-PT">🇵🇹 Português</option><option value="es">🇪🇸 Español</option><option value="fr">🇫🇷 Français</option></select></label>
@@ -66,14 +67,13 @@
     </header>
 
     <main>
-      <header class="project-detail-hero"><div class="project-detail-art" data-project-hero-art></div><div class="project-detail-copy"><p class="eyebrow" data-project-game></p><h1 data-project-title></h1><p data-project-description></p><div class="featured-project-actions" data-project-downloads></div></div></header>
-      <section class="content-section" id="project-variants" hidden data-project-variants-section><div class="section-heading"><p class="eyebrow" data-i18n="detail.chooseOptionEyebrow">Choose an option</p><h2 data-i18n="detail.downloadsChangelogs">Downloads and changelogs</h2><p data-i18n="detail.chooseOptionDescription">Choose the installation option that fits your load order.</p></div><div class="project-variant-grid" data-project-variants></div></section>
-      <section class="content-section"><div class="section-heading"><p class="eyebrow" data-i18n="detail.overviewEyebrow">Overview</p><h2 data-i18n="detail.aboutTitle">About this project</h2><p data-project-overview></p></div></section>
-      <section class="content-section" hidden data-project-features-section><div class="section-heading"><p class="eyebrow" data-i18n="detail.featuresEyebrow">Included</p><h2 data-i18n="detail.featuresTitle">Features</h2><ul class="detail-list" data-project-features></ul></div></section>
-      <section class="content-section" id="project-downloads" data-project-links-section><div class="section-heading"><p class="eyebrow" data-i18n="nav.downloads">Downloads</p><h2 data-i18n="detail.officialLinksTitle">Official links</h2><p data-i18n="detail.officialLinksDescription">Use the official project pages for current files and installation details.</p></div><div class="project-link-grid" data-project-links></div></section>
-      <section class="content-section project-screenshots" hidden data-project-screenshots aria-labelledby="project-screenshots-title"><div class="section-heading"><p class="eyebrow" data-i18n="detail.galleryEyebrow">Gallery</p><h2 id="project-screenshots-title" data-i18n="detail.screenshotsTitle">Screenshots</h2><p data-i18n="detail.screenshotsDescription">Project screenshots and interface previews.</p></div><div class="screenshot-grid" data-screenshot-grid></div></section>
-      <section class="content-section" data-project-changelog-section><div class="section-heading"><p class="eyebrow" data-i18n="detail.changelogEyebrow">Changelog</p><h2 data-i18n="detail.latestRelease">Latest release</h2><ul class="detail-list" data-project-changelog></ul></div></section>
+      <section class="content-section" id="updates">
+        <div class="section-heading"><p class="eyebrow" data-i18n="pages.updates.eyebrow">K2040 Gaming Mods</p><h1 data-i18n="pages.updates.title">Updates</h1><p class="lead" data-i18n="pages.updates.description">Published releases and important project changes. Newest first.</p></div>
+      </section>
+      <section class="content-section update-archive"><div class="update-list" data-update-list></div></section>
     </main>
+
+    <template id="update-card-template"><article class="update-card"><div class="update-meta"><time data-update-date></time><span data-update-category></span></div><h3 data-update-title></h3><p data-update-summary></p><a class="text-link" data-update-link></a></article></template>
   </div>
 </body>
 </html>
