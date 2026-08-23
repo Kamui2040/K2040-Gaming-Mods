@@ -59,7 +59,7 @@ window.K2040_PROJECTS = {
         title: "AiO installer",
         description: "Install the complete released compatibility-patch collection through one FOMOD installer.",
         nexus: "https://www.nexusmods.com/fallout4/mods/105461",
-        githubRepo: "https://github.com/Kamui2040/K2040-ECO-QM/tree/main/aio",
+        github: "https://github.com/Kamui2040/K2040-ECO-QM/releases/tag/aio-v1.0.1.11",
         changelog: [
           "1.0.1.11 — Added AER15 support and its MEC-R7 variant; split DKS-501 and AER15 variants into separate groups.",
           "1.0.0.9 — Added a patch for the H&K 45C Mk24.",
@@ -73,7 +73,7 @@ window.K2040_PROJECTS = {
         title: "Single patches",
         description: "Install only the individual optional patches for the weapon mods you use.",
         nexus: "https://www.nexusmods.com/fallout4/mods/105464",
-        githubRepo: "https://github.com/Kamui2040/K2040-ECO-QM/tree/main/single-patches",
+        github: "https://github.com/Kamui2040/K2040-ECO-QM/releases/tag/single-patches-v1.0",
         changelog: [
           "31 May 2026 — AER15 compatibility patch uploaded.",
           "29 May 2026 — MEC-R7 compatibility patch uploaded.",
