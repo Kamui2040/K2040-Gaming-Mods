@@ -45,6 +45,7 @@ window.K2040_PROJECTS = {
     overview: "A single home for K2040’s released ECO Quick Menu compatibility work. Choose the AiO installer for the complete collection, or install only the individual patches you need.",
     heroImage: "../assets/eco-quick-menu-additions-header.png",
     wideHero: true,
+    githubRepo: "https://github.com/Kamui2040/K2040-ECO-QM",
     features: [
       "Adds quick-menu compatibility support for supported Fallout 4 weapon mods.",
       "All released patches are ESL-flagged ESP files.",
@@ -58,12 +59,13 @@ window.K2040_PROJECTS = {
         title: "AiO installer",
         description: "Install the complete released compatibility-patch collection through one FOMOD installer.",
         nexus: "https://www.nexusmods.com/fallout4/mods/105461",
+        githubRepo: "https://github.com/Kamui2040/K2040-ECO-QM/tree/main/aio",
         changelog: [
           "1.0.1.11 — Added AER15 support and its MEC-R7 variant; split DKS-501 and AER15 variants into separate groups.",
           "1.0.0.9 — Added a patch for the H&K 45C Mk24.",
           "1.0.0.8 — Added patches for AQUILA and the X12 Plasmacaster.",
           "1.0.0.6 — Added patches for DKS-501 Redux and ACR-W17.",
-          "1.0.0.4 — Initial release with patches for the HK USP, DKS-501, .357 Cattleman Revolver, and MW19 FAL."
+          "1.0.0.4 — Initial release with patches for the HK USP, DKS-501, .357 Cattleman Revolver, MW19 FAL."
         ]
       },
       {
@@ -71,6 +73,7 @@ window.K2040_PROJECTS = {
         title: "Single patches",
         description: "Install only the individual optional patches for the weapon mods you use.",
         nexus: "https://www.nexusmods.com/fallout4/mods/105464",
+        githubRepo: "https://github.com/Kamui2040/K2040-ECO-QM/tree/main/single-patches",
         changelog: [
           "31 May 2026 — AER15 compatibility patch uploaded.",
           "29 May 2026 — MEC-R7 compatibility patch uploaded.",
