@@ -9,6 +9,12 @@
     styles.dataset.projectCardActions = "true";
     document.head.append(styles);
   }
+  if (loaderScript?.src && !document.querySelector('script[data-project-menu-fallback]')) {
+    const script = document.createElement("script");
+    script.src = new URL("project-menu-fallback.js?v=20260825a", loaderScript.src).href;
+    script.dataset.projectMenuFallback = "true";
+    document.head.append(script);
+  }
 
   const cardDescriptions = {
     "dirde-ue-linux": {
