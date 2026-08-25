@@ -1,0 +1,30 @@
+.project-card .card-footer {
+  justify-content: flex-start;
+}
+
+.project-card-actions {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .55rem;
+}
+
+.project-card-actions .project-action {
+  justify-content: center;
+}
+
+.project-card-actions .external-platform-link {
+  gap: .42rem;
+}
+
+@media (max-width: 520px) {
+  .project-card-actions {
+    gap: .45rem;
+  }
+
+  .project-card-actions .project-action {
+    min-height: 36px;
+    padding: .45rem .65rem;
+  }
+}
