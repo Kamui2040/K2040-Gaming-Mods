@@ -28,6 +28,8 @@ This public repository contains the K2040 Gaming Mods website, public project in
 - Keep all supported languages consistent when visible text changes.
 - `projects/project-data.js` is the authoritative source for mutable project facts. Landing-page adapters must not duplicate those facts.
 - `updates/<year>.js` is the authoritative source for Gaming update records. Preserve intentional source order when entries share a date.
+- Add update records only for confirmed public changes that are already implemented or published; do not publish planned or merely announced changes as completed updates.
+- The Main K2040 site consumes the Gaming update feed automatically. Do not duplicate Gaming update records in the Main-site repository.
 - Keep the site lightweight, responsive, localized, and visually consistent with the K2040 site family.
 
 ## Validation
