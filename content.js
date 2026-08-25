@@ -27,7 +27,7 @@
     const strings = Object.fromEntries(languages.map((language) => [
       language,
       {
-        label: project.game || "",
+        label: project.cardLabel || project.game || "",
         title: project.cardTitle || project.title || "",
         description: language === "en"
           ? project.cardDescription || project.description || ""
