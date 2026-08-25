@@ -3,6 +3,7 @@ window.K2040_PROJECTS = {
     gameId: "dead-island",
     game: "Dead Island: Riptide DE",
     title: "DIRDE UE Linux 0.1.0",
+    cardLabel: "Dead Island: Riptide",
     cardTitle: "DIRDE UE Linux",
     cardDescription: "Native Linux port with configurable gameplay options and safe restore support.",
     href: "projects/project.html?project=dirde-ue-linux",
