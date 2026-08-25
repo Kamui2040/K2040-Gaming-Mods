@@ -1,7 +1,16 @@
 window.K2040_PROJECTS = {
   "dirde-ue-linux": {
+    gameId: "dead-island",
     game: "Dead Island: Riptide DE",
     title: "DIRDE UE Linux 0.1.0",
+    cardLabel: "Dead Island: Riptide",
+    cardTitle: "DIRDE UE Linux",
+    cardDescription: "Native Linux port with configurable gameplay options and safe restore support.",
+    href: "projects/project.html?project=dirde-ue-linux",
+    available: true,
+    featured: false,
+    cardImage: "assets/dirde-ue-linux-avatar.png",
+    cardMeta: ["Linux", "Gameplay", "Released"],
     description: "Native Linux port of the Ultimate Edition Mod Menu.",
     image: "../assets/dirde-ue-linux-card.png",
     heroImage: "../assets/dirde-ue-linux-header.png",
@@ -39,8 +48,15 @@ window.K2040_PROJECTS = {
   },
 
   "eco-quick-menu-additions": {
+    gameId: "fallout-4",
     game: "Fallout 4",
     title: "ECO Quick Menu Additions",
+    cardDescription: "AiO installer and individual Quick Menu compatibility patches.",
+    href: "projects/project.html?project=eco-quick-menu-additions",
+    available: true,
+    featured: true,
+    cardImage: "assets/eco-quick-menu-additions-avatar.png",
+    cardMeta: ["AiO", "Single patches", "Released"],
     description: "Choose the all-in-one installer or individual optional compatibility patches.",
     overview: "A single home for K2040’s released ECO Quick Menu compatibility work. Choose the AiO installer for the complete collection, or install only the individual patches you need.",
     heroImage: "../assets/eco-quick-menu-additions-header.png",
@@ -88,8 +104,15 @@ window.K2040_PROJECTS = {
   },
 
   "xedit-json-exporter": {
+    gameId: "fallout-4",
     game: "Fallout 4",
     title: "xEdit JSON Exporter",
+    cardDescription: "Export xEdit/FO4Edit records and plugins to readable JSON.",
+    href: "projects/project.html?project=xedit-json-exporter",
+    available: true,
+    featured: false,
+    cardImage: "assets/fallout-4-xedit-json-exporter-avatar.png",
+    cardMeta: ["Windows", "Tools", "Released"],
     description: "Export Fallout 4 plugin data from xEdit to structured JSON.",
     overview: "A generic xEdit/FO4Edit script that exports selected records or complete plugin trees to readable JSON.",
     image: "../assets/fallout-4-xedit-json-exporter-card.png",
