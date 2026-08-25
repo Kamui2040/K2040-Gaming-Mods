@@ -1,5 +1,18 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "github-release-downloads",
+    date: "2026-08-25",
+    href: "https://kamui2040.github.io/K2040-Gaming-Mods/#projects",
+    source: "site",
+    strings: {
+      en: { category: "Gaming Mods", title: "GitHub release downloads added to project cards", summary: "Released Gaming projects now show their public GitHub release and Nexus destinations directly on the project cards where those sources are available." },
+      de: { category: "Gaming Mods", title: "GitHub-Release-Downloads zu Projektkarten hinzugefügt", summary: "Veröffentlichte Gaming-Projekte zeigen ihre öffentlichen GitHub-Release- und Nexus-Ziele jetzt direkt auf den Projektkarten, sofern diese Quellen verfügbar sind." },
+      "pt-PT": { category: "Gaming Mods", title: "Transferências do GitHub Releases adicionadas aos cartões", summary: "Os projetos Gaming publicados mostram agora diretamente nos cartões as respetivas origens públicas no GitHub Releases e Nexus, quando disponíveis." },
+      es: { category: "Gaming Mods", title: "Descargas de GitHub Releases añadidas a las tarjetas", summary: "Los proyectos Gaming publicados muestran ahora directamente en sus tarjetas los destinos públicos de GitHub Releases y Nexus cuando están disponibles." },
+      fr: { category: "Gaming Mods", title: "Téléchargements GitHub Releases ajoutés aux cartes", summary: "Les projets Gaming publiés affichent désormais directement sur leurs cartes leurs destinations publiques GitHub Releases et Nexus lorsqu’elles sont disponibles." }
+    }
+  },
+  {
     id: "dirde-ue-linux-release",
     date: "2026-08-22",
     href: "https://www.nexusmods.com/deadislandriptide/mods/31",
