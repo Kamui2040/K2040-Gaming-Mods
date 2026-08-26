@@ -4,7 +4,7 @@
   const loaderScript = document.currentScript;
   if (loaderScript?.src && !document.querySelector('script[data-project-menu-fallback]')) {
     const fallback = document.createElement("script");
-    fallback.src = new URL("../project-menu-fallback.js?v=20260825a", loaderScript.src).href;
+    fallback.src = new URL("../project-menu-fallback.js?v=20260826a", loaderScript.src).href;
     fallback.dataset.projectMenuFallback = "true";
     document.head.append(fallback);
   }
