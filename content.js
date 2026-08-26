@@ -11,7 +11,7 @@
   }
   if (loaderScript?.src && !document.querySelector('script[data-project-menu-fallback]')) {
     const script = document.createElement("script");
-    script.src = new URL("project-menu-fallback.js?v=20260826a", loaderScript.src).href;
+    script.src = new URL("project-menu-fallback.js?v=20260826b", loaderScript.src).href;
     script.dataset.projectMenuFallback = "true";
     document.head.append(script);
   }
