@@ -11,11 +11,12 @@
   <link rel="stylesheet" href="../mobile-navigation.css?v=20260823u1">
   <link rel="stylesheet" href="../redesign.css?v=20260823u1">
   <link rel="stylesheet" href="../shared-ui.css?v=20260823u1">
+  <link rel="stylesheet" href="project-detail-layout.css?v=20260826a">
   <script src="../translations.js?v=20260823r1"></script>
   <script src="../shared-navigation.js?v=20260823u1"></script>
   <script src="project-data.js?v=20260823c"></script>
   <script src="project-translations.js?v=20260823a"></script>
-  <script src="project-page.js?v=20260825menu1"></script>
+  <script src="project-page.js?v=20260826a"></script>
   <script src="../site.js?v=20260823b"></script>
 </head>
 <body class="project-detail-page">
@@ -67,18 +68,30 @@
     </header>
 
     <main>
-      <header class="project-detail-hero"><div class="project-detail-art" data-project-hero-art></div><div class="project-detail-copy"><p class="eyebrow" data-project-game></p><h1 data-project-title></h1><p data-project-description></p><div class="featured-project-actions" data-project-downloads></div></div></header>
-      <section class="content-section" id="project-variants" hidden data-project-variants-section><div class="section-heading"><p class="eyebrow" data-i18n="detail.chooseOptionEyebrow">Choose an option</p><h2 data-i18n="detail.downloadsChangelogs">Downloads and changelogs</h2><p data-i18n="detail.chooseOptionDescription">Choose the installation option that fits your load order.</p></div><div class="project-variant-grid" data-project-variants></div></section>
-      <section class="content-section"><div class="section-heading"><p class="eyebrow" data-i18n="detail.overviewEyebrow">Overview</p><h2 data-i18n="detail.aboutTitle">About this project</h2><p data-project-overview></p></div></section>
-      <section class="content-section" hidden data-project-features-section><div class="section-heading"><p class="eyebrow" data-i18n="detail.featuresEyebrow">Included</p><h2 data-i18n="detail.featuresTitle">Features</h2><ul class="detail-list" data-project-features></ul></div></section>
-      <section class="content-section" id="project-downloads" data-project-links-section><div class="section-heading"><p class="eyebrow" data-i18n="nav.downloads">Downloads</p><h2 data-i18n="detail.officialLinksTitle">Official links</h2><p data-i18n="detail.officialLinksDescription">Use the official project pages for current files and installation details.</p></div><div class="project-link-grid" data-project-links></div></section>
-      <section class="content-section project-screenshots" hidden data-project-screenshots aria-labelledby="project-screenshots-title"><div class="section-heading"><p class="eyebrow" data-i18n="detail.galleryEyebrow">Gallery</p><h2 id="project-screenshots-title" data-i18n="detail.screenshotsTitle">Screenshots</h2><p data-i18n="detail.screenshotsDescription">Project screenshots and interface previews.</p></div><div class="screenshot-grid" data-screenshot-grid></div></section>
-      <section class="content-section" data-project-changelog-section><div class="section-heading"><p class="eyebrow" data-i18n="detail.changelogEyebrow">Changelog</p><h2 data-i18n="detail.latestRelease">Latest release</h2><ul class="detail-list" data-project-changelog></ul></div></section>
-      <section class="content-section about-section">
-        <div class="section-heading"><p class="eyebrow" data-i18n="landing.aboutEyebrow">K2040 Projects</p><h2 data-i18n="landing.aboutTitle">About</h2><p data-i18n="landing.aboutDescription">Open Source game mods and tools with official download links and project-specific documentation.</p></div>
-        <nav class="about-links" aria-label="K2040 links" data-i18n-aria-label="footer.linksLabel"><a class="text-link" href="https://kamui2040.github.io/" data-i18n="global.home">Home</a><a class="text-link" href="https://kamui2040.github.io/K2040-Android-Releases/" data-i18n="global.android">Android Projects</a><a class="text-link" href="https://kamui2040.github.io/K2040-Gaming-Mods/" data-i18n="global.gaming">Gaming Mods</a><a class="text-link" href="https://github.com/Kamui2040" data-brand="github">GitHub</a><a class="text-link" href="https://next.nexusmods.com/profile/kamui2040">Nexus Mods</a><a class="text-link" href="https://ko-fi.com/k2040">Ko-fi</a><a class="text-link" href="https://www.instagram.com/k2040.projects/">Instagram</a></nav>
+      <header class="project-detail-hero"><div class="project-detail-art" data-project-hero-art></div><div class="project-detail-copy"><p class="eyebrow" data-project-game></p><h1 data-project-title></h1><p data-project-description></p></div></header>
+
+      <section class="content-section" id="project-downloads" data-project-downloads-section>
+        <div class="section-heading"><p class="eyebrow" data-i18n="nav.downloads">Downloads</p><h2 data-i18n="detail.downloadsChangelogs">Downloads and changelogs</h2><p data-i18n="detail.chooseOptionDescription">Choose the installation option that fits your load order.</p></div>
+        <div class="project-single-release" data-project-single-release>
+          <article class="project-variant project-release-block">
+            <div class="featured-project-actions" data-project-links></div>
+            <h4 data-i18n="detail.changelogTitle">Changelog</h4>
+            <ul class="detail-list" data-project-changelog></ul>
+          </article>
+        </div>
+        <div class="project-variant-grid" hidden data-project-variants></div>
+      </section>
+
+      <section class="content-section project-about-features">
+        <div class="section-heading"><p class="eyebrow" data-i18n="detail.overviewEyebrow">Overview</p><h2 data-i18n="detail.aboutTitle">About this project</h2><p data-project-overview></p></div>
+        <div class="project-features-block" hidden data-project-features-section><h3 data-i18n="detail.featuresTitle">Features</h3><ul class="detail-list" data-project-features></ul></div>
+        <div class="project-about-links" hidden data-project-about-links></div>
       </section>
     </main>
+
+    <footer class="site-footer">
+      <nav class="footer-links" aria-label="K2040 links" data-i18n-aria-label="footer.linksLabel"><a class="text-link" href="https://kamui2040.github.io/" data-i18n="global.home">Home</a><a class="text-link" href="https://kamui2040.github.io/K2040-Android-Releases/" data-i18n="global.android">Android Projects</a><a class="text-link" href="https://kamui2040.github.io/K2040-Gaming-Mods/" data-i18n="global.gaming">Gaming Mods</a><a class="text-link" href="https://github.com/Kamui2040" data-brand="github">GitHub</a><a class="text-link" href="https://next.nexusmods.com/profile/kamui2040">Nexus Mods</a><a class="text-link" href="https://ko-fi.com/k2040">Ko-fi</a><a class="text-link" href="https://www.instagram.com/k2040.projects/">Instagram</a></nav>
+    </footer>
   </div>
 </body>
 </html>
