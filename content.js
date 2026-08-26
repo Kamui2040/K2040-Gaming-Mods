@@ -37,6 +37,12 @@
     }
   };
 
+  const githubReleaseDestination = (project) => {
+    if (project.github) return project.github;
+    if (project.githubRepo) return `${project.githubRepo.replace(/\/$/, "")}/releases`;
+    return project.variants?.[0]?.github || null;
+  };
+
   const languages = ["en", "de", "pt-PT", "es", "fr"];
   const projects = Object.entries(window.K2040_PROJECTS || {}).map(([id, project]) => {
     const strings = Object.fromEntries(languages.map((language) => [
@@ -59,7 +65,7 @@
       featured: project.featured === true,
       image: project.cardImage,
       cardMeta: Array.isArray(project.cardMeta) ? [...project.cardMeta] : [],
-      cardGithub: project.github || project.variants?.[0]?.github || null,
+      cardGithub: githubReleaseDestination(project),
       cardNexus: project.nexus || project.variants?.[0]?.nexus || null,
       strings
     };
