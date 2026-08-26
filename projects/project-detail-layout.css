@@ -32,6 +32,27 @@
   display: none;
 }
 
+/* Keep screenshot cards equal-height, with every caption anchored to the bottom. */
+.project-detail-page .screenshot-grid figure {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  box-shadow:
+    inset 0 0 0 1px rgba(0, 207, 215, .54),
+    0 0 0 1px rgba(0, 130, 143, .32),
+    0 0 22px rgba(0, 210, 220, .08),
+    inset 0 0 30px rgba(0, 209, 219, .035),
+    0 20px 44px rgba(0, 0, 0, .24);
+}
+
+.project-detail-page .screenshot-grid .screenshot-open {
+  flex: 1 1 auto;
+}
+
+.project-detail-page .screenshot-grid figcaption {
+  margin-top: auto;
+}
+
 .project-detail-page .site-footer .footer-links {
   margin-bottom: 0;
 }
