@@ -138,6 +138,7 @@
 }
 
 .site-footer .footer-links a {
+  display: inline-flex;
   min-height: 40px;
   align-items: center;
   justify-content: center;
