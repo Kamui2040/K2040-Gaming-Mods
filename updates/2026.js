@@ -14,6 +14,7 @@ window.K2040_GAMING_UPDATES = [
   },
   {
     id: "dirde-ue-linux-release",
+    projectId: "dirde-ue-linux",
     date: "2026-08-22",
     href: "https://www.nexusmods.com/deadislandriptide/mods/31",
     source: "nexus",
@@ -27,6 +28,7 @@ window.K2040_GAMING_UPDATES = [
   },
   {
     id: "xedit-json-exporter-added",
+    projectId: "xedit-json-exporter",
     date: "2026-06-23",
     href: "https://www.nexusmods.com/fallout4/mods/105775",
     source: "nexus",
@@ -52,6 +54,7 @@ window.K2040_GAMING_UPDATES = [
   },
   {
     id: "single-patches",
+    projectId: "eco-quick-menu-additions",
     date: "2026-05-31",
     href: "https://www.nexusmods.com/fallout4/mods/105464",
     source: "nexus",
@@ -65,6 +68,7 @@ window.K2040_GAMING_UPDATES = [
   },
   {
     id: "aio-update",
+    projectId: "eco-quick-menu-additions",
     date: "2026-05-29",
     href: "https://www.nexusmods.com/fallout4/mods/105461",
     source: "nexus",
