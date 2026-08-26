@@ -2,11 +2,11 @@
   "use strict";
 
   const ensureLatestIcons = () => {
-    if (document.querySelector('link[data-k2040-gaming-icons="20260825b"]')) return;
+    if (document.querySelector('link[data-k2040-gaming-icons="20260826a"]')) return;
     const styles = document.createElement("link");
     styles.rel = "stylesheet";
-    styles.href = `${location.origin}/K2040-Gaming-Mods/external-link-icons.css?v=20260825b`;
-    styles.dataset.k2040GamingIcons = "20260825b";
+    styles.href = `${location.origin}/K2040-Gaming-Mods/external-link-icons.css?v=20260826a`;
+    styles.dataset.k2040GamingIcons = "20260826a";
     document.head.append(styles);
   };
 
