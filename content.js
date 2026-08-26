@@ -59,7 +59,7 @@
       featured: project.featured === true,
       image: project.cardImage,
       cardMeta: Array.isArray(project.cardMeta) ? [...project.cardMeta] : [],
-      cardGithub: project.github || project.variants?.[0]?.github || project.githubRepo || null,
+      cardGithub: project.github || project.variants?.[0]?.github || null,
       cardNexus: project.nexus || project.variants?.[0]?.nexus || null,
       strings
     };
@@ -75,16 +75,24 @@
     }) || null;
   };
 
-  const createAction = (label, href, brand, title, external = false) => {
+  const createOpenAction = (label, href, title) => {
     const link = document.createElement("a");
-    link.className = "project-action";
+    link.className = "project-action project-card-open";
     link.href = href;
     link.textContent = label;
-    if (brand) link.dataset.brand = brand;
-    if (external) {
-      link.target = "_blank";
-      link.rel = "noopener noreferrer";
-    }
+    link.setAttribute("aria-label", `${label}: ${title}`);
+    return link;
+  };
+
+  const createDestination = (label, href, brand, title) => {
+    const link = document.createElement("a");
+    link.className = "project-action project-card-destination";
+    link.href = href;
+    link.textContent = label;
+    link.dataset.brand = brand;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.title = label;
     link.setAttribute("aria-label", `${label}: ${title}`);
     return link;
   };
@@ -105,12 +113,11 @@
       const footer = article.querySelector(".card-footer");
       if (footer) {
         const openLabel = footer.querySelector("[data-project-action]")?.textContent?.trim() || "Open project";
-        const actions = document.createElement("div");
-        actions.className = "project-card-actions";
-        if (project.cardGithub) actions.append(createAction("GitHub", project.cardGithub, "github", project.strings.en.title));
-        if (project.cardNexus) actions.append(createAction("Nexus", project.cardNexus, "nexus", project.strings.en.title, true));
-        if (project.href) actions.append(createAction(openLabel, project.href, null, project.strings.en.title));
-        footer.replaceChildren(actions);
+        const destinations = document.createElement("div");
+        destinations.className = "project-card-destinations";
+        if (project.cardGithub) destinations.append(createDestination("GitHub", project.cardGithub, "github", project.strings.en.title));
+        if (project.cardNexus) destinations.append(createDestination("Nexus Mods", project.cardNexus, "nexus", project.strings.en.title));
+        footer.replaceChildren(destinations, createOpenAction(openLabel, project.href, project.strings.en.title));
       }
 
       card.replaceWith(article);
