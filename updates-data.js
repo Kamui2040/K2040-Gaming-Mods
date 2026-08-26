@@ -4,7 +4,7 @@
   const script = document.currentScript;
   if (script?.src && !document.querySelector('script[data-project-menu-fallback]')) {
     const fallback = document.createElement("script");
-    fallback.src = new URL("project-menu-fallback.js?v=20260825a", script.src).href;
+    fallback.src = new URL("project-menu-fallback.js?v=20260826a", script.src).href;
     fallback.dataset.projectMenuFallback = "true";
     document.head.append(fallback);
   }
