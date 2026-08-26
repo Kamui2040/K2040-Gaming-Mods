@@ -5,7 +5,7 @@
   if (loaderScript?.src && !document.querySelector('link[data-project-card-actions]')) {
     const styles = document.createElement("link");
     styles.rel = "stylesheet";
-    styles.href = new URL("project-card-actions.css?v=20260826a", loaderScript.src).href;
+    styles.href = new URL("project-card-actions.css?v=20260826b", loaderScript.src).href;
     styles.dataset.projectCardActions = "true";
     document.head.append(styles);
   }
