@@ -5,13 +5,13 @@
   if (loaderScript?.src && !document.querySelector('link[data-project-card-actions]')) {
     const styles = document.createElement("link");
     styles.rel = "stylesheet";
-    styles.href = new URL("project-card-actions.css?v=20260825a", loaderScript.src).href;
+    styles.href = new URL("project-card-actions.css?v=20260826a", loaderScript.src).href;
     styles.dataset.projectCardActions = "true";
     document.head.append(styles);
   }
   if (loaderScript?.src && !document.querySelector('script[data-project-menu-fallback]')) {
     const script = document.createElement("script");
-    script.src = new URL("project-menu-fallback.js?v=20260825a", loaderScript.src).href;
+    script.src = new URL("project-menu-fallback.js?v=20260826a", loaderScript.src).href;
     script.dataset.projectMenuFallback = "true";
     document.head.append(script);
   }
