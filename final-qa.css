@@ -1,5 +1,6 @@
 :root {
   --k2040-unified-icon-size: 1.5rem;
+  --k2040-framed-icon-scale: 1.72;
 }
 
 /* One icon size across Gaming navigation, update actions, project actions, About, and footer links. */
@@ -18,12 +19,26 @@
   flex: 0 0 var(--k2040-unified-icon-size) !important;
 }
 
-.external-platform-icon--nexus.external-platform-icon--monogram,
-.global-menu > summary::before,
-.site-brand-section.nav-home::before,
-.about-links a::before,
-.footer-links a::before {
-  background-size: 130% !important;
+/* Android, Gaming, and Nexus artwork has an outer presentation frame baked into
+   the raster. Crop that frame visually while keeping the canonical icon box. */
+.site-family-icon--android,
+.site-family-icon--gaming {
+  transform: scale(var(--k2040-framed-icon-scale));
+  clip-path: inset(12%);
+}
+
+.external-platform-icon--nexus.external-platform-icon--monogram {
+  background-size: 176% !important;
+  clip-path: inset(8%) !important;
+}
+
+.site-brand-section.nav-home::before {
+  background-size: 176% !important;
+  clip-path: inset(8%);
+}
+
+.global-menu > summary::before {
+  background-size: 116% !important;
 }
 
 /* Keep every project card visually neutral. Only the individual action under the pointer/focus reacts. */
