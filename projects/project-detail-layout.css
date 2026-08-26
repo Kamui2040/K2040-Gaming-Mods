@@ -1,0 +1,44 @@
+.project-single-release {
+  margin-top: 1.5rem;
+}
+
+.project-release-block {
+  width: 100%;
+}
+
+.project-release-block .featured-project-actions {
+  margin-top: 0;
+}
+
+.project-about-features .project-features-block,
+.project-about-features .project-about-links {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(0, 217, 229, .24);
+}
+
+.project-about-features .project-features-block h3 {
+  margin-bottom: .75rem;
+  color: var(--text);
+}
+
+.project-about-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+}
+
+.project-about-links[hidden] {
+  display: none;
+}
+
+.project-detail-page .site-footer .footer-links {
+  margin-bottom: 0;
+}
+
+@media (max-width: 560px) {
+  .project-about-links .text-link {
+    width: 100%;
+    justify-content: center;
+  }
+}

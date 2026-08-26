@@ -1,6 +1,14 @@
 (() => {
   "use strict";
 
+  const loaderScript = document.currentScript;
+  if (loaderScript?.src && !document.querySelector('script[data-project-menu-fallback]')) {
+    const fallback = document.createElement("script");
+    fallback.src = new URL("../project-menu-fallback.js?v=20260826a", loaderScript.src).href;
+    fallback.dataset.projectMenuFallback = "true";
+    document.head.append(fallback);
+  }
+
   const projects = window.K2040_PROJECTS || {};
   const projectTranslations = window.K2040_PROJECT_TRANSLATIONS || {};
   const supportedLanguages = ["en", "de", "pt-PT", "es", "fr"];
@@ -55,13 +63,14 @@
 
   const setText = (selector, value) => {
     const element = document.querySelector(selector);
-    if (element) element.textContent = value;
+    if (element) element.textContent = value || "";
   };
 
   const renderList = (selector, items) => {
     const list = document.querySelector(selector);
-    if (!list || !Array.isArray(items)) return;
-    list.replaceChildren(...items.map((item) => {
+    if (!list) return;
+    const entries = Array.isArray(items) ? items : [];
+    list.replaceChildren(...entries.map((item) => {
       const entry = document.createElement("li");
       entry.textContent = item;
       return entry;
@@ -92,15 +101,25 @@
       image.src = heroArtwork;
       image.alt = `${project.title} ${detailStrings.projectArtworkSuffix || "project artwork"}`;
       image.decoding = "async";
-      art.append(image);
+      art.replaceChildren(image);
     }
   };
 
-  const renderVariants = (detailStrings, labels) => {
-    const section = document.querySelector("[data-project-variants-section]");
-    const list = document.querySelector("[data-project-variants]");
-    if (!section || !list || !project.variants?.length) return false;
+  const appendProjectLinks = (container, labels) => {
+    if (!container) return;
+    container.replaceChildren();
+    addLink(container, project.githubRepo, labels.githubRepo, "github");
+    addLink(container, project.github, labels.github, "github");
+    addLink(container, project.nexus, labels.nexus, "nexus");
+    addLink(container, project.originalNexus, labels.original, "nexus");
+  };
 
+  const renderVariants = (detailStrings, labels) => {
+    const single = document.querySelector("[data-project-single-release]");
+    const list = document.querySelector("[data-project-variants]");
+    if (!list || !project.variants?.length) return false;
+
+    if (single) single.hidden = true;
     list.replaceChildren(...project.variants.map((variant) => {
       const item = document.createElement("article");
       item.className = "project-variant";
@@ -123,7 +142,8 @@
 
       const changelog = document.createElement("ul");
       changelog.className = "detail-list";
-      changelog.replaceChildren(...variant.changelog.slice(0, 5).map((entry) => {
+      const entries = Array.isArray(variant.changelog) ? variant.changelog : [];
+      changelog.replaceChildren(...entries.map((entry) => {
         const line = document.createElement("li");
         line.textContent = entry;
         return line;
@@ -132,11 +152,16 @@
       item.append(title, description, actions, heading, changelog);
       return item;
     }));
-
-    section.hidden = false;
-    document.querySelector("[data-project-links-section]")?.setAttribute("hidden", "");
-    document.querySelector("[data-project-changelog-section]")?.setAttribute("hidden", "");
+    list.hidden = false;
     return true;
+  };
+
+  const renderSingleRelease = (labels) => {
+    const single = document.querySelector("[data-project-single-release]");
+    const links = document.querySelector("[data-project-links]");
+    if (single) single.hidden = false;
+    appendProjectLinks(links, labels);
+    renderList("[data-project-changelog]", project.changelog);
   };
 
   document.addEventListener("DOMContentLoaded", () => {
@@ -154,7 +179,6 @@
     setText("[data-project-title]", project.title);
     setText("[data-project-description]", project.description);
     setText("[data-project-overview]", project.overview);
-    renderList("[data-project-changelog]", project.changelog);
 
     const features = document.querySelector("[data-project-features-section]");
     if (features && project.features?.length) {
@@ -164,20 +188,11 @@
 
     renderHero(detailStrings);
 
-    const downloads = document.querySelector("[data-project-downloads]");
-    const links = document.querySelector("[data-project-links]");
-    addLink(downloads, project.nexus, labels.nexus, "nexus");
-    addLink(downloads, project.githubRepo, labels.githubRepo, "github");
-    addLink(downloads, project.github, labels.github, "github");
-    addLink(links, project.nexus, labels.nexus, "nexus");
-    addLink(links, project.originalNexus, labels.original, "nexus");
-    addLink(links, project.githubRepo, labels.githubRepo, "github");
-    addLink(links, project.github, labels.github, "github");
-
-    const hasVariants = renderVariants(detailStrings, labels);
-    const downloadsNav = document.querySelector("[data-project-downloads-nav]");
-    if (downloadsNav) {
-      downloadsNav.href = hasVariants ? "#project-variants" : "#project-downloads";
+    if (!renderVariants(detailStrings, labels)) {
+      renderSingleRelease(labels);
     }
+
+    const downloadsNav = document.querySelector("[data-project-downloads-nav]");
+    if (downloadsNav) downloadsNav.href = "#project-downloads";
   });
 })();

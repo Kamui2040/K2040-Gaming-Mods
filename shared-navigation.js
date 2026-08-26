@@ -7,7 +7,7 @@
     if (!document.querySelector('link[data-external-platform-icons]')) {
       const styles = document.createElement("link");
       styles.rel = "stylesheet";
-      styles.href = new URL("external-link-icons.css?v=20260825a", base).href;
+      styles.href = new URL("external-link-icons.css?v=20260826a", base).href;
       styles.dataset.externalPlatformIcons = "true";
       document.head.append(styles);
     }
@@ -76,7 +76,8 @@
 
   const normalizeSiteNavigation = () => {
     const path = location.pathname;
-    const isGaming = path.includes("/K2040-Gaming-Mods/") || document.body.classList.contains("gaming-mods-page") || document.body.classList.contains("project-detail-page");
+    const isProjectDetail = document.body.classList.contains("project-detail-page");
+    const isGaming = path.includes("/K2040-Gaming-Mods/") || document.body.classList.contains("gaming-mods-page") || isProjectDetail;
     const isAndroid = path.includes("/K2040-Android-Releases/") || document.body.classList.contains("android-page");
     if (!isGaming && !isAndroid) return;
 
@@ -89,7 +90,7 @@
     if (!header || !nav || !home || !menu || !language || !theme) return;
 
     const root = isAndroid ? "/K2040-Android-Releases/" : "/K2040-Gaming-Mods/";
-    const downloadsTarget = isAndroid ? `${root}#apps` : `${root}#projects`;
+    const downloadsTarget = isAndroid ? `${root}#apps` : isProjectDetail ? "#project-downloads" : `${root}#projects`;
     const updatesTarget = `${root}#updates`;
 
     home.classList.add("nav-home");
@@ -110,7 +111,8 @@
     let downloads = nav.querySelector(".nav-downloads");
     if (!downloads) downloads = document.createElement("a");
     configureNavLink(downloads, "nav-downloads", downloadsTarget, "downloads");
-    downloads.removeAttribute("data-project-downloads-nav");
+    if (isProjectDetail) downloads.dataset.projectDownloadsNav = "";
+    else downloads.removeAttribute("data-project-downloads-nav");
 
     let updates = nav.querySelector(".nav-updates");
     if (!updates) updates = document.createElement("a");
