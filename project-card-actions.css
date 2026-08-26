@@ -10,9 +10,9 @@
 }
 
 .project-card-destination {
-  width: 36px;
-  min-width: 36px;
-  min-height: 36px;
+  width: 40px;
+  min-width: 40px;
+  min-height: 40px;
   justify-content: center;
   padding: .45rem;
 }
@@ -30,13 +30,34 @@
 }
 
 .project-card-destination .external-platform-icon {
-  width: 1.15rem;
-  height: 1.15rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  flex-basis: 1.4rem;
 }
 
 .project-card-open {
   margin-left: auto;
   justify-content: center;
+}
+
+/* The card itself is no longer a link. Only the individual actions should react to hover/focus. */
+article.project-card:hover,
+article.project-card:focus-within {
+  border-color: rgba(0, 207, 215, .54);
+  box-shadow:
+    0 0 0 1px rgba(0, 130, 143, .32),
+    0 0 22px rgba(0, 210, 220, .08),
+    inset 0 0 30px rgba(0, 209, 219, .035),
+    0 20px 44px rgba(0, 0, 0, .24);
+  transform: none;
+}
+
+article.project-card:hover {
+  background: linear-gradient(150deg, var(--strong), var(--soft));
+}
+
+article.project-card:nth-child(even):hover {
+  background: linear-gradient(150deg, var(--strong), var(--soft2));
 }
 
 @media (max-width: 520px) {
@@ -45,7 +66,7 @@
   }
 
   .project-card-open {
-    min-height: 36px;
+    min-height: 40px;
     padding: .45rem .65rem;
   }
 }
