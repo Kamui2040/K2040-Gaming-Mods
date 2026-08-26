@@ -2,8 +2,8 @@
   "use strict";
 
   const ROOT = `${location.origin}/K2040-Gaming-Mods/`;
-  const ICON_SIZE_STYLES = "20260826b";
-  const FINAL_QA_STYLES = "20260826a";
+  const ICON_SIZE_STYLES = "20260826c";
+  const FINAL_QA_STYLES = "20260826b";
 
   const ensureStyles = () => {
     if (!document.querySelector(`link[data-k2040-gaming-icons="${ICON_SIZE_STYLES}"]`)) {
