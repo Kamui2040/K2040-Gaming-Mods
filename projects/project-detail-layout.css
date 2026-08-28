@@ -32,16 +32,19 @@
   display: none;
 }
 
-/* Let the grid determine card height, as the working landing hero does.
-   Percentage height on a clipped grid item can push a frame edge off-pixel. */
+/* The grid owns screenshot-card width. The opaque screenshot button stretches
+   naturally inside that box instead of declaring a second 100% width, which
+   can paint over the parent's right border in Firefox. */
 .project-detail-page .screenshot-grid figure {
   display: flex;
-  width: 100%;
   min-width: 0;
   flex-direction: column;
 }
 
 .project-detail-page .screenshot-grid .screenshot-open {
+  width: auto;
+  min-width: 0;
+  align-self: stretch;
   flex: 1 1 auto;
 }
 
