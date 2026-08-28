@@ -28,18 +28,18 @@
 
 /* The Mods menu uses the canonical global cascade for geometry and behavior.
    Gaming keeps only the richer project-link copy local. */
-.project-menu-panel > .project-menu-label {
+.project-menu-label {
   margin: .35rem .55rem .55rem;
 }
 
-.project-menu-item .project-menu-submenu a {
+.project-menu-item .global-menu-submenu a {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   gap: .2rem;
 }
 
-.project-menu-item .project-menu-submenu small {
+.project-menu-item .global-menu-submenu small {
   color: var(--k2040-nav-muted, var(--site-nav-muted));
   font-size: .78rem;
   font-weight: 600;
