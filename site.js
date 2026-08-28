@@ -307,40 +307,18 @@
     if (!menu) return;
 
     const items = [...menu.querySelectorAll("[data-project-menu-item]")];
-    const reposition = (item) => {
-      item.classList.remove("global-menu-item--flip");
-      if (!item.open || window.innerWidth <= 1100) return;
-
-      requestAnimationFrame(() => {
-        const panel = menu.querySelector(".project-menu-panel");
-        const submenu = item.querySelector(".project-menu-submenu");
-        if (!panel || !submenu) return;
-
-        const panelRect = panel.getBoundingClientRect();
-        const submenuWidth = submenu.offsetWidth || 245;
-        const gap = 9;
-        const margin = 16;
-        const fitsRight = panelRect.right + gap + submenuWidth <= window.innerWidth - margin;
-        const fitsLeft = panelRect.left - gap - submenuWidth >= margin;
-        item.classList.toggle("global-menu-item--flip", !fitsRight && fitsLeft);
-      });
-    };
-
     items.forEach((item) => {
       item.addEventListener("toggle", () => {
         if (!item.open) return;
         items.forEach((other) => {
           if (other !== item) other.open = false;
         });
-        reposition(item);
       });
     });
 
     menu.addEventListener("toggle", () => {
       if (!menu.open) items.forEach((item) => { item.open = false; });
     });
-
-    window.addEventListener("resize", () => items.forEach(reposition), { passive: true });
   };
 
   const updateThemeButton = (button) => {
