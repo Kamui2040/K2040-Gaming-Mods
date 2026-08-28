@@ -1,7 +1,7 @@
-/* Gaming landing project-card actions. Shared button and frame visuals come from Main. */
+/* Gaming landing project-card actions. Shared frame geometry comes from Main. */
 
 .project-card .card-footer {
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .project-card-destinations {
@@ -43,13 +43,38 @@
   justify-content: center;
 }
 
-/* Cards remain neutral; only their individual actions are interactive. */
+/* A card never changes the state of its child actions. */
 .gaming-mods-page article.project-card,
 .gaming-mods-page article.project-card:nth-child(even),
 .gaming-mods-page article.project-card:hover,
 .gaming-mods-page article.project-card:focus-within {
   background: linear-gradient(150deg, var(--strong), var(--soft));
   transform: none;
+}
+
+.gaming-mods-page .project-card .project-action {
+  border-color: rgba(0, 207, 215, .3);
+  background: rgba(12, 22, 29, .88);
+  box-shadow: none;
+  color: #dce8ec;
+  transform: none;
+}
+
+.gaming-mods-page .project-card .project-action:focus-visible {
+  border-color: transparent;
+  border-bottom-color: #00d9e5;
+  background: linear-gradient(180deg, rgba(0, 217, 229, .08), rgba(8, 20, 27, .94));
+  box-shadow: inset 0 -2px 0 #00d9e5, 0 0 10px rgba(0, 217, 229, .1);
+  outline: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .gaming-mods-page .project-card .project-action:hover {
+    border-color: transparent;
+    border-bottom-color: #00d9e5;
+    background: linear-gradient(180deg, rgba(0, 217, 229, .08), rgba(8, 20, 27, .94));
+    box-shadow: inset 0 -2px 0 #00d9e5, 0 0 10px rgba(0, 217, 229, .1);
+  }
 }
 
 @media (max-width: 520px) {
