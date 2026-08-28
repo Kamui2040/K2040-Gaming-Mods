@@ -32,22 +32,9 @@
   display: none;
 }
 
-/* Let the grid determine card height, as the working landing hero does.
-   Percentage height on a clipped grid item can push a frame edge off-pixel. */
-.project-detail-page .screenshot-grid figure {
-  display: flex;
-  width: 100%;
-  min-width: 0;
-  flex-direction: column;
-}
-
-.project-detail-page .screenshot-grid .screenshot-open {
-  flex: 1 1 auto;
-}
-
-.project-detail-page .screenshot-grid figcaption {
-  margin-top: auto;
-}
+/* Screenshot layout and frame geometry are owned by the shared K2040 styles.
+ * Keeping no local sizing override avoids Firefox-specific clipping differences.
+ */
 
 @media (max-width: 560px) {
   .project-about-links .text-link {
