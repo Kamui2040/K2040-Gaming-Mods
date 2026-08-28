@@ -1,5 +1,5 @@
-/* Gaming landing project-card actions.
- * The card stays neutral; each action owns its idle, hover, and focus state.
+/* Gaming landing project-card action layout.
+ * The canonical K2040 .text-link treatment owns idle, hover, and focus states.
  */
 
 .project-card .card-footer {
@@ -17,43 +17,12 @@
   margin-left: auto;
 }
 
-.gaming-mods-page [data-project-grid] .project-card .project-action {
-  display: inline-flex;
-  min-height: 40px;
-  align-items: center;
-  justify-content: center;
-  gap: .45rem;
-  padding: .55rem .85rem;
-  border: 1px solid rgba(0, 207, 215, .34);
-  border-bottom-color: #00d9e5;
-  border-radius: 0;
-  background: linear-gradient(180deg, rgba(0, 217, 229, .09), var(--strong));
-  box-shadow: inset 0 -2px 0 #00d9e5, 0 0 10px rgba(0, 217, 229, .08);
-  color: var(--accentText);
-  font-weight: 750;
-  line-height: 1.2;
-  text-align: center;
-  text-decoration: none;
-  clip-path: polygon(0 8px, 8px 0, calc(100% - 8px) 0, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0 calc(100% - 8px));
-  transform: none;
-  transition: background 140ms ease, border-color 140ms ease, box-shadow 140ms ease, color 140ms ease, transform 140ms ease;
-}
-
-.gaming-mods-page [data-project-grid] .project-action:hover,
-.gaming-mods-page [data-project-grid] .project-action:focus-visible {
-  border-color: rgba(0, 240, 242, .58);
-  border-bottom-color: #00f0f2;
-  background: linear-gradient(180deg, rgba(0, 217, 229, .16), var(--surface));
-  box-shadow: inset 0 -2px 0 #00f0f2, 0 0 13px rgba(0, 217, 229, .18);
-  color: var(--text);
-  outline: none;
-  transform: translateY(-1px);
-}
-
 .project-card-destination {
   position: relative;
   width: 40px;
   min-width: 40px;
+  min-height: 40px;
+  justify-content: center;
   padding: .45rem;
 }
 
@@ -82,11 +51,5 @@
 
   .project-card-open {
     padding: .45rem .65rem;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .gaming-mods-page [data-project-grid] .project-card .project-action {
-    transition: none;
   }
 }
