@@ -1,5 +1,5 @@
 /* Gaming landing project-card actions.
- * The card stays neutral; each action owns its idle/hover/focus state.
+ * The card stays neutral; each action owns its idle, hover, and focus state.
  */
 
 .project-card .card-footer {
@@ -17,10 +17,7 @@
   margin-left: auto;
 }
 
-/* The repeated .project-card raises this rule to the same specificity as the
-   older shared card-hover selector. Because this file loads later, the idle
-   state remains authoritative until the individual action is actually used. */
-.gaming-mods-page .project-card.project-card .project-action {
+.gaming-mods-page [data-project-grid] .project-card .project-action {
   display: inline-flex;
   min-height: 40px;
   align-items: center;
@@ -42,8 +39,8 @@
   transition: background 140ms ease, border-color 140ms ease, box-shadow 140ms ease, color 140ms ease, transform 140ms ease;
 }
 
-.gaming-mods-page .project-card .project-action:hover,
-.gaming-mods-page .project-card .project-action:focus-visible {
+.gaming-mods-page [data-project-grid] .project-action:hover,
+.gaming-mods-page [data-project-grid] .project-action:focus-visible {
   border-color: rgba(0, 240, 242, .58);
   border-bottom-color: #00f0f2;
   background: linear-gradient(180deg, rgba(0, 217, 229, .16), var(--surface));
@@ -89,7 +86,7 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .gaming-mods-page .project-card.project-card .project-action {
+  .gaming-mods-page [data-project-grid] .project-card .project-action {
     transition: none;
   }
 }
