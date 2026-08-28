@@ -1,4 +1,4 @@
-/* Shared external platform and K2040 site-family icons. */
+/* External platform icons only. K2040 family icons are owned by the shared chrome. */
 :root {
   --k2040-icon-size: 1.5rem;
 }
@@ -24,76 +24,18 @@
 }
 
 .external-platform-icon--monogram {
-  width: var(--k2040-icon-size);
-  height: var(--k2040-icon-size);
   border: 1px solid currentColor;
   font-size: .8rem;
   font-weight: 900;
   line-height: 1;
-  clip-path: polygon(0 4px,4px 0,calc(100% - 4px) 0,100% 4px,100% calc(100% - 4px),calc(100% - 4px) 100%,4px 100%,0 calc(100% - 4px));
+  clip-path: polygon(0 4px, 4px 0, calc(100% - 4px) 0, 100% 4px, 100% calc(100% - 4px), calc(100% - 4px) 100%, 4px 100%, 0 calc(100% - 4px));
 }
 
 .external-platform-icon--nexus.external-platform-icon--monogram {
   border: 0;
-  background: transparent url("/assets/icons/k2040-nexus.webp?v=20260826outline1") center / contain no-repeat;
+  background: transparent url("/assets/icons/k2040-nexus.webp?v=20260826outline2") center / contain no-repeat;
   font-size: 0;
   clip-path: none;
-}
-
-.global-menu > summary::before {
-  width: var(--k2040-icon-size);
-  height: var(--k2040-icon-size);
-  flex: 0 0 var(--k2040-icon-size);
-  content: "";
-  background: url("/assets/icons/k2040-home.webp") center / 116% no-repeat;
-}
-
-.site-brand-section.nav-home::before {
-  width: var(--k2040-icon-size);
-  height: var(--k2040-icon-size);
-  flex: 0 0 var(--k2040-icon-size);
-  content: "";
-  background: url("/assets/icons/k2040-gaming.webp?v=20260826outline1") center / contain no-repeat;
-}
-
-.about-links a[href="https://kamui2040.github.io/"]::before,
-.about-links a[href^="https://kamui2040.github.io/K2040-Android-Releases/"]::before,
-.about-links a[href^="https://kamui2040.github.io/K2040-Gaming-Mods/"]::before,
-.about-links a[href^="/K2040-Android-Releases/"]::before,
-.about-links a[href^="/K2040-Gaming-Mods/"]::before,
-.footer-links a[href="https://kamui2040.github.io/"]::before,
-.footer-links a[href^="https://kamui2040.github.io/K2040-Android-Releases/"]::before,
-.footer-links a[href^="https://kamui2040.github.io/K2040-Gaming-Mods/"]::before,
-.footer-links a[href^="/K2040-Android-Releases/"]::before,
-.footer-links a[href^="/K2040-Gaming-Mods/"]::before {
-  width: var(--k2040-icon-size);
-  height: var(--k2040-icon-size);
-  flex: 0 0 var(--k2040-icon-size);
-  content: "";
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.about-links a[href="https://kamui2040.github.io/"]::before,
-.footer-links a[href="https://kamui2040.github.io/"]::before {
-  background-image: url("/assets/icons/k2040-home.webp");
-  background-size: 116%;
-}
-
-.about-links a[href^="https://kamui2040.github.io/K2040-Android-Releases/"]::before,
-.about-links a[href^="/K2040-Android-Releases/"]::before,
-.footer-links a[href^="https://kamui2040.github.io/K2040-Android-Releases/"]::before,
-.footer-links a[href^="/K2040-Android-Releases/"]::before {
-  background-image: url("/assets/icons/k2040-android.webp?v=20260826outline1");
-  background-size: contain;
-}
-
-.about-links a[href^="https://kamui2040.github.io/K2040-Gaming-Mods/"]::before,
-.about-links a[href^="/K2040-Gaming-Mods/"]::before,
-.footer-links a[href^="https://kamui2040.github.io/K2040-Gaming-Mods/"]::before,
-.footer-links a[href^="/K2040-Gaming-Mods/"]::before {
-  background-image: url("/assets/icons/k2040-gaming.webp?v=20260826outline1");
-  background-size: contain;
 }
 
 .external-platform-label {
@@ -120,11 +62,5 @@
     border: 0;
     clip: rect(0 0 0 0);
     white-space: nowrap;
-  }
-
-  .external-platform-link--icon-only-mobile .external-platform-icon {
-    width: var(--k2040-icon-size);
-    height: var(--k2040-icon-size);
-    flex-basis: var(--k2040-icon-size);
   }
 }

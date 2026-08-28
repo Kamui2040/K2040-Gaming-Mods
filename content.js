@@ -1,21 +1,6 @@
 (() => {
   "use strict";
 
-  const loaderScript = document.currentScript;
-  if (loaderScript?.src && !document.querySelector('link[data-project-card-actions]')) {
-    const styles = document.createElement("link");
-    styles.rel = "stylesheet";
-    styles.href = new URL("project-card-actions.css?v=20260826b", loaderScript.src).href;
-    styles.dataset.projectCardActions = "true";
-    document.head.append(styles);
-  }
-  if (loaderScript?.src && !document.querySelector('script[data-project-menu-fallback]')) {
-    const script = document.createElement("script");
-    script.src = new URL("project-menu-fallback.js?v=20260826b", loaderScript.src).href;
-    script.dataset.projectMenuFallback = "true";
-    document.head.append(script);
-  }
-
   const cardDescriptions = {
     "dirde-ue-linux": {
       de: "Nativer Linux-Port mit konfigurierbaren Gameplay-Optionen und sicherer Wiederherstellung.",
@@ -44,8 +29,18 @@
   };
 
   const languages = ["en", "de", "pt-PT", "es", "fr"];
-  const projects = Object.entries(window.K2040_PROJECTS || {}).map(([id, project]) => {
-    const strings = Object.fromEntries(languages.map((language) => [
+  const projects = Object.entries(window.K2040_PROJECTS || {}).map(([id, project]) => ({
+    id,
+    gameId: project.gameId,
+    game: project.game,
+    href: project.href,
+    available: project.available === true,
+    featured: project.featured === true,
+    image: project.cardImage,
+    cardMeta: Array.isArray(project.cardMeta) ? [...project.cardMeta] : [],
+    cardGithub: githubReleaseDestination(project),
+    cardNexus: project.nexus || project.variants?.[0]?.nexus || null,
+    strings: Object.fromEntries(languages.map((language) => [
       language,
       {
         label: project.cardLabel || project.game || "",
@@ -54,99 +49,8 @@
           ? project.cardDescription || project.description || ""
           : cardDescriptions[id]?.[language] || project.cardDescription || project.description || ""
       }
-    ]));
-
-    return {
-      id,
-      gameId: project.gameId,
-      game: project.game,
-      href: project.href,
-      available: project.available === true,
-      featured: project.featured === true,
-      image: project.cardImage,
-      cardMeta: Array.isArray(project.cardMeta) ? [...project.cardMeta] : [],
-      cardGithub: githubReleaseDestination(project),
-      cardNexus: project.nexus || project.variants?.[0]?.nexus || null,
-      strings
-    };
-  });
+    ]))
+  }));
 
   window.K2040_CONTENT = { projects, updates: [] };
-
-  const projectForCard = (card) => {
-    const href = card.href;
-    return projects.find((project) => {
-      try { return new URL(project.href, location.href).href === href; }
-      catch { return false; }
-    }) || null;
-  };
-
-  const createOpenAction = (label, href, title) => {
-    const link = document.createElement("a");
-    link.className = "project-action project-card-open";
-    link.href = href;
-    link.textContent = label;
-    link.setAttribute("aria-label", `${label}: ${title}`);
-    return link;
-  };
-
-  const createDestination = (label, href, brand, title) => {
-    const link = document.createElement("a");
-    link.className = "project-action project-card-destination";
-    link.href = href;
-    link.textContent = label;
-    link.dataset.brand = brand;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.title = label;
-    link.setAttribute("aria-label", `${label}: ${title}`);
-    return link;
-  };
-
-  const decorateCards = () => {
-    const grid = document.querySelector("[data-project-grid]");
-    if (!grid) return;
-    [...grid.querySelectorAll(":scope > a.project-card")].forEach((card) => {
-      const project = projectForCard(card);
-      if (!project) return;
-      const article = document.createElement("article");
-      for (const attribute of card.attributes) {
-        if (attribute.name !== "href" && attribute.name !== "aria-label") article.setAttribute(attribute.name, attribute.value);
-      }
-      article.dataset.cardActionsDone = "true";
-      article.append(...card.childNodes);
-
-      const footer = article.querySelector(".card-footer");
-      if (footer) {
-        const openLabel = footer.querySelector("[data-project-action]")?.textContent?.trim() || "Open project";
-        const destinations = document.createElement("div");
-        destinations.className = "project-card-destinations";
-        if (project.cardGithub) destinations.append(createDestination("GitHub", project.cardGithub, "github", project.strings.en.title));
-        if (project.cardNexus) destinations.append(createDestination("Nexus Mods", project.cardNexus, "nexus", project.strings.en.title));
-        footer.replaceChildren(destinations, createOpenAction(openLabel, project.href, project.strings.en.title));
-      }
-
-      card.replaceWith(article);
-    });
-  };
-
-  let scheduled = false;
-  const scheduleDecorate = () => {
-    if (scheduled) return;
-    scheduled = true;
-    requestAnimationFrame(() => {
-      scheduled = false;
-      decorateCards();
-    });
-  };
-
-  const initCardActions = () => {
-    const grid = document.querySelector("[data-project-grid]");
-    if (!grid) return;
-    scheduleDecorate();
-    new MutationObserver(scheduleDecorate).observe(grid, { childList: true });
-  };
-
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initCardActions, { once: true });
-  else initCardActions();
 })();
