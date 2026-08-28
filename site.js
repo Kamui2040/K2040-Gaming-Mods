@@ -195,7 +195,7 @@
       if (host === "github.com" || host.endsWith(".github.com")) return { label: "GitHub", brand: "github" };
       if (host === "nexusmods.com" || host.endsWith(".nexusmods.com")) return { label: "Nexus Mods", brand: "nexus" };
       if (url.origin === location.origin && url.pathname.startsWith("/K2040-Gaming-Mods/")) {
-        return { label: t("actions.viewProjects") || "View projects", brand: null };
+        return { label: t("landing.viewProject") || "View project", brand: null };
       }
     } catch {}
     return { label: t("actions.readMore") || "Read more", brand: null };
