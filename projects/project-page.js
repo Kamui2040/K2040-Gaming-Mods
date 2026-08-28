@@ -1,14 +1,6 @@
 (() => {
   "use strict";
 
-  const loaderScript = document.currentScript;
-  if (loaderScript?.src && !document.querySelector('script[data-project-menu-fallback]')) {
-    const fallback = document.createElement("script");
-    fallback.src = new URL("../project-menu-fallback.js?v=20260826b", loaderScript.src).href;
-    fallback.dataset.projectMenuFallback = "true";
-    document.head.append(fallback);
-  }
-
   const projects = window.K2040_PROJECTS || {};
   const projectTranslations = window.K2040_PROJECT_TRANSLATIONS || {};
   const supportedLanguages = ["en", "de", "pt-PT", "es", "fr"];
@@ -28,7 +20,6 @@
   const id = aliases[requestedId] || requestedId || "eco-quick-menu-additions";
   const fallbackProject = projects["eco-quick-menu-additions"];
   const baseProject = projects[id] || fallbackProject;
-
   if (!baseProject) return;
 
   const storedLanguage = (() => {
@@ -127,19 +118,15 @@
 
       const title = document.createElement("h3");
       title.textContent = variant.title;
-
       const description = document.createElement("p");
       description.textContent = variant.description;
-
       const actions = document.createElement("div");
       actions.className = "featured-project-actions";
       addLink(actions, variant.githubRepo, labels.githubRepo, "github");
       addLink(actions, variant.github, labels.github, "github");
       addLink(actions, variant.nexus, labels.nexus, "nexus");
-
       const heading = document.createElement("h4");
       heading.textContent = detailStrings.changelogTitle || "Changelog";
-
       const changelog = document.createElement("ul");
       changelog.className = "detail-list";
       const entries = Array.isArray(variant.changelog) ? variant.changelog : [];
@@ -187,10 +174,7 @@
     }
 
     renderHero(detailStrings);
-
-    if (!renderVariants(detailStrings, labels)) {
-      renderSingleRelease(labels);
-    }
+    if (!renderVariants(detailStrings, labels)) renderSingleRelease(labels);
 
     const downloadsNav = document.querySelector("[data-project-downloads-nav]");
     if (downloadsNav) downloadsNav.href = "#project-downloads";

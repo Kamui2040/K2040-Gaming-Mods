@@ -1,58 +1,12 @@
-/* Unified K2040 site navigation. Gaming owns the shared mobile layout used by Android. */
-
-.site-brand {
-  align-items: center;
-}
-
-.site-brand-section.nav-home {
-  display: inline-flex;
-  min-height: 44px;
-  align-items: center;
-  justify-content: center;
-  gap: .45rem;
-  padding: .65rem .8rem;
-  border: 1px solid transparent;
-  border-radius: 0;
-  background: transparent;
-  color: var(--site-nav-text);
-  font: inherit;
-  font-weight: 750;
-  line-height: 1.05;
-  text-decoration: none;
-  clip-path: polygon(0 7px,7px 0,calc(100% - 7px) 0,100% 7px,100% calc(100% - 7px),calc(100% - 7px) 100%,7px 100%,0 calc(100% - 7px));
-}
-
-.site-brand-section.nav-home span {
-  color: inherit;
-  font: inherit;
-  font-weight: inherit;
-}
-
-.site-brand-section.nav-home:hover,
-.site-brand-section.nav-home:focus-visible {
-  border-color: transparent;
-  border-bottom-color: #00d9e5;
-  background: linear-gradient(180deg,rgba(0,217,229,.08),transparent);
-  box-shadow: inset 0 -2px 0 #00d9e5,0 0 10px rgba(0,217,229,.1);
-  outline: none;
-}
-
-.site-header .theme-toggle-icon {
-  display: inline-flex;
-  min-width: 1.1rem;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-  line-height: 1;
-}
+/* Gaming-only mobile navigation placement. Shared navigation visuals come from Main. */
 
 @media (max-width: 760px) {
-  .site-header {
+  body[data-k2040-site="gaming"] .site-header {
     position: relative;
     z-index: 50;
     display: grid;
     min-height: 0;
-    grid-template-columns: repeat(12,minmax(0,1fr));
+    grid-template-columns: repeat(12, minmax(0, 1fr));
     grid-template-rows: auto auto;
     align-items: center;
     gap: .18rem;
@@ -60,91 +14,84 @@
     padding: .32rem .38rem;
   }
 
-  .site-header::before {
-    inset: 4px;
-  }
-
-  .site-brand,
-  .site-nav {
+  body[data-k2040-site="gaming"] .site-brand,
+  body[data-k2040-site="gaming"] .site-nav {
     display: contents;
   }
 
-  .site-header .global-menu {
+  body[data-k2040-site="gaming"] .site-header .global-menu {
     grid-row: 1 !important;
     grid-column: 1 / span 3 !important;
     min-width: 0;
   }
 
-  .site-header .site-brand-section.nav-home {
+  body[data-k2040-site="gaming"] .site-header .site-brand-section.nav-home {
     grid-row: 1 !important;
     grid-column: 4 / span 3 !important;
     width: 100%;
     min-width: 0;
   }
 
-  body .site-header .site-nav > .nav-language-control {
+  body[data-k2040-site="gaming"] .site-header .nav-language-control {
     grid-row: 1 !important;
     grid-column: 7 / span 3 !important;
-  }
-
-  body .site-header .site-nav > .theme-toggle {
-    grid-row: 1 !important;
-    grid-column: 10 / span 3 !important;
-  }
-
-  body .site-header .site-nav > .project-menu,
-  body .site-header .site-nav > .app-menu {
-    grid-row: 2 !important;
-    grid-column: 1 / span 4 !important;
-  }
-
-  body .site-header .site-nav > .nav-downloads {
-    grid-row: 2 !important;
-    grid-column: 5 / span 4 !important;
-  }
-
-  body .site-header .site-nav > .nav-updates {
-    grid-row: 2 !important;
-    grid-column: 9 / span 4 !important;
-  }
-
-  .site-header .global-menu > summary,
-  .site-header .site-brand-section.nav-home,
-  .site-header .site-nav > .nav-link,
-  .site-header .site-nav > .nav-language-control,
-  .site-header .site-nav > .theme-toggle,
-  .site-header .site-nav > .menu > summary {
-    width: 100%;
-    min-width: 0;
-    min-height: 36px;
-    gap: .18rem;
-    padding: .28rem .18rem;
-    font-size: clamp(.68rem,2.9vw,.8rem) !important;
-    line-height: 1.05;
-  }
-
-  .site-header .site-nav > .menu > summary,
-  .site-header .global-menu > summary {
-    justify-content: center;
-  }
-
-  .site-header .menu-caret {
-    font-size: .82rem;
-  }
-
-  .site-header .nav-language-control {
     position: relative;
     padding: .15rem;
     overflow: hidden;
   }
 
-  .site-header .nav-language-control::before {
+  body[data-k2040-site="gaming"] .site-header .theme-toggle {
+    grid-row: 1 !important;
+    grid-column: 10 / span 3 !important;
+    padding: .2rem;
+  }
+
+  body[data-k2040-site="gaming"] .site-header .site-nav > .project-menu {
+    grid-row: 2 !important;
+    grid-column: 1 / span 4 !important;
+  }
+
+  body[data-k2040-site="gaming"] .site-header .site-nav > .nav-downloads {
+    grid-row: 2 !important;
+    grid-column: 5 / span 4 !important;
+  }
+
+  body[data-k2040-site="gaming"] .site-header .site-nav > .nav-updates {
+    grid-row: 2 !important;
+    grid-column: 9 / span 4 !important;
+  }
+
+  body[data-k2040-site="gaming"] .site-header .global-menu > summary,
+  body[data-k2040-site="gaming"] .site-header .site-brand-section.nav-home,
+  body[data-k2040-site="gaming"] .site-header .site-nav > .nav-link,
+  body[data-k2040-site="gaming"] .site-header .site-nav > .nav-language-control,
+  body[data-k2040-site="gaming"] .site-header .site-nav > .theme-toggle,
+  body[data-k2040-site="gaming"] .site-header .site-nav > .menu > summary {
+    width: 100%;
+    min-width: 0;
+    min-height: 36px;
+    gap: .18rem;
+    padding: .28rem .18rem;
+    font-size: clamp(.68rem, 2.9vw, .8rem) !important;
+    line-height: 1.05;
+  }
+
+  body[data-k2040-site="gaming"] .site-header .global-menu > summary,
+  body[data-k2040-site="gaming"] .site-header .site-nav > .menu > summary {
+    justify-content: center;
+  }
+
+  body[data-k2040-site="gaming"] .site-header .menu-caret {
+    font-size: .82rem;
+  }
+
+  body[data-k2040-site="gaming"] .site-header .nav-language-control::before {
     content: "🌐";
     font-size: .95rem;
     line-height: 1;
   }
 
-  .site-header .nav-language-select {
+  body[data-k2040-site="gaming"] .site-header .nav-language-select {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -155,44 +102,39 @@
     cursor: pointer;
   }
 
-  .site-header .theme-toggle {
-    padding: .2rem;
-  }
-
-  .site-header .theme-toggle-icon {
+  body[data-k2040-site="gaming"] .site-header .theme-toggle-icon {
     width: auto;
     min-width: 1.1rem;
     font-size: 1rem !important;
   }
 
-  .site-header .theme-toggle [data-theme-label] {
+  body[data-k2040-site="gaming"] .site-header .theme-toggle [data-theme-label] {
     display: none;
   }
 
-  .project-menu-panel,
-  .app-menu-panel {
-    width: min(320px,calc(100vw - 1rem));
+  body[data-k2040-site="gaming"] .site-header .project-menu-panel {
+    width: min(320px, calc(100vw - 1rem));
   }
 }
 
 @media (max-width: 360px) {
-  .site-header {
+  body[data-k2040-site="gaming"] .site-header {
     gap: .12rem;
     padding: .28rem .3rem;
   }
 
-  .site-header .global-menu > summary,
-  .site-header .site-brand-section.nav-home,
-  .site-header .site-nav > .nav-link,
-  .site-header .site-nav > .nav-language-control,
-  .site-header .site-nav > .theme-toggle,
-  .site-header .site-nav > .menu > summary {
+  body[data-k2040-site="gaming"] .site-header .global-menu > summary,
+  body[data-k2040-site="gaming"] .site-header .site-brand-section.nav-home,
+  body[data-k2040-site="gaming"] .site-header .site-nav > .nav-link,
+  body[data-k2040-site="gaming"] .site-header .site-nav > .nav-language-control,
+  body[data-k2040-site="gaming"] .site-header .site-nav > .theme-toggle,
+  body[data-k2040-site="gaming"] .site-header .site-nav > .menu > summary {
     min-height: 34px;
     padding: .24rem .12rem;
     font-size: .66rem !important;
   }
 
-  .site-header .theme-toggle-icon {
+  body[data-k2040-site="gaming"] .site-header .theme-toggle-icon {
     font-size: .92rem !important;
   }
 }

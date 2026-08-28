@@ -1,8 +1,4 @@
-/* Gaming-only layout after extracting shared controls and the K2040 cascade. */
-
-.site-brand-section {
-  align-self: center;
-}
+/* Gaming-only content layout. Shared controls, frames, and navigation visuals come from Main. */
 
 .section-heading--split {
   display: flex;
@@ -15,13 +11,6 @@
   min-width: 0;
 }
 
-.about-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .65rem;
-  margin-top: 1.25rem;
-}
-
 .update-archive .update-list {
   margin-top: 0;
 }
@@ -31,10 +20,28 @@
   gap: 1.5rem;
 }
 
-.gaming-mods-page :where(#projects,#updates,#about),
-.project-detail-page :where(#project-downloads,#project-variants),
+.gaming-mods-page :where(#projects, #updates, #about),
+.project-detail-page #project-downloads,
 .updates-page #updates {
   scroll-margin-top: 6.5rem;
+}
+
+/* The Gaming cascade's second panel is not a generic menu-panel, so give its
+   inner frame the same stable border-image renderer used by the canonical UI. */
+.project-menu-mods::before {
+  box-sizing: border-box;
+  border: 8px solid transparent;
+  border-image-source: url("/assets/k2040-inner-frame.svg");
+  border-image-slice: 8;
+  border-image-width: 8px;
+  border-image-repeat: stretch;
+  background:
+    linear-gradient(90deg, #00d9e5, transparent) 8px 0 / 3.5rem 1px no-repeat,
+    linear-gradient(180deg, #00d9e5, transparent) 0 8px / 1px 3.5rem no-repeat,
+    linear-gradient(-90deg, #00d9e5, transparent) calc(100% - 8px) 100% / 3.5rem 1px no-repeat,
+    linear-gradient(0deg, #00d9e5, transparent) 100% calc(100% - 8px) / 1px 3.5rem no-repeat;
+  background-origin: border-box;
+  clip-path: none;
 }
 
 @media (max-width: 760px) {
@@ -45,72 +52,5 @@
 
   .section-heading--split > .text-link {
     align-self: flex-start;
-  }
-
-  .site-brand {
-    grid-column: 1 / span 8 !important;
-  }
-
-  .nav-language-control {
-    grid-row: 1 !important;
-    grid-column: 9 / span 2 !important;
-  }
-
-  .site-header .theme-toggle {
-    grid-row: 1 !important;
-    grid-column: 11 / span 2 !important;
-  }
-
-  .gaming-mods-page .project-menu {
-    grid-row: 2 !important;
-    grid-column: 1 / span 4 !important;
-  }
-
-  .gaming-mods-page .nav-updates {
-    grid-row: 2 !important;
-    grid-column: 5 / span 4 !important;
-  }
-
-  .gaming-mods-page .nav-downloads {
-    grid-row: 2 !important;
-    grid-column: 9 / span 4 !important;
-  }
-
-  .project-detail-page .project-menu,
-  .updates-page .project-menu {
-    grid-row: 2 !important;
-    grid-column: 1 / span 3 !important;
-  }
-
-  .project-detail-page .nav-downloads,
-  .updates-page .nav-updates {
-    grid-row: 2 !important;
-    grid-column: 4 / span 3 !important;
-  }
-
-  .project-detail-page .nav-about,
-  .updates-page .nav-about {
-    grid-row: 2 !important;
-    grid-column: 7 / span 3 !important;
-  }
-
-  .project-detail-page .nav-github,
-  .updates-page .nav-github {
-    grid-row: 2 !important;
-    grid-column: 10 / span 3 !important;
-  }
-}
-
-@media (max-width: 420px) {
-  .site-brand {
-    grid-column: 1 / span 7 !important;
-  }
-
-  .nav-language-control {
-    grid-column: 8 / span 2 !important;
-  }
-
-  .site-header .theme-toggle {
-    grid-column: 10 / span 3 !important;
   }
 }

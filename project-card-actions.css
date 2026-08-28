@@ -1,3 +1,5 @@
+/* Gaming landing project-card actions. Shared button and frame visuals come from Main. */
+
 .project-card .card-footer {
   justify-content: space-between;
 }
@@ -10,6 +12,7 @@
 }
 
 .project-card-destination {
+  position: relative;
   width: 40px;
   min-width: 40px;
   min-height: 40px;
@@ -30,9 +33,9 @@
 }
 
 .project-card-destination .external-platform-icon {
-  width: 1.4rem;
-  height: 1.4rem;
-  flex-basis: 1.4rem;
+  width: var(--k2040-icon-size, 1.5rem);
+  height: var(--k2040-icon-size, 1.5rem);
+  flex-basis: var(--k2040-icon-size, 1.5rem);
 }
 
 .project-card-open {
@@ -40,24 +43,13 @@
   justify-content: center;
 }
 
-/* The card itself is no longer a link. Only the individual actions should react to hover/focus. */
-article.project-card:hover,
-article.project-card:focus-within {
-  border-color: rgba(0, 207, 215, .54);
-  box-shadow:
-    0 0 0 1px rgba(0, 130, 143, .32),
-    0 0 22px rgba(0, 210, 220, .08),
-    inset 0 0 30px rgba(0, 209, 219, .035),
-    0 20px 44px rgba(0, 0, 0, .24);
-  transform: none;
-}
-
-article.project-card:hover {
+/* Cards remain neutral; only their individual actions are interactive. */
+.gaming-mods-page article.project-card,
+.gaming-mods-page article.project-card:nth-child(even),
+.gaming-mods-page article.project-card:hover,
+.gaming-mods-page article.project-card:focus-within {
   background: linear-gradient(150deg, var(--strong), var(--soft));
-}
-
-article.project-card:nth-child(even):hover {
-  background: linear-gradient(150deg, var(--strong), var(--soft2));
+  transform: none;
 }
 
 @media (max-width: 520px) {
