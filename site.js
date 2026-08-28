@@ -302,25 +302,6 @@
     if (grid.childElementCount) section.hidden = false;
   };
 
-  const initProjectMenu = () => {
-    const menu = document.querySelector("[data-project-menu]");
-    if (!menu) return;
-
-    const items = [...menu.querySelectorAll("[data-project-menu-item]")];
-    items.forEach((item) => {
-      item.addEventListener("toggle", () => {
-        if (!item.open) return;
-        items.forEach((other) => {
-          if (other !== item) other.open = false;
-        });
-      });
-    });
-
-    menu.addEventListener("toggle", () => {
-      if (!menu.open) items.forEach((item) => { item.open = false; });
-    });
-  };
-
   const updateThemeButton = (button) => {
     if (!button) return;
     const next = theme() === "dark" ? "light" : "dark";
@@ -345,7 +326,6 @@
     const languageSelect = document.querySelector("[data-language-select]");
 
     apply();
-    initProjectMenu();
 
     themeButton?.addEventListener("click", () => {
       const next = theme() === "dark" ? "light" : "dark";
