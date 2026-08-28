@@ -111,7 +111,7 @@
   };
 
   const createProjectDestination = (label, href, brand, title) => {
-    const link = createElement("a", "project-action project-card-destination", label);
+    const link = createElement("a", "text-link project-card-destination", label);
     link.href = href;
     link.dataset.brand = brand;
     link.target = "_blank";
@@ -164,7 +164,7 @@
       if (destinations.childElementCount) footer.append(destinations);
 
       if (project.available && project.href) {
-        const open = createElement("a", "project-action project-card-open", t("actions.open") || "Open project");
+        const open = createElement("a", "text-link project-card-open", t("actions.open") || "Open project");
         open.href = project.href;
         open.setAttribute("aria-label", `${open.textContent}: ${strings.title || "Project"}`);
         footer.append(open);
@@ -390,7 +390,7 @@
       if (!root.dataset.theme) updateThemeButton(themeButton);
     };
     darkQuery.addEventListener?.("change", onSystemTheme);
-    if (!darkQuery.addEventListener) darkQuery.addListener?.(onSystemTheme);
+    if (!darkQuery.addEventListener) darkQuery.addListener?.("change", onSystemTheme);
   };
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init, { once: true });
