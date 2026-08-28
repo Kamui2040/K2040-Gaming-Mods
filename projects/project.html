@@ -10,16 +10,16 @@
   <link rel="stylesheet" href="https://kamui2040.github.io/shared-ui.css?v=20260828gamingclean1">
   <link rel="stylesheet" href="https://kamui2040.github.io/shared/k2040-chrome.css?v=20260828gamingclean1">
   <link rel="stylesheet" href="../mobile-navigation.css?v=20260828cleanup1">
-  <link rel="stylesheet" href="../redesign.css?v=20260828cleanup1">
-  <link rel="stylesheet" href="project-detail-layout.css?v=20260828cleanup1">
-  <link rel="stylesheet" href="../external-link-icons.css?v=20260828cleanup1">
+  <link rel="stylesheet" href="../redesign.css?v=20260828qa2">
+  <link rel="stylesheet" href="project-detail-layout.css?v=20260828qa2">
+  <link rel="stylesheet" href="../external-link-icons.css?v=20260828qa2">
 
   <script src="../translations.js?v=20260823r1"></script>
   <script src="project-data.js?v=20260825s1"></script>
   <script src="project-translations.js?v=20260823a"></script>
   <script src="project-page.js?v=20260828cleanup1"></script>
-  <script src="../site.js?v=20260828cleanup1"></script>
-  <script defer src="../external-link-icons.js?v=20260828cleanup1"></script>
+  <script src="../site.js?v=20260828qa2"></script>
+  <script defer src="../external-link-icons.js?v=20260828qa2"></script>
   <script defer src="https://kamui2040.github.io/shared/k2040-chrome.js?v=20260828gamingclean1"></script>
 </head>
 <body class="project-detail-page" data-k2040-site="gaming">
@@ -41,8 +41,20 @@
         <details class="menu project-menu" data-project-menu>
           <summary aria-label="Browse projects" data-i18n-aria-label="nav.browseProjects"><span>Mods</span><span class="menu-caret" aria-hidden="true">⌄</span></summary>
           <div class="menu-panel project-menu-panel">
-            <div class="project-menu-games" role="tablist" aria-label="Games" data-i18n-aria-label="nav.games"><p class="project-menu-label" data-i18n="nav.games">Games</p><button type="button" role="tab" aria-selected="false" aria-controls="dead-island-projects" id="dead-island-game" data-project-game-button="dead-island">Dead Island: Riptide DE <span aria-hidden="true">›</span></button><div class="project-menu-separator" aria-hidden="true"></div><button type="button" role="tab" aria-selected="false" aria-controls="fallout-projects" id="fallout-game" data-project-game-button="fallout">Fallout 4 <span aria-hidden="true">›</span></button></div>
-            <div class="project-menu-mods" hidden><section role="tabpanel" id="dead-island-projects" aria-labelledby="dead-island-game" data-project-game-panel="dead-island" hidden><p class="project-menu-label">Dead Island: Riptide DE</p><a href="project.html?project=dirde-ue-linux"><strong>DIRDE UE Linux</strong><small data-i18n="menu.dirdeDescription">Ultimate Edition Mod Menu · Linux</small></a></section><section role="tabpanel" id="fallout-projects" aria-labelledby="fallout-game" data-project-game-panel="fallout" hidden><p class="project-menu-label">Fallout 4</p><a href="project.html?project=eco-quick-menu-additions"><strong>ECO Quick Menu Additions</strong><small data-i18n="menu.ecoDescription">AiO installer and individual patches</small></a><div class="project-menu-separator" aria-hidden="true"></div><a href="project.html?project=xedit-json-exporter"><strong>xEdit JSON Exporter</strong><small data-i18n="menu.xeditDescription">FO4Edit export utility</small></a></section></div>
+            <p class="project-menu-label" data-i18n="nav.games">Games</p>
+            <details class="global-menu-item project-menu-item" data-project-menu-item>
+              <summary><span>Dead Island: Riptide DE</span><span class="global-menu-item-arrow" aria-hidden="true">›</span></summary>
+              <nav class="global-menu-submenu project-menu-submenu" aria-label="Dead Island: Riptide DE">
+                <a href="project.html?project=dirde-ue-linux"><strong>DIRDE UE Linux</strong><small data-i18n="menu.dirdeDescription">Ultimate Edition Mod Menu · Linux</small></a>
+              </nav>
+            </details>
+            <details class="global-menu-item project-menu-item" data-project-menu-item>
+              <summary><span>Fallout 4</span><span class="global-menu-item-arrow" aria-hidden="true">›</span></summary>
+              <nav class="global-menu-submenu project-menu-submenu" aria-label="Fallout 4">
+                <a href="project.html?project=eco-quick-menu-additions"><strong>ECO Quick Menu Additions</strong><small data-i18n="menu.ecoDescription">AiO installer and individual patches</small></a>
+                <a href="project.html?project=xedit-json-exporter"><strong>xEdit JSON Exporter</strong><small data-i18n="menu.xeditDescription">FO4Edit export utility</small></a>
+              </nav>
+            </details>
           </div>
         </details>
         <a class="nav-link nav-downloads" href="#project-downloads" data-project-downloads-nav data-i18n="nav.downloads">Downloads</a>

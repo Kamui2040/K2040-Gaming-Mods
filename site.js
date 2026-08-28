@@ -10,6 +10,7 @@
   const read = (key) => {
     try { return localStorage.getItem(key); } catch { return null; }
   };
+
   const write = (key, value) => {
     try { localStorage.setItem(key, value); } catch {}
   };
@@ -31,8 +32,10 @@
   const detectLanguage = () => {
     const hash = normalizeLanguage(location.hash.slice(1));
     if (hash) return hash;
+
     const stored = read(languageKey);
     if (languages.includes(stored)) return stored;
+
     const candidates = Array.isArray(navigator.languages) && navigator.languages.length
       ? navigator.languages
       : [navigator.language];
@@ -53,6 +56,7 @@
     }
     return typeof value === "string" ? value : null;
   };
+
   const localStrings = (entry) => entry?.strings?.[language] || entry?.strings?.en || {};
   const theme = () => root.dataset.theme === "light" || root.dataset.theme === "dark"
     ? root.dataset.theme
@@ -74,10 +78,12 @@
       const value = t(element.dataset.i18n);
       if (value) element.textContent = value;
     });
+
     document.querySelectorAll("[data-i18n-aria-label]").forEach((element) => {
       const value = t(element.dataset.i18nAriaLabel);
       if (value) element.setAttribute("aria-label", value);
     });
+
     document.querySelectorAll("[data-i18n-alt]").forEach((element) => {
       const value = t(element.dataset.i18nAlt);
       if (value) element.setAttribute("alt", value);
@@ -146,18 +152,16 @@
       if (project.cardMeta?.length) {
         const meta = createElement("div", "project-card-meta");
         project.cardMeta.forEach((item) => {
-          const tag = createElement("span", "", t(`tags.${tagKeys[item] || ""}`) || item);
-          meta.append(tag);
+          meta.append(createElement("span", "", t(`tags.${tagKeys[item] || ""}`) || item));
         });
         copy.append(meta);
       }
 
       const footer = createElement("div", "card-footer");
-      const status = createElement("span", "status-badge", t(project.available ? "status.available" : "status.planned") || "");
       const destinations = createElement("div", "project-card-destinations");
       if (project.cardGithub) destinations.append(createProjectDestination("GitHub", project.cardGithub, "github", strings.title || "Project"));
       if (project.cardNexus) destinations.append(createProjectDestination("Nexus Mods", project.cardNexus, "nexus", strings.title || "Project"));
-      footer.append(status, destinations);
+      if (destinations.childElementCount) footer.append(destinations);
 
       if (project.available && project.href) {
         const open = createElement("a", "project-action project-card-open", t("actions.open") || "Open project");
@@ -166,7 +170,7 @@
         footer.append(open);
       }
 
-      copy.append(footer);
+      if (footer.childElementCount) copy.append(footer);
       card.append(art, copy);
       grid.append(card);
     }
@@ -218,6 +222,7 @@
         day: "numeric",
         timeZone: "UTC"
       }).format(new Date(`${update.date}T00:00:00Z`));
+
       meta.append(time, createElement("span", "", strings.category || ""));
       card.append(meta, createElement("h3", "", strings.title || ""), createElement("p", "", strings.summary || ""));
 
@@ -235,20 +240,29 @@
 
   let screenshotDialog;
   let screenshotTrigger;
+
   const openScreenshot = (screenshot, trigger) => {
     if (!screenshotDialog) {
       screenshotDialog = document.createElement("dialog");
       screenshotDialog.className = "screenshot-dialog";
+
       const close = createElement("button", "screenshot-dialog-close", "×");
       close.type = "button";
       close.setAttribute("aria-label", t("detail.closeScreenshot") || "Close full-screen screenshot");
+
       const image = createElement("img", "screenshot-dialog-image");
       screenshotDialog.append(close, image);
       close.addEventListener("click", () => screenshotDialog.close());
-      screenshotDialog.addEventListener("click", (event) => { if (event.target === screenshotDialog) screenshotDialog.close(); });
-      screenshotDialog.addEventListener("close", () => { screenshotTrigger?.focus(); screenshotTrigger = null; });
+      screenshotDialog.addEventListener("click", (event) => {
+        if (event.target === screenshotDialog) screenshotDialog.close();
+      });
+      screenshotDialog.addEventListener("close", () => {
+        screenshotTrigger?.focus();
+        screenshotTrigger = null;
+      });
       document.body.append(screenshotDialog);
     }
+
     const image = screenshotDialog.querySelector("img");
     image.src = screenshot.src;
     image.alt = screenshot.alt || "Project screenshot";
@@ -262,16 +276,18 @@
     const grid = document.querySelector("[data-screenshot-grid]");
     const screenshots = window.K2040_PROJECT?.screenshots;
     if (!section || !grid || !Array.isArray(screenshots) || screenshots.length === 0) return;
-    grid.replaceChildren();
 
+    grid.replaceChildren();
     for (const screenshot of screenshots) {
       if (!screenshot?.src) continue;
+
       const figure = document.createElement("figure");
       const image = document.createElement("img");
       image.src = screenshot.src;
       image.alt = screenshot.alt || "Project screenshot";
       image.loading = "lazy";
       image.decoding = "async";
+
       const button = document.createElement("button");
       button.type = "button";
       button.className = "screenshot-open";
@@ -282,92 +298,49 @@
       if (screenshot.caption) figure.append(createElement("figcaption", "", screenshot.caption));
       grid.append(figure);
     }
+
     if (grid.childElementCount) section.hidden = false;
   };
 
   const initProjectMenu = () => {
     const menu = document.querySelector("[data-project-menu]");
     if (!menu) return;
-    const summary = menu.querySelector(":scope > summary");
-    const menuPanel = menu.querySelector(":scope > .project-menu-panel");
-    const modsPanel = menu.querySelector(".project-menu-mods");
-    const buttons = [...menu.querySelectorAll("[data-project-game-button]")];
-    const panels = [...menu.querySelectorAll("[data-project-game-panel]")];
-    if (!summary || !menuPanel || !modsPanel) return;
 
-    let layoutFrame = 0;
-    let desktopLayout = window.innerWidth > 1100;
+    const items = [...menu.querySelectorAll("[data-project-menu-item]")];
+    const reposition = (item) => {
+      item.classList.remove("global-menu-item--flip");
+      if (!item.open || window.innerWidth <= 1100) return;
 
-    const updateDirection = () => {
-      cancelAnimationFrame(layoutFrame);
-      layoutFrame = requestAnimationFrame(() => {
-        if (!menu.open) return;
-        menuPanel.style.setProperty("--project-menu-shift", "0px");
-        menu.classList.remove("project-menu--flip");
-        const availableHeight = Math.max(120, window.innerHeight - menuPanel.getBoundingClientRect().top - 8);
-        menuPanel.style.setProperty("--project-menu-max-height", `${Math.round(availableHeight)}px`);
-        const modsVisible = !modsPanel.hidden;
+      requestAnimationFrame(() => {
+        const panel = menu.querySelector(".project-menu-panel");
+        const submenu = item.querySelector(".project-menu-submenu");
+        if (!panel || !submenu) return;
 
-        if (window.innerWidth > 1100) {
-          const trigger = summary.getBoundingClientRect();
-          const firstWidth = menuPanel.offsetWidth || 220;
-          const secondWidth = modsVisible ? (modsPanel.offsetWidth || 280) : 0;
-          const gap = modsVisible ? 9 : 0;
-          const margin = 16;
-          const fitsRight = trigger.left + firstWidth + gap + secondWidth <= window.innerWidth - margin;
-          const fitsLeft = trigger.right - firstWidth - gap - secondWidth >= margin;
-          menu.classList.toggle("project-menu--flip", !fitsRight && fitsLeft);
-        }
-
-        requestAnimationFrame(() => {
-          const panelRect = menuPanel.getBoundingClientRect();
-          const modsRect = modsVisible ? modsPanel.getBoundingClientRect() : null;
-          const margin = 8;
-          const left = modsRect ? Math.min(panelRect.left, modsRect.left) : panelRect.left;
-          const right = modsRect ? Math.max(panelRect.right, modsRect.right) : panelRect.right;
-          let shift = 0;
-          if (right > window.innerWidth - margin) shift = window.innerWidth - margin - right;
-          if (left + shift < margin) shift += margin - (left + shift);
-          menuPanel.style.setProperty("--project-menu-shift", `${Math.round(shift)}px`);
-        });
+        const panelRect = panel.getBoundingClientRect();
+        const submenuWidth = submenu.offsetWidth || 245;
+        const gap = 9;
+        const margin = 16;
+        const fitsRight = panelRect.right + gap + submenuWidth <= window.innerWidth - margin;
+        const fitsLeft = panelRect.left - gap - submenuWidth >= margin;
+        item.classList.toggle("global-menu-item--flip", !fitsRight && fitsLeft);
       });
     };
 
-    const selectGame = (game) => {
-      modsPanel.hidden = false;
-      buttons.forEach((button) => button.setAttribute("aria-selected", String(button.dataset.projectGameButton === game)));
-      panels.forEach((panel) => { panel.hidden = panel.dataset.projectGamePanel !== game; });
-      updateDirection();
-    };
-
-    const collapseDesktop = () => {
-      buttons.forEach((button) => button.setAttribute("aria-selected", "false"));
-      panels.forEach((panel) => { panel.hidden = true; });
-      modsPanel.hidden = true;
-      updateDirection();
-    };
-
-    const restoreNarrow = () => {
-      if (!buttons.length) return;
-      const selected = buttons.find((button) => button.getAttribute("aria-selected") === "true") || buttons[0];
-      selectGame(selected.dataset.projectGameButton);
-    };
-
-    buttons.forEach((button) => button.addEventListener("click", () => selectGame(button.dataset.projectGameButton)));
-    menu.addEventListener("toggle", () => {
-      if (!menu.open) { updateDirection(); return; }
-      if (window.innerWidth > 1100) collapseDesktop();
-      else restoreNarrow();
+    items.forEach((item) => {
+      item.addEventListener("toggle", () => {
+        if (!item.open) return;
+        items.forEach((other) => {
+          if (other !== item) other.open = false;
+        });
+        reposition(item);
+      });
     });
-    window.addEventListener("resize", () => {
-      const nextDesktop = window.innerWidth > 1100;
-      if (nextDesktop !== desktopLayout) {
-        if (nextDesktop && menu.open) collapseDesktop();
-        if (!nextDesktop && menu.open) restoreNarrow();
-        desktopLayout = nextDesktop;
-      }
-      updateDirection();
-    }, { passive: true });
+
+    menu.addEventListener("toggle", () => {
+      if (!menu.open) items.forEach((item) => { item.open = false; });
+    });
+
+    window.addEventListener("resize", () => items.forEach(reposition), { passive: true });
   };
 
   const updateThemeButton = (button) => {
@@ -392,6 +365,7 @@
   const init = () => {
     const themeButton = document.querySelector("[data-theme-toggle]");
     const languageSelect = document.querySelector("[data-language-select]");
+
     apply();
     initProjectMenu();
 
@@ -406,11 +380,15 @@
       if (!languages.includes(languageSelect.value)) return;
       language = languageSelect.value;
       write(languageKey, language);
-      if (normalizeLanguage(location.hash.slice(1))) history.replaceState(null, "", location.pathname + location.search);
+      if (normalizeLanguage(location.hash.slice(1))) {
+        history.replaceState(null, "", location.pathname + location.search);
+      }
       apply();
     });
 
-    const onSystemTheme = () => { if (!root.dataset.theme) updateThemeButton(themeButton); };
+    const onSystemTheme = () => {
+      if (!root.dataset.theme) updateThemeButton(themeButton);
+    };
     darkQuery.addEventListener?.("change", onSystemTheme);
     if (!darkQuery.addEventListener) darkQuery.addListener?.(onSystemTheme);
   };

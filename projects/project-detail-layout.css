@@ -32,9 +32,12 @@
   display: none;
 }
 
+/* Let the grid determine card height, as the working landing hero does.
+   Percentage height on a clipped grid item can push a frame edge off-pixel. */
 .project-detail-page .screenshot-grid figure {
   display: flex;
-  height: 100%;
+  width: 100%;
+  min-width: 0;
   flex-direction: column;
 }
 
