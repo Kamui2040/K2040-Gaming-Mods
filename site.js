@@ -205,6 +205,14 @@
     return { label: t("actions.readMore") || "Read more", brand: null };
   };
 
+  const updateLinks = (update) => {
+    const links = Array.isArray(update?.links)
+      ? update.links.filter((href) => typeof href === "string" && href.trim())
+      : [];
+    if (links.length) return links;
+    return typeof update?.href === "string" && update.href.trim() ? [update.href] : [];
+  };
+
   const renderUpdates = () => {
     const list = document.querySelector("[data-update-list]");
     if (!list) return;
@@ -226,13 +234,18 @@
       meta.append(time, createElement("span", "", strings.category || ""));
       card.append(meta, createElement("h3", "", strings.title || ""), createElement("p", "", strings.summary || ""));
 
-      if (update.href) {
-        const destination = updateDestination(update.href);
-        const link = createElement("a", "text-link", destination.label);
-        link.href = update.href;
-        link.dataset.updateLink = "";
-        if (destination.brand) link.dataset.brand = destination.brand;
-        card.append(link);
+      const hrefs = updateLinks(update);
+      if (hrefs.length) {
+        const actions = createElement("div", "update-actions");
+        hrefs.forEach((href) => {
+          const destination = updateDestination(href);
+          const link = createElement("a", "text-link", destination.label);
+          link.href = href;
+          link.dataset.updateLink = "";
+          if (destination.brand) link.dataset.brand = destination.brand;
+          actions.append(link);
+        });
+        card.append(actions);
       }
       list.append(card);
     }
