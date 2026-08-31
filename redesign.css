@@ -15,6 +15,13 @@
   margin-top: 0;
 }
 
+.update-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .65rem;
+}
+
 .updates-page main {
   display: grid;
   gap: 1.5rem;
