@@ -4,6 +4,10 @@ window.K2040_GAMING_UPDATES = [
     projectId: "xedit-json-exporter",
     date: "2026-08-31",
     href: "https://github.com/Kamui2040/K2040_xEdit_JSON_Exporter/releases/tag/v1.6",
+    links: [
+      "https://github.com/Kamui2040/K2040_xEdit_JSON_Exporter/releases/tag/v1.6",
+      "https://www.nexusmods.com/fallout4/mods/105775"
+    ],
     source: "github",
     strings: {
       en: { category: "Fallout 4", title: "xEdit JSON Exporter 1.6 released", summary: "Version 1.6 fixes repeated xEdit child entries being overwritten, preserving repeated values in order. The release is available on Nexus Mods and from the new public GitHub repository." },
