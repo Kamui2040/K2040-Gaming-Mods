@@ -106,7 +106,7 @@ window.K2040_PROJECTS = {
   "xedit-json-exporter": {
     gameId: "fallout-4",
     game: "Fallout 4",
-    title: "xEdit JSON Exporter",
+    title: "xEdit JSON Exporter 1.6",
     cardDescription: "Export xEdit/FO4Edit records and plugins to readable JSON.",
     href: "projects/project.html?project=xedit-json-exporter",
     available: true,
@@ -118,6 +118,8 @@ window.K2040_PROJECTS = {
     image: "../assets/fallout-4-xedit-json-exporter-card.png",
     heroImage: "../assets/fallout-4-xedit-json-exporter-header.png",
     nexus: "https://www.nexusmods.com/fallout4/mods/105775",
+    githubRepo: "https://github.com/Kamui2040/K2040_xEdit_JSON_Exporter",
+    github: "https://github.com/Kamui2040/K2040_xEdit_JSON_Exporter/releases/tag/v1.6",
     features: [
       "Exports a complete plugin or selected records from xEdit to structured JSON.",
       "Read-only processing for ESP, ESL, and ESM files.",
@@ -127,6 +129,7 @@ window.K2040_PROJECTS = {
       "Automatically names the output from the plugin and selected records when no filename is supplied."
     ],
     changelog: [
+      "1.6 — Fixed data loss when xEdit contains multiple children with the same name. Repeated values are now preserved in order instead of later entries replacing earlier ones, fixing the reported MGEF Actor Value and repeated keyword loss.",
       "1.5 — Fixed full-plugin automatic naming so ESP, ESL, and ESM exports do not append every exported signature.",
       "1.4 — First public version."
     ]

@@ -1,5 +1,19 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "xedit-json-exporter-v1-6",
+    projectId: "xedit-json-exporter",
+    date: "2026-08-31",
+    href: "https://github.com/Kamui2040/K2040_xEdit_JSON_Exporter/releases/tag/v1.6",
+    source: "github",
+    strings: {
+      en: { category: "Fallout 4", title: "xEdit JSON Exporter 1.6 released", summary: "Version 1.6 fixes repeated xEdit child entries being overwritten, preserving repeated values in order. The release is available on Nexus Mods and from the new public GitHub repository." },
+      de: { category: "Fallout 4", title: "xEdit JSON Exporter 1.6 veröffentlicht", summary: "Version 1.6 behebt das Überschreiben wiederholter xEdit-Kindeinträge und erhält wiederholte Werte in ihrer Reihenfolge. Der Release ist auf Nexus Mods und im neuen öffentlichen GitHub-Repository verfügbar." },
+      "pt-PT": { category: "Fallout 4", title: "xEdit JSON Exporter 1.6 publicado", summary: "A versão 1.6 corrige a substituição de elementos filhos repetidos do xEdit e preserva os valores repetidos pela ordem original. A versão está disponível no Nexus Mods e no novo repositório público do GitHub." },
+      es: { category: "Fallout 4", title: "xEdit JSON Exporter 1.6 publicado", summary: "La versión 1.6 corrige la sobrescritura de elementos secundarios repetidos de xEdit y conserva los valores repetidos en su orden original. La versión está disponible en Nexus Mods y en el nuevo repositorio público de GitHub." },
+      fr: { category: "Fallout 4", title: "xEdit JSON Exporter 1.6 publié", summary: "La version 1.6 corrige l’écrasement des éléments enfants xEdit répétés et conserve les valeurs répétées dans leur ordre d’origine. La version est disponible sur Nexus Mods et dans le nouveau dépôt GitHub public." }
+    }
+  },
+  {
     id: "github-release-downloads",
     date: "2026-08-25",
     href: "https://kamui2040.github.io/K2040-Gaming-Mods/#projects",

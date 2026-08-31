@@ -72,6 +72,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Erzeugt automatisch einen Dateinamen aus Plugin und Auswahl, wenn keiner angegeben wurde."
       ],
       changelog: [
+        "1.6 — Datenverlust bei mehreren gleichnamigen untergeordneten xEdit-Einträgen behoben. Wiederholte Werte bleiben jetzt in ihrer Reihenfolge erhalten, statt durch spätere Einträge überschrieben zu werden; damit sind der gemeldete MGEF-Actor-Value-Fehler und der Verlust wiederholter Keywords behoben.",
         "1.5 — Automatische Benennung kompletter Plugins korrigiert, damit ESP-, ESL- und ESM-Exporte nicht mehr jede exportierte Signatur anhängen.",
         "1.4 — Erste öffentliche Version."
       ]
@@ -151,6 +152,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Gera automaticamente o nome do ficheiro a partir do plugin e da seleção quando não é indicado um nome."
       ],
       changelog: [
+        "1.6 — Corrigida a perda de dados quando o xEdit contém vários elementos filhos com o mesmo nome. Os valores repetidos são agora preservados pela ordem original, em vez de entradas posteriores substituírem as anteriores, corrigindo o problema reportado de Actor Value em MGEF e a perda de keywords repetidas.",
         "1.5 — Corrigida a criação automática de nomes para plugins completos; as exportações ESP, ESL e ESM deixam de acrescentar todas as assinaturas.",
         "1.4 — Primeira versão pública."
       ]
@@ -230,6 +232,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Genera automáticamente el nombre del archivo a partir del plugin y la selección si no se indica uno."
       ],
       changelog: [
+        "1.6 — Corregida la pérdida de datos cuando xEdit contiene varios elementos secundarios con el mismo nombre. Los valores repetidos se conservan ahora en su orden original, en lugar de que las entradas posteriores reemplacen a las anteriores, solucionando el Actor Value de MGEF reportado y la pérdida de keywords repetidas.",
         "1.5 — Corregido el nombre automático de plugins completos; las exportaciones ESP, ESL y ESM ya no añaden todas las firmas.",
         "1.4 — Primera versión pública."
       ]
@@ -309,6 +312,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Génère automatiquement le nom du fichier à partir du plugin et de la sélection si aucun nom n’est indiqué."
       ],
       changelog: [
+        "1.6 — Correction de la perte de données lorsque xEdit contient plusieurs éléments enfants portant le même nom. Les valeurs répétées sont désormais conservées dans leur ordre d’origine au lieu d’être remplacées par les entrées suivantes, ce qui corrige l’Actor Value MGEF signalé et la perte de keywords répétés.",
         "1.5 — Correction du nom automatique des plugins complets ; les exports ESP, ESL et ESM n’ajoutent plus toutes les signatures.",
         "1.4 — Première version publique."
       ]
