@@ -86,11 +86,19 @@
     display: none;
   }
 
-  /* Keep the Home text available to assistive technology while showing only
-     the gamepad symbol in the compact visual control. */
+  /* Remove the hidden Home label from flex layout so the gamepad sits exactly
+     in the center of its slot, while keeping the label available to assistive
+     technology. */
   body[data-k2040-site="gaming"] .site-header .site-brand-section.nav-home > span {
-    font-size: 0;
-    line-height: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
   }
 
   body[data-k2040-site="gaming"] .site-header .menu-caret {
