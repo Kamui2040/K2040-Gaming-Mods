@@ -20,45 +20,45 @@
   }
 
   body[data-k2040-site="gaming"] .site-header .global-menu {
-    grid-row: 1 !important;
-    grid-column: 1 / span 3 !important;
+    grid-row: 1;
+    grid-column: 1 / span 3;
     min-width: 0;
   }
 
   body[data-k2040-site="gaming"] .site-header .site-brand-section.nav-home {
-    grid-row: 1 !important;
-    grid-column: 4 / span 3 !important;
+    grid-row: 1;
+    grid-column: 4 / span 3;
     width: 100%;
     min-width: 0;
   }
 
   body[data-k2040-site="gaming"] .site-header .nav-language-control {
-    grid-row: 1 !important;
-    grid-column: 7 / span 3 !important;
+    grid-row: 1;
+    grid-column: 7 / span 3;
     position: relative;
     padding: .15rem;
     overflow: hidden;
   }
 
   body[data-k2040-site="gaming"] .site-header .theme-toggle {
-    grid-row: 1 !important;
-    grid-column: 10 / span 3 !important;
+    grid-row: 1;
+    grid-column: 10 / span 3;
     padding: .2rem;
   }
 
   body[data-k2040-site="gaming"] .site-header .site-nav > .project-menu {
-    grid-row: 2 !important;
-    grid-column: 1 / span 4 !important;
+    grid-row: 2;
+    grid-column: 1 / span 4;
   }
 
   body[data-k2040-site="gaming"] .site-header .site-nav > .nav-downloads {
-    grid-row: 2 !important;
-    grid-column: 5 / span 4 !important;
+    grid-row: 2;
+    grid-column: 5 / span 4;
   }
 
   body[data-k2040-site="gaming"] .site-header .site-nav > .nav-updates {
-    grid-row: 2 !important;
-    grid-column: 9 / span 4 !important;
+    grid-row: 2;
+    grid-column: 9 / span 4;
   }
 
   body[data-k2040-site="gaming"] .site-header .global-menu > summary,
@@ -72,13 +72,25 @@
     min-height: 36px;
     gap: .18rem;
     padding: .28rem .18rem;
-    font-size: clamp(.68rem, 2.9vw, .8rem) !important;
+    font-size: clamp(.68rem, 2.9vw, .8rem);
     line-height: 1.05;
   }
 
   body[data-k2040-site="gaming"] .site-header .global-menu > summary,
   body[data-k2040-site="gaming"] .site-header .site-nav > .menu > summary {
     justify-content: center;
+  }
+
+  body[data-k2040-site="gaming"] .site-header .global-menu > summary > strong,
+  body[data-k2040-site="gaming"] .site-header .theme-toggle [data-theme-label] {
+    display: none;
+  }
+
+  /* Keep the Home text available to assistive technology while showing only
+     the gamepad symbol in the compact visual control. */
+  body[data-k2040-site="gaming"] .site-header .site-brand-section.nav-home > span {
+    font-size: 0;
+    line-height: 0;
   }
 
   body[data-k2040-site="gaming"] .site-header .menu-caret {
@@ -105,11 +117,7 @@
   body[data-k2040-site="gaming"] .site-header .theme-toggle-icon {
     width: auto;
     min-width: 1.1rem;
-    font-size: 1rem !important;
-  }
-
-  body[data-k2040-site="gaming"] .site-header .theme-toggle [data-theme-label] {
-    display: none;
+    font-size: 1rem;
   }
 
   body[data-k2040-site="gaming"] .site-header .project-menu-panel {
@@ -131,10 +139,22 @@
   body[data-k2040-site="gaming"] .site-header .site-nav > .menu > summary {
     min-height: 34px;
     padding: .24rem .12rem;
-    font-size: .66rem !important;
+    font-size: .66rem;
+  }
+
+  body[data-k2040-site="gaming"] .site-header .site-nav > .project-menu {
+    grid-column: 1 / span 4 !important;
+  }
+
+  body[data-k2040-site="gaming"] .site-header .site-nav > .nav-downloads {
+    grid-column: 5 / span 4 !important;
+  }
+
+  body[data-k2040-site="gaming"] .site-header .site-nav > .nav-updates {
+    grid-column: 9 / span 4 !important;
   }
 
   body[data-k2040-site="gaming"] .site-header .theme-toggle-icon {
-    font-size: .92rem !important;
+    font-size: .92rem;
   }
 }
