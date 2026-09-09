@@ -36,14 +36,12 @@
     grid-row: 1;
     grid-column: 7 / span 3;
     position: relative;
-    padding: .15rem;
     overflow: hidden;
   }
 
   body[data-k2040-site="gaming"] .site-header .theme-toggle {
     grid-row: 1;
     grid-column: 10 / span 3;
-    padding: .2rem;
   }
 
   body[data-k2040-site="gaming"] .site-header .site-nav > .project-menu {
@@ -70,6 +68,7 @@
     width: 100%;
     min-width: 0;
     min-height: 36px;
+    margin: 0;
     gap: .18rem;
     padding: .28rem .18rem;
     font-size: clamp(.68rem, 2.9vw, .8rem);
@@ -77,6 +76,7 @@
   }
 
   body[data-k2040-site="gaming"] .site-header .global-menu > summary,
+  body[data-k2040-site="gaming"] .site-header .site-brand-section.nav-home,
   body[data-k2040-site="gaming"] .site-header .site-nav > .menu > summary {
     justify-content: center;
   }
@@ -86,9 +86,7 @@
     display: none;
   }
 
-  /* Remove the hidden Home label from flex layout so the gamepad sits exactly
-     in the center of its slot, while keeping the label available to assistive
-     technology. */
+  /* Keep the label accessible without letting it affect the icon-only Home slot. */
   body[data-k2040-site="gaming"] .site-header .site-brand-section.nav-home > span {
     position: absolute;
     width: 1px;
@@ -103,6 +101,11 @@
 
   body[data-k2040-site="gaming"] .site-header .menu-caret {
     font-size: .82rem;
+  }
+
+  /* Match Android's final compact-control spacing exactly. */
+  body[data-k2040-site="gaming"] .site-header .nav-language-control {
+    padding: .15rem;
   }
 
   body[data-k2040-site="gaming"] .site-header .nav-language-control::before {
@@ -120,6 +123,10 @@
     padding: 0;
     opacity: 0;
     cursor: pointer;
+  }
+
+  body[data-k2040-site="gaming"] .site-header .theme-toggle {
+    padding: .2rem;
   }
 
   body[data-k2040-site="gaming"] .site-header .theme-toggle-icon {
