@@ -82,9 +82,15 @@
   }
 
   body[data-k2040-site="gaming"] .site-header .global-menu > summary > strong,
-  body[data-k2040-site="gaming"] .site-header .site-brand-section.nav-home > span,
   body[data-k2040-site="gaming"] .site-header .theme-toggle [data-theme-label] {
     display: none;
+  }
+
+  /* Keep the Home text available to assistive technology while showing only
+     the gamepad symbol in the compact visual control. */
+  body[data-k2040-site="gaming"] .site-header .site-brand-section.nav-home > span {
+    font-size: 0;
+    line-height: 0;
   }
 
   body[data-k2040-site="gaming"] .site-header .menu-caret {
