@@ -86,7 +86,6 @@
     display: none;
   }
 
-  /* Keep the label accessible without letting it affect the icon-only Home slot. */
   body[data-k2040-site="gaming"] .site-header .site-brand-section.nav-home > span {
     position: absolute;
     width: 1px;
@@ -103,7 +102,6 @@
     font-size: .82rem;
   }
 
-  /* Match Android's final compact-control spacing exactly. */
   body[data-k2040-site="gaming"] .site-header .nav-language-control {
     padding: .15rem;
   }
@@ -137,39 +135,5 @@
 
   body[data-k2040-site="gaming"] .site-header .project-menu-panel {
     width: min(320px, calc(100vw - 1rem));
-  }
-}
-
-@media (max-width: 360px) {
-  body[data-k2040-site="gaming"] .site-header {
-    gap: .12rem;
-    padding: .28rem .3rem;
-  }
-
-  body[data-k2040-site="gaming"] .site-header .global-menu > summary,
-  body[data-k2040-site="gaming"] .site-header .site-brand-section.nav-home,
-  body[data-k2040-site="gaming"] .site-header .site-nav > .nav-link,
-  body[data-k2040-site="gaming"] .site-header .site-nav > .nav-language-control,
-  body[data-k2040-site="gaming"] .site-header .site-nav > .theme-toggle,
-  body[data-k2040-site="gaming"] .site-header .site-nav > .menu > summary {
-    min-height: 34px;
-    padding: .24rem .12rem;
-    font-size: .66rem;
-  }
-
-  body[data-k2040-site="gaming"] .site-header .site-nav > .project-menu {
-    grid-column: 1 / span 4 !important;
-  }
-
-  body[data-k2040-site="gaming"] .site-header .site-nav > .nav-downloads {
-    grid-column: 5 / span 4 !important;
-  }
-
-  body[data-k2040-site="gaming"] .site-header .site-nav > .nav-updates {
-    grid-column: 9 / span 4 !important;
-  }
-
-  body[data-k2040-site="gaming"] .site-header .theme-toggle-icon {
-    font-size: .92rem;
   }
 }
