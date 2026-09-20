@@ -32,6 +32,17 @@ This public repository contains the K2040 Gaming Mods website, public project in
 - The Main K2040 site consumes the Gaming update feed automatically. Do not duplicate Gaming update records in the Main-site repository.
 - Keep the site lightweight, responsive, localized, and visually consistent with the K2040 site family.
 
+## Website media asset contract
+
+- Hero-header artwork uses a 3:1 aspect ratio. Prefer source dimensions such as 1920×640 when creating new artwork.
+- Hero-header artwork must contain artwork only: no baked-in titles, descriptions, logos, UI, frames, borders, buttons, tags, or other website chrome.
+- The website owns hero framing, localized text, overlays, spacing, and responsive cropping. Source artwork must leave enough visually quiet space for those overlays where the page design requires it.
+- Project and category source artwork uses a 4:5 aspect ratio unless a page explicitly documents another requirement.
+- Project and category source artwork must not bake in the card title, version, description, tags, status, buttons, frame, border, or other card UI. The website renders those elements separately.
+- Treat card artwork and card UI as separate layers of responsibility: artwork is reusable media; HTML/CSS/data own the informational panel, actions, localization, and visual frame.
+- On mobile, do not force the full rendered card into a fixed 4:5 height. Preserve the artwork treatment while allowing localized text and actions to expand without clipping or truncation.
+- Reuse approved visual language and asset proportions across category cards and project cards instead of introducing per-project structural variations without a deliberate design change.
+
 ## Validation
 
 Before accepting website changes, check relevant links, local assets, localization, desktop and mobile navigation/rendering, and diff cleanliness.
