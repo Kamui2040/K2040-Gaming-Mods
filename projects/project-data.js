@@ -133,5 +133,85 @@ window.K2040_PROJECTS = {
       "1.5 — Fixed full-plugin automatic naming so ESP, ESL, and ESM exports do not append every exported signature.",
       "1.4 — First public version."
     ]
+  },
+
+  "wow-wotlk-addons": {
+    gameId: "world-of-warcraft-wotlk",
+    game: "World of Warcraft: Wrath of the Lich King",
+    title: "WoW WotLK Addons",
+    cardLabel: "World of Warcraft",
+    cardTitle: "WoW WotLK Addons",
+    cardDescription: "A consolidated home for K2040 addons for Wrath of the Lich King 3.3.5a.",
+    href: "/K2040-Gaming-Mods/projects/wow-wotlk.html",
+    available: true,
+    featured: false,
+    cardImage: "/K2040-Gaming-Mods/assets/wow-wotlk-addons-card.webp",
+    cardMeta: ["3.3.5a", "AzerothCore", "Addons"],
+    description: "K2040 addons for World of Warcraft: Wrath of the Lich King 3.3.5a."
+  },
+
+  "gm-genie": {
+    gameId: "world-of-warcraft-wotlk",
+    game: "World of Warcraft: Wrath of the Lich King",
+    title: "GM Genie 1.0",
+    cardLabel: "World of Warcraft",
+    cardTitle: "GM Genie",
+    cardDescription: "Game Master utility with GM controls, tickets, player tools, and builder helpers.",
+    href: "/K2040-Gaming-Mods/projects/project.html?project=gm-genie",
+    available: true,
+    featured: false,
+    showOnLanding: false,
+    cardImage: "/K2040-Gaming-Mods/assets/wow-wotlk-addons-card.webp",
+    cardMeta: ["3.3.5a", "AzerothCore", "Released"],
+    description: "Game Master utility addon for Wrath of the Lich King 3.3.5a, focused on AzerothCore servers.",
+    overview: "GM Genie puts commonly used Game Master functions into an in-game interface, including GM controls, ticket handling, player inspection, builder tools, and compatibility improvements for ElvUI-based setups.",
+    heroImage: "../assets/wow-wotlk-hero.webp",
+    wideHero: true,
+    nexus: "https://www.nexusmods.com/worldofwarcraft/mods/905",
+    features: [
+      "Game Master HUD with frequently used controls.",
+      "Ticket management tools.",
+      "Player lookup and Spy tools for selected players.",
+      "Builder tools for moving, adding, and deleting objects and NPCs.",
+      "Visibility, whisper, flight, and speed controls.",
+      "Macro and advanced command menus.",
+      "Persistent addon settings with Lua 5.1 and WoW 3.3.5a compatibility.",
+      "Compatibility improvements for ElvUI and AddOnSkins setups."
+    ],
+    changelog: [
+      "1.0 — First public release on Nexus Mods."
+    ],
+    screenshots: [
+      {
+        src: "../assets/gm-genie-main.webp",
+        alt: "GM Genie main HUD with Game Master controls, ticket access, Spy, and Builder buttons",
+        caption: "Main HUD"
+      },
+      {
+        src: "../assets/gm-genie-main-elvui.webp",
+        alt: "GM Genie main HUD styled alongside an ElvUI and AddOnSkins setup",
+        caption: "Main HUD with ElvUI / AddOnSkins"
+      },
+      {
+        src: "../assets/gm-genie-tickets.webp",
+        alt: "GM Genie ticket browser with ticket list columns and status summary",
+        caption: "Ticket browser"
+      },
+      {
+        src: "../assets/gm-genie-tickets-elvui.webp",
+        alt: "GM Genie ticket browser displayed with the ElvUI-compatible styling",
+        caption: "Ticket browser with ElvUI / AddOnSkins"
+      },
+      {
+        src: "../assets/gm-genie-spy.webp",
+        alt: "GM Genie Spy Player dialog",
+        caption: "Spy Player"
+      },
+      {
+        src: "../assets/gm-genie-builder.webp",
+        alt: "GM Genie Builder panel with movement, object, NPC, and macro controls",
+        caption: "Builder tools"
+      }
+    ]
   }
 };
