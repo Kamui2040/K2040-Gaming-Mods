@@ -19,6 +19,18 @@
       "pt-PT": "Exporta registos e plugins do xEdit/FO4Edit para JSON legível.",
       es: "Exporta registros y plugins de xEdit/FO4Edit a JSON legible.",
       fr: "Exporte les enregistrements et plugins xEdit/FO4Edit en JSON lisible."
+    },
+    "wow-wotlk-addons": {
+      de: "Zentrale Seite für K2040-Addons für Wrath of the Lich King 3.3.5a.",
+      "pt-PT": "Página central dos addons K2040 para Wrath of the Lich King 3.3.5a.",
+      es: "Página central de los addons K2040 para Wrath of the Lich King 3.3.5a.",
+      fr: "Page centrale des addons K2040 pour Wrath of the Lich King 3.3.5a."
+    },
+    "gm-genie": {
+      de: "Game-Master-Werkzeug mit GM-Steuerung, Tickets, Spielerwerkzeugen und Builder-Hilfen.",
+      "pt-PT": "Utilitário de Game Master com controlos de GM, tickets, ferramentas de jogador e Builder.",
+      es: "Utilidad de Game Master con controles de GM, tickets, herramientas de jugador y Builder.",
+      fr: "Utilitaire Game Master avec commandes GM, tickets, outils joueur et Builder."
     }
   };
 
@@ -29,13 +41,14 @@
   };
 
   const languages = ["en", "de", "pt-PT", "es", "fr"];
-  const projects = Object.entries(window.K2040_PROJECTS || {}).map(([id, project]) => ({
+  const allProjects = Object.entries(window.K2040_PROJECTS || {}).map(([id, project]) => ({
     id,
     gameId: project.gameId,
     game: project.game,
     href: project.href,
     available: project.available === true,
     featured: project.featured === true,
+    showOnLanding: project.showOnLanding !== false,
     image: project.cardImage,
     cardMeta: Array.isArray(project.cardMeta) ? [...project.cardMeta] : [],
     cardGithub: githubReleaseDestination(project),
@@ -52,5 +65,11 @@
     ]))
   }));
 
+  const projectById = new Map(allProjects.map((project) => [project.id, project]));
+  window.K2040_BUILD_PROJECT_CONTENT = (ids = []) => ids
+    .map((id) => projectById.get(id))
+    .filter(Boolean);
+
+  const projects = allProjects.filter((project) => project.showOnLanding);
   window.K2040_CONTENT = { projects, updates: [] };
 })();

@@ -1,8 +1,9 @@
 # K2040 Gaming Mods Project Context
 
-## Current WoW WotLK website direction
+## Current WoW WotLK website state
 
-- Present K2040 Wrath of the Lich King addons as one consolidated WoW WotLK project/category entry rather than separate top-level website cards for each addon.
-- Use shared WotLK category artwork and a shared category page/entry that follows the media asset contract in `AGENTS.md`.
-- Keep individual addon information inside the consolidated WotLK area unless the maintainer explicitly changes this direction.
+- The Gaming landing page uses one consolidated WoW WotLK Addons category card rather than separate top-level addon cards.
+- The WoW WotLK category page is `projects/wow-wotlk.html` and uses the shared 3:1 WotLK hero artwork.
+- GM Genie is the first addon entry inside the WoW WotLK category and uses the shared category card artwork.
+- GM Genie has a dedicated project-detail view through `projects/project.html?project=gm-genie`, its Nexus Mods release link, and six interface screenshots.
 - Website-rendered titles, descriptions, tags, status, actions, frames, and localization remain separate from the source artwork.

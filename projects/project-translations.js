@@ -76,6 +76,29 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "1.5 — Automatische Benennung kompletter Plugins korrigiert, damit ESP-, ESL- und ESM-Exporte nicht mehr jede exportierte Signatur anhängen.",
         "1.4 — Erste öffentliche Version."
       ]
+    },
+    "gm-genie": {
+      description: "Game-Master-Werkzeug für Wrath of the Lich King 3.3.5a mit Schwerpunkt auf AzerothCore-Servern.",
+      overview: "GM Genie bündelt häufig genutzte Game-Master-Funktionen in einer Ingame-Oberfläche, darunter GM-Steuerung, Ticketverwaltung, Spielerprüfung, Builder-Werkzeuge und Verbesserungen für ElvUI-basierte Setups.",
+      features: [
+        "Game-Master-HUD mit häufig verwendeten Steuerungen.",
+        "Werkzeuge zur Ticketverwaltung.",
+        "Spielersuche und Spy-Werkzeuge für ausgewählte Spieler.",
+        "Builder-Werkzeuge zum Bewegen, Hinzufügen und Löschen von Objekten und NPCs.",
+        "Steuerungen für Sichtbarkeit, Flüstern, Flug und Geschwindigkeit.",
+        "Makro- und erweiterte Befehlsmenüs.",
+        "Persistente Addon-Einstellungen mit Lua 5.1- und WoW-3.3.5a-Kompatibilität.",
+        "Kompatibilitätsverbesserungen für ElvUI- und AddOnSkins-Setups."
+      ],
+      changelog: ["1.0 — Erste öffentliche Veröffentlichung auf Nexus Mods."],
+      screenshots: [
+        { caption: "Haupt-HUD", alt: "GM Genie Haupt-HUD mit Game-Master-Steuerung, Ticketzugriff, Spy und Builder" },
+        { caption: "Haupt-HUD mit ElvUI / AddOnSkins", alt: "GM Genie Haupt-HUD mit ElvUI- und AddOnSkins-Styling" },
+        { caption: "Ticket-Browser", alt: "GM Genie Ticket-Browser mit Ticketspalten und Statusübersicht" },
+        { caption: "Ticket-Browser mit ElvUI / AddOnSkins", alt: "GM Genie Ticket-Browser mit ElvUI-kompatiblem Styling" },
+        { caption: "Spy Player", alt: "GM Genie Dialog Spy Player" },
+        { caption: "Builder-Werkzeuge", alt: "GM Genie Builder mit Bewegungs-, Objekt-, NPC- und Makrosteuerung" }
+      ]
     }
   },
 
@@ -155,6 +178,29 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "1.6 — Corrigida a perda de dados quando o xEdit contém vários elementos filhos com o mesmo nome. Os valores repetidos são agora preservados pela ordem original, em vez de entradas posteriores substituírem as anteriores, corrigindo o problema reportado de Actor Value em MGEF e a perda de keywords repetidas.",
         "1.5 — Corrigida a criação automática de nomes para plugins completos; as exportações ESP, ESL e ESM deixam de acrescentar todas as assinaturas.",
         "1.4 — Primeira versão pública."
+      ]
+    },
+    "gm-genie": {
+      description: "Addon utilitário de Game Master para Wrath of the Lich King 3.3.5a, focado em servidores AzerothCore.",
+      overview: "O GM Genie reúne funções comuns de Game Master numa interface dentro do jogo, incluindo controlos GM, gestão de tickets, inspeção de jogadores, ferramentas Builder e melhorias de compatibilidade para configurações com ElvUI.",
+      features: [
+        "HUD de Game Master com controlos usados frequentemente.",
+        "Ferramentas de gestão de tickets.",
+        "Pesquisa de jogadores e ferramentas Spy para jogadores selecionados.",
+        "Ferramentas Builder para mover, adicionar e eliminar objetos e NPCs.",
+        "Controlos de visibilidade, whispers, voo e velocidade.",
+        "Menus de macros e comandos avançados.",
+        "Definições persistentes do addon com compatibilidade Lua 5.1 e WoW 3.3.5a.",
+        "Melhorias de compatibilidade para configurações com ElvUI e AddOnSkins."
+      ],
+      changelog: ["1.0 — Primeira versão pública no Nexus Mods."],
+      screenshots: [
+        { caption: "HUD principal", alt: "HUD principal do GM Genie com controlos de Game Master, tickets, Spy e Builder" },
+        { caption: "HUD principal com ElvUI / AddOnSkins", alt: "HUD principal do GM Genie com estilo ElvUI e AddOnSkins" },
+        { caption: "Gestor de tickets", alt: "Gestor de tickets do GM Genie com colunas e resumo de estado" },
+        { caption: "Gestor de tickets com ElvUI / AddOnSkins", alt: "Gestor de tickets do GM Genie com estilo compatível com ElvUI" },
+        { caption: "Spy Player", alt: "Janela Spy Player do GM Genie" },
+        { caption: "Ferramentas Builder", alt: "Painel Builder do GM Genie com controlos de movimento, objetos, NPCs e macros" }
       ]
     }
   },
@@ -236,6 +282,29 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "1.5 — Corregido el nombre automático de plugins completos; las exportaciones ESP, ESL y ESM ya no añaden todas las firmas.",
         "1.4 — Primera versión pública."
       ]
+    },
+    "gm-genie": {
+      description: "Addon de utilidad para Game Masters de Wrath of the Lich King 3.3.5a, centrado en servidores AzerothCore.",
+      overview: "GM Genie reúne funciones habituales de Game Master en una interfaz dentro del juego, incluidos controles GM, gestión de tickets, inspección de jugadores, herramientas Builder y mejoras de compatibilidad para configuraciones con ElvUI.",
+      features: [
+        "HUD de Game Master con controles de uso frecuente.",
+        "Herramientas de gestión de tickets.",
+        "Búsqueda de jugadores y herramientas Spy para jugadores seleccionados.",
+        "Herramientas Builder para mover, añadir y eliminar objetos y NPC.",
+        "Controles de visibilidad, susurros, vuelo y velocidad.",
+        "Menús de macros y comandos avanzados.",
+        "Ajustes persistentes del addon con compatibilidad con Lua 5.1 y WoW 3.3.5a.",
+        "Mejoras de compatibilidad para configuraciones con ElvUI y AddOnSkins."
+      ],
+      changelog: ["1.0 — Primer lanzamiento público en Nexus Mods."],
+      screenshots: [
+        { caption: "HUD principal", alt: "HUD principal de GM Genie con controles de Game Master, tickets, Spy y Builder" },
+        { caption: "HUD principal con ElvUI / AddOnSkins", alt: "HUD principal de GM Genie con estilo ElvUI y AddOnSkins" },
+        { caption: "Navegador de tickets", alt: "Navegador de tickets de GM Genie con columnas y resumen de estado" },
+        { caption: "Navegador de tickets con ElvUI / AddOnSkins", alt: "Navegador de tickets de GM Genie con estilo compatible con ElvUI" },
+        { caption: "Spy Player", alt: "Diálogo Spy Player de GM Genie" },
+        { caption: "Herramientas Builder", alt: "Panel Builder de GM Genie con controles de movimiento, objetos, NPC y macros" }
+      ]
     }
   },
 
@@ -315,6 +384,29 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "1.6 — Correction de la perte de données lorsque xEdit contient plusieurs éléments enfants portant le même nom. Les valeurs répétées sont désormais conservées dans leur ordre d’origine au lieu d’être remplacées par les entrées suivantes, ce qui corrige l’Actor Value MGEF signalé et la perte de keywords répétés.",
         "1.5 — Correction du nom automatique des plugins complets ; les exports ESP, ESL et ESM n’ajoutent plus toutes les signatures.",
         "1.4 — Première version publique."
+      ]
+    },
+    "gm-genie": {
+      description: "Addon utilitaire pour Game Masters de Wrath of the Lich King 3.3.5a, principalement destiné aux serveurs AzerothCore.",
+      overview: "GM Genie regroupe les fonctions Game Master courantes dans une interface en jeu, notamment les commandes GM, la gestion des tickets, l’inspection des joueurs, les outils Builder et des améliorations de compatibilité pour les configurations ElvUI.",
+      features: [
+        "HUD Game Master avec les commandes les plus utilisées.",
+        "Outils de gestion des tickets.",
+        "Recherche de joueurs et outils Spy pour les joueurs sélectionnés.",
+        "Outils Builder pour déplacer, ajouter et supprimer des objets et des PNJ.",
+        "Commandes de visibilité, whispers, vol et vitesse.",
+        "Menus de macros et de commandes avancées.",
+        "Réglages persistants de l’addon avec compatibilité Lua 5.1 et WoW 3.3.5a.",
+        "Améliorations de compatibilité pour les configurations ElvUI et AddOnSkins."
+      ],
+      changelog: ["1.0 — Première version publique sur Nexus Mods."],
+      screenshots: [
+        { caption: "HUD principal", alt: "HUD principal de GM Genie avec commandes Game Master, tickets, Spy et Builder" },
+        { caption: "HUD principal avec ElvUI / AddOnSkins", alt: "HUD principal de GM Genie avec style ElvUI et AddOnSkins" },
+        { caption: "Gestionnaire de tickets", alt: "Gestionnaire de tickets de GM Genie avec colonnes et résumé d’état" },
+        { caption: "Gestionnaire de tickets avec ElvUI / AddOnSkins", alt: "Gestionnaire de tickets de GM Genie avec style compatible ElvUI" },
+        { caption: "Spy Player", alt: "Fenêtre Spy Player de GM Genie" },
+        { caption: "Outils Builder", alt: "Panneau Builder de GM Genie avec commandes de mouvement, objets, PNJ et macros" }
       ]
     }
   }

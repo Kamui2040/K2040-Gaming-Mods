@@ -1,5 +1,23 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "wotlk-site-gm-genie-release",
+    projectId: "gm-genie",
+    date: "2026-09-23",
+    href: "/K2040-Gaming-Mods/projects/wow-wotlk.html",
+    links: [
+      "/K2040-Gaming-Mods/projects/wow-wotlk.html",
+      "https://www.nexusmods.com/worldofwarcraft/mods/905"
+    ],
+    source: "site",
+    strings: {
+      en: { category: "World of Warcraft", title: "WoW WotLK site added and GM Genie released", summary: "A new consolidated Wrath of the Lich King 3.3.5a addon section is now live, and GM Genie 1.0 is available on Nexus Mods." },
+      de: { category: "World of Warcraft", title: "WoW-WotLK-Seite hinzugefügt und GM Genie veröffentlicht", summary: "Der neue zentrale Bereich für Wrath-of-the-Lich-King-3.3.5a-Addons ist jetzt online, und GM Genie 1.0 ist auf Nexus Mods verfügbar." },
+      "pt-PT": { category: "World of Warcraft", title: "Página WoW WotLK adicionada e GM Genie publicado", summary: "A nova área central para addons de Wrath of the Lich King 3.3.5a já está disponível, e o GM Genie 1.0 pode ser obtido no Nexus Mods." },
+      es: { category: "World of Warcraft", title: "Página WoW WotLK añadida y GM Genie publicado", summary: "Ya está disponible la nueva sección central para addons de Wrath of the Lich King 3.3.5a, y GM Genie 1.0 está disponible en Nexus Mods." },
+      fr: { category: "World of Warcraft", title: "Page WoW WotLK ajoutée et GM Genie publié", summary: "La nouvelle section centrale consacrée aux addons Wrath of the Lich King 3.3.5a est en ligne, et GM Genie 1.0 est disponible sur Nexus Mods." }
+    }
+  },
+  {
     id: "xedit-json-exporter-v1-6",
     projectId: "xedit-json-exporter",
     date: "2026-08-31",
