@@ -139,6 +139,7 @@
         image.alt = "";
         image.loading = "lazy";
         image.decoding = "async";
+        if (project.imagePosition) image.style.objectPosition = project.imagePosition;
         art.append(image);
       }
 
