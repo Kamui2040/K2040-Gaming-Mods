@@ -50,6 +50,7 @@
     featured: project.featured === true,
     showOnLanding: project.showOnLanding !== false,
     image: project.cardImage,
+    imagePosition: project.cardImagePosition || null,
     cardMeta: Array.isArray(project.cardMeta) ? [...project.cardMeta] : [],
     cardGithub: githubReleaseDestination(project),
     cardNexus: project.nexus || project.variants?.[0]?.nexus || null,
