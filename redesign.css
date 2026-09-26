@@ -63,3 +63,24 @@
     align-self: flex-start;
   }
 }
+
+/* Visual project cards need room for localized copy and actions in narrower
+   desktop/tablet layouts. Keep the fixed 4:5 presentation only when the
+   viewport is wide enough for the copy panel to fit without clipping. */
+@media (max-width: 1100px) {
+  .gaming-mods-page .project-card--visual {
+    height: auto;
+    aspect-ratio: auto;
+  }
+
+  .gaming-mods-page .project-card--visual .project-card-art {
+    height: auto;
+    flex: 0 0 auto;
+    aspect-ratio: 16 / 10;
+  }
+
+  .gaming-mods-page .project-card--visual .project-card-copy {
+    height: auto;
+    overflow: visible;
+  }
+}

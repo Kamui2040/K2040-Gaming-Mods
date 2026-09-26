@@ -193,7 +193,7 @@ window.K2040_PROJECTS = {
         caption: "Main HUD with ElvUI / AddOnSkins"
       },
       {
-        src: "../assets/gm-genie-tickets.webp",
+        src: "../assets/gm-genie-tickets.webp?v=20260926fix1",
         alt: "GM Genie ticket browser with ticket list columns and status summary",
         caption: "Ticket browser"
       },
