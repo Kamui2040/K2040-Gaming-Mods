@@ -31,6 +31,12 @@
       "pt-PT": "Utilitário de Game Master com controlos de GM, tickets, ferramentas de jogador e Builder.",
       es: "Utilidad de Game Master con controles de GM, tickets, herramientas de jugador y Builder.",
       fr: "Utilitaire Game Master avec commandes GM, tickets, outils joueur et Builder."
+    },
+    "loot-and-salvage": {
+      de: "Verwalte Plunder, geschützte Gegenstände, Händlerverkäufe und Berufsmaterialien mit weniger Taschenarbeit.",
+      "pt-PT": "Gira lixo, itens protegidos, vendas a comerciantes e materiais de profissão com menos trabalho nos sacos.",
+      es: "Gestiona objetos basura, objetos protegidos, ventas a mercaderes y materiales de profesión con menos limpieza de bolsas.",
+      fr: "Gérez les objets inutiles ou protégés, les ventes aux marchands et les composants de métier avec moins de rangement."
     }
   };
 
