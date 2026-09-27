@@ -150,6 +150,41 @@ window.K2040_PROJECTS = {
     description: "K2040 addons for World of Warcraft: Wrath of the Lich King 3.3.5a."
   },
 
+  "loot-and-salvage": {
+    gameId: "world-of-warcraft-wotlk",
+    game: "World of Warcraft: Wrath of the Lich King",
+    title: "Loot & Salvage 0.1.0",
+    cardLabel: "World of Warcraft",
+    cardTitle: "Loot & Salvage",
+    cardDescription: "Manage junk, protected items, vendor sales, and profession materials with less bag cleanup.",
+    href: "/K2040-Gaming-Mods/projects/project.html?project=loot-and-salvage",
+    available: true,
+    featured: false,
+    showOnLanding: false,
+    cardImage: "/K2040-Gaming-Mods/assets/wow-wotlk-addons-card.svg?v=20260924card2",
+    cardMeta: ["3.3.5a", "Gameplay", "Released"],
+    description: "Quality-of-life addon for Wrath of the Lich King 3.3.5a that helps manage unwanted items and profession materials.",
+    overview: "Loot & Salvage reduces repetitive bag cleanup while keeping you in control. It can sell or carefully destroy unwanted items, protect items you want to keep, and help process eligible profession materials.",
+    heroImage: "../assets/wow-wotlk-hero.webp",
+    wideHero: true,
+    nexus: "https://www.nexusmods.com/worldofwarcraft/mods/906",
+    githubRepo: "https://github.com/Kamui2040/K2040-WotLK-Addons",
+    github: "https://github.com/Kamui2040/K2040-WotLK-Addons/releases/tag/v0.1.0",
+    features: [
+      "Unlimited Always Keep and Always Crap lists.",
+      "Rules for quality, vendor value, food, water, potions, cloth, scrolls, and trade goods.",
+      "Optional merchant selling and carefully limited automatic destruction.",
+      "Quick bag-item classification and a compact two-pane list window.",
+      "User-initiated Disenchant, Milling, and Prospecting processing.",
+      "Optional AdiBags Junk classification.",
+      "Standalone support for the default Blizzard UI, plus an optional AddOnSkins bridge for ElvUI setups.",
+      "Minimap button support for common button collectors."
+    ],
+    changelog: [
+      "0.1.0 — First public preview release on Nexus Mods and GitHub."
+    ]
+  },
+
   "gm-genie": {
     gameId: "world-of-warcraft-wotlk",
     game: "World of Warcraft: Wrath of the Lich King",

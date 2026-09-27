@@ -77,6 +77,21 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "1.4 — Erste öffentliche Version."
       ]
     },
+    "loot-and-salvage": {
+      description: "Komfort-Addon für Wrath of the Lich King 3.3.5a zur Verwaltung unerwünschter Gegenstände und Berufsmaterialien.",
+      overview: "Loot & Salvage reduziert wiederkehrende Taschenarbeit, ohne dir die Kontrolle abzunehmen. Das Addon kann unerwünschte Gegenstände verkaufen oder vorsichtig automatisch zerstören, wichtige Gegenstände schützen und geeignete Berufsmaterialien verarbeiten.",
+      features: [
+        "Unbegrenzte Listen für Immer behalten und Immer Plunder.",
+        "Regeln für Qualität, Händlerwert, Essen, Wasser, Tränke, Stoff, Schriftrollen und Handelswaren.",
+        "Optionaler Händlerverkauf und vorsichtig begrenzte automatische Zerstörung.",
+        "Schnelle Klassifizierung von Taschengegenständen und ein kompaktes Listenfenster mit zwei Bereichen.",
+        "Vom Spieler gestartete Verarbeitung durch Entzaubern, Mahlen und Sondieren.",
+        "Optionale AdiBags-Plunderkategorie.",
+        "Eigenständige Unterstützung der Blizzard-Standardoberfläche sowie eine optionale AddOnSkins-Erweiterung für ElvUI-Setups.",
+        "Minikarten-Button mit Unterstützung gängiger Button-Sammler."
+      ],
+      changelog: ["0.1.0 — Erste öffentliche Vorschauversion auf Nexus Mods und GitHub."]
+    },
     "gm-genie": {
       description: "Game-Master-Werkzeug für Wrath of the Lich King 3.3.5a mit Schwerpunkt auf AzerothCore-Servern.",
       overview: "GM Genie bündelt häufig genutzte Game-Master-Funktionen in einer Ingame-Oberfläche, darunter GM-Steuerung, Ticketverwaltung, Spielerprüfung, Builder-Werkzeuge und Verbesserungen für ElvUI-basierte Setups.",
@@ -179,6 +194,21 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "1.5 — Corrigida a criação automática de nomes para plugins completos; as exportações ESP, ESL e ESM deixam de acrescentar todas as assinaturas.",
         "1.4 — Primeira versão pública."
       ]
+    },
+    "loot-and-salvage": {
+      description: "Addon de qualidade de vida para Wrath of the Lich King 3.3.5a que ajuda a gerir itens indesejados e materiais de profissão.",
+      overview: "Loot & Salvage reduz a limpeza repetitiva dos sacos sem retirar o controlo ao jogador. Pode vender ou destruir cuidadosamente itens indesejados, proteger os itens que pretende guardar e ajudar a processar materiais de profissão elegíveis.",
+      features: [
+        "Listas ilimitadas de Manter sempre e Lixo sempre.",
+        "Regras para qualidade, valor de venda, comida, água, poções, tecido, pergaminhos e mercadorias.",
+        "Venda opcional a comerciantes e destruição automática cuidadosamente limitada.",
+        "Classificação rápida de itens dos sacos e uma janela compacta de listas com dois painéis.",
+        "Processamento iniciado pelo jogador para Desencantamento, Moagem e Prospeção.",
+        "Classificação opcional de lixo no AdiBags.",
+        "Funciona de forma independente com a interface Blizzard e inclui uma ponte opcional AddOnSkins para configurações ElvUI.",
+        "Botão do minimapa compatível com coletores de botões comuns."
+      ],
+      changelog: ["0.1.0 — Primeira versão pública de pré-visualização no Nexus Mods e GitHub."]
     },
     "gm-genie": {
       description: "Addon utilitário de Game Master para Wrath of the Lich King 3.3.5a, focado em servidores AzerothCore.",
@@ -283,6 +313,21 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "1.4 — Primera versión pública."
       ]
     },
+    "loot-and-salvage": {
+      description: "Addon de calidad de vida para Wrath of the Lich King 3.3.5a que ayuda a gestionar objetos no deseados y materiales de profesión.",
+      overview: "Loot & Salvage reduce la limpieza repetitiva de las bolsas sin quitarte el control. Puede vender o destruir con cuidado objetos no deseados, proteger los objetos que quieras conservar y ayudar a procesar materiales de profesión compatibles.",
+      features: [
+        "Listas ilimitadas de Conservar siempre y Basura siempre.",
+        "Reglas de calidad, valor de venta, comida, agua, pociones, tela, pergaminos y mercancías.",
+        "Venta opcional a mercaderes y destrucción automática cuidadosamente limitada.",
+        "Clasificación rápida de objetos de las bolsas y una ventana compacta de listas con dos paneles.",
+        "Procesamiento iniciado por el jugador para Desencantamiento, Molienda y Prospección.",
+        "Clasificación opcional de basura en AdiBags.",
+        "Funciona de forma independiente con la interfaz predeterminada de Blizzard e incluye un puente AddOnSkins opcional para configuraciones con ElvUI.",
+        "Botón del minimapa compatible con recopiladores de botones habituales."
+      ],
+      changelog: ["0.1.0 — Primera versión pública preliminar en Nexus Mods y GitHub."]
+    },
     "gm-genie": {
       description: "Addon de utilidad para Game Masters de Wrath of the Lich King 3.3.5a, centrado en servidores AzerothCore.",
       overview: "GM Genie reúne funciones habituales de Game Master en una interfaz dentro del juego, incluidos controles GM, gestión de tickets, inspección de jugadores, herramientas Builder y mejoras de compatibilidad para configuraciones con ElvUI.",
@@ -385,6 +430,21 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "1.5 — Correction du nom automatique des plugins complets ; les exports ESP, ESL et ESM n’ajoutent plus toutes les signatures.",
         "1.4 — Première version publique."
       ]
+    },
+    "loot-and-salvage": {
+      description: "Addon de confort pour Wrath of the Lich King 3.3.5a qui facilite la gestion des objets indésirables et des composants de métier.",
+      overview: "Loot & Salvage réduit le rangement répétitif des sacs sans vous retirer le contrôle. Il peut vendre ou détruire prudemment les objets indésirables, protéger ceux que vous souhaitez conserver et aider à traiter les composants de métier compatibles.",
+      features: [
+        "Listes illimitées Toujours conserver et Toujours indésirable.",
+        "Règles de qualité, valeur marchande, nourriture, eau, potions, étoffes, parchemins et marchandises.",
+        "Vente facultative aux marchands et destruction automatique soigneusement limitée.",
+        "Classement rapide des objets des sacs et fenêtre de listes compacte à deux panneaux.",
+        "Traitement lancé par le joueur pour le Désenchantement, la Mouture et la Prospection.",
+        "Classement facultatif des objets indésirables dans AdiBags.",
+        "Fonctionne seul avec l’interface Blizzard par défaut et propose un pont AddOnSkins facultatif pour les configurations ElvUI.",
+        "Bouton de minicarte compatible avec les collecteurs de boutons courants."
+      ],
+      changelog: ["0.1.0 — Première préversion publique sur Nexus Mods et GitHub."]
     },
     "gm-genie": {
       description: "Addon utilitaire pour Game Masters de Wrath of the Lich King 3.3.5a, principalement destiné aux serveurs AzerothCore.",
