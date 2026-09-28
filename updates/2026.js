@@ -1,5 +1,24 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "wotlk-loot-and-salvage-release",
+    projectId: "loot-and-salvage",
+    date: "2026-09-28",
+    href: "/K2040-Gaming-Mods/projects/project.html?project=loot-and-salvage",
+    links: [
+      "/K2040-Gaming-Mods/projects/project.html?project=loot-and-salvage",
+      "https://www.nexusmods.com/worldofwarcraft/mods/906",
+      "https://github.com/Kamui2040/K2040-WotLK-Addons/releases/tag/v0.1.0"
+    ],
+    source: "site",
+    strings: {
+      en: { category: "World of Warcraft", title: "Loot & Salvage added and released", summary: "Loot & Salvage 0.1.0 is now listed in the WoW WotLK addons section and is publicly available on Nexus Mods and GitHub." },
+      de: { category: "World of Warcraft", title: "Loot & Salvage hinzugefügt und veröffentlicht", summary: "Loot & Salvage 0.1.0 ist jetzt im WoW-WotLK-Addonbereich gelistet und öffentlich auf Nexus Mods und GitHub verfügbar." },
+      "pt-PT": { category: "World of Warcraft", title: "Loot & Salvage adicionado e publicado", summary: "Loot & Salvage 0.1.0 está agora listado na secção de addons WoW WotLK e está disponível publicamente no Nexus Mods e GitHub." },
+      es: { category: "World of Warcraft", title: "Loot & Salvage añadido y publicado", summary: "Loot & Salvage 0.1.0 ya aparece en la sección de addons de WoW WotLK y está disponible públicamente en Nexus Mods y GitHub." },
+      fr: { category: "World of Warcraft", title: "Loot & Salvage ajouté et publié", summary: "Loot & Salvage 0.1.0 figure maintenant dans la section des addons WoW WotLK et est disponible publiquement sur Nexus Mods et GitHub." }
+    }
+  },
+  {
     id: "wotlk-site-gm-genie-release",
     projectId: "gm-genie",
     date: "2026-09-23",
