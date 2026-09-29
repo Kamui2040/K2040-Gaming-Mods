@@ -6,5 +6,5 @@
 - The WoW WotLK category page is `projects/wow-wotlk.html` and uses the shared 3:1 WotLK hero artwork.
 - Loot & Salvage is the first addon entry inside the WoW WotLK category and uses the shared category card artwork.
 - Loot & Salvage has a dedicated project-detail view through `projects/project.html?project=loot-and-salvage`, with the Nexus Mods `0.1.0` link and current GitHub `0.2.0` pre-release link. Its built-in presentation choices and optional AddOnSkins requirement for ElvUI mode are documented in every supported language.
-- GM Genie is the second addon entry and has a dedicated project-detail view through `projects/project.html?project=gm-genie`, its Nexus Mods release link, and six interface screenshots.
+- GM Genie is the second addon entry and has a dedicated project-detail view through `projects/project.html?project=gm-genie`, its current Nexus Mods `1.1` main-file link, localized built-in skin-selector details, and six interface screenshots.
 - Website-rendered titles, descriptions, tags, status, actions, frames, and localization remain separate from the source artwork.

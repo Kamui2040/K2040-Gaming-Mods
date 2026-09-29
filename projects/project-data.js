@@ -189,7 +189,7 @@ window.K2040_PROJECTS = {
   "gm-genie": {
     gameId: "world-of-warcraft-wotlk",
     game: "World of Warcraft: Wrath of the Lich King",
-    title: "GM Genie 1.0",
+    title: "GM Genie 1.1",
     cardLabel: "World of Warcraft",
     cardTitle: "GM Genie",
     cardDescription: "Game Master utility with GM controls, tickets, player tools, and builder helpers.",
@@ -212,9 +212,10 @@ window.K2040_PROJECTS = {
       "Visibility, whisper, flight, and speed controls.",
       "Macro and advanced command menus.",
       "Persistent addon settings with Lua 5.1 and WoW 3.3.5a compatibility.",
-      "Compatibility improvements for ElvUI and AddOnSkins setups."
+      "Built-in skin selector with an optional ElvUI / AddOnSkins presentation."
     ],
     changelog: [
+      "1.1 — Added the built-in skin selector and optional ElvUI / AddOnSkins presentation.",
       "1.0 — First public release on Nexus Mods."
     ],
     screenshots: [
