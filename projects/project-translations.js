@@ -106,9 +106,12 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Steuerungen für Sichtbarkeit, Flüstern, Flug und Geschwindigkeit.",
         "Makro- und erweiterte Befehlsmenüs.",
         "Persistente Addon-Einstellungen mit Lua 5.1- und WoW-3.3.5a-Kompatibilität.",
-        "Kompatibilitätsverbesserungen für ElvUI- und AddOnSkins-Setups."
+        "Integrierter Skin-Wähler mit einer optionalen ElvUI-/AddOnSkins-Darstellung."
       ],
-      changelog: ["1.0 — Erste öffentliche Veröffentlichung auf Nexus Mods."],
+      changelog: [
+        "1.1 — Integrierten Skin-Wähler und eine optionale ElvUI-/AddOnSkins-Darstellung hinzugefügt.",
+        "1.0 — Erste öffentliche Veröffentlichung auf Nexus Mods."
+      ],
       screenshots: [
         { caption: "Haupt-HUD", alt: "GM Genie Haupt-HUD mit Game-Master-Steuerung, Ticketzugriff, Spy und Builder" },
         { caption: "Haupt-HUD mit ElvUI / AddOnSkins", alt: "GM Genie Haupt-HUD mit ElvUI- und AddOnSkins-Styling" },
@@ -227,9 +230,12 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Controlos de visibilidade, whispers, voo e velocidade.",
         "Menus de macros e comandos avançados.",
         "Definições persistentes do addon com compatibilidade Lua 5.1 e WoW 3.3.5a.",
-        "Melhorias de compatibilidade para configurações com ElvUI e AddOnSkins."
+        "Seletor de temas integrado com uma apresentação opcional para ElvUI / AddOnSkins."
       ],
-      changelog: ["1.0 — Primeira versão pública no Nexus Mods."],
+      changelog: [
+        "1.1 — Adicionado o seletor de temas integrado e uma apresentação opcional para ElvUI / AddOnSkins.",
+        "1.0 — Primeira versão pública no Nexus Mods."
+      ],
       screenshots: [
         { caption: "HUD principal", alt: "HUD principal do GM Genie com controlos de Game Master, tickets, Spy e Builder" },
         { caption: "HUD principal com ElvUI / AddOnSkins", alt: "HUD principal do GM Genie com estilo ElvUI e AddOnSkins" },
@@ -348,9 +354,12 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Controles de visibilidad, susurros, vuelo y velocidad.",
         "Menús de macros y comandos avanzados.",
         "Ajustes persistentes del addon con compatibilidad con Lua 5.1 y WoW 3.3.5a.",
-        "Mejoras de compatibilidad para configuraciones con ElvUI y AddOnSkins."
+        "Selector de apariencias integrado con una presentación opcional para ElvUI / AddOnSkins."
       ],
-      changelog: ["1.0 — Primer lanzamiento público en Nexus Mods."],
+      changelog: [
+        "1.1 — Se añadió el selector de apariencias integrado y una presentación opcional para ElvUI / AddOnSkins.",
+        "1.0 — Primer lanzamiento público en Nexus Mods."
+      ],
       screenshots: [
         { caption: "HUD principal", alt: "HUD principal de GM Genie con controles de Game Master, tickets, Spy y Builder" },
         { caption: "HUD principal con ElvUI / AddOnSkins", alt: "HUD principal de GM Genie con estilo ElvUI y AddOnSkins" },
@@ -469,9 +478,12 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Commandes de visibilité, whispers, vol et vitesse.",
         "Menus de macros et de commandes avancées.",
         "Réglages persistants de l’addon avec compatibilité Lua 5.1 et WoW 3.3.5a.",
-        "Améliorations de compatibilité pour les configurations ElvUI et AddOnSkins."
+        "Sélecteur d’apparence intégré avec une présentation ElvUI / AddOnSkins facultative."
       ],
-      changelog: ["1.0 — Première version publique sur Nexus Mods."],
+      changelog: [
+        "1.1 — Ajout du sélecteur d’apparence intégré et d’une présentation ElvUI / AddOnSkins facultative.",
+        "1.0 — Première version publique sur Nexus Mods."
+      ],
       screenshots: [
         { caption: "HUD principal", alt: "HUD principal de GM Genie avec commandes Game Master, tickets, Spy et Builder" },
         { caption: "HUD principal avec ElvUI / AddOnSkins", alt: "HUD principal de GM Genie avec style ElvUI et AddOnSkins" },

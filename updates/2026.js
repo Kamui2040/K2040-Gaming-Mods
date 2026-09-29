@@ -1,5 +1,23 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "wotlk-gm-genie-1-1",
+    projectId: "gm-genie",
+    date: "2026-09-30",
+    href: "/K2040-Gaming-Mods/projects/project.html?project=gm-genie",
+    links: [
+      "/K2040-Gaming-Mods/projects/project.html?project=gm-genie",
+      "https://www.nexusmods.com/worldofwarcraft/mods/905"
+    ],
+    source: "nexus",
+    strings: {
+      en: { category: "World of Warcraft", title: "GM Genie 1.1 released on Nexus Mods", summary: "GM Genie 1.1 is now the current main file on Nexus Mods. It adds a built-in skin selector and an optional ElvUI / AddOnSkins presentation." },
+      de: { category: "World of Warcraft", title: "GM Genie 1.1 auf Nexus Mods veröffentlicht", summary: "GM Genie 1.1 ist jetzt die aktuelle Hauptdatei auf Nexus Mods. Die Version ergänzt einen integrierten Skin-Wähler und eine optionale ElvUI-/AddOnSkins-Darstellung." },
+      "pt-PT": { category: "World of Warcraft", title: "GM Genie 1.1 publicado no Nexus Mods", summary: "O GM Genie 1.1 é agora o ficheiro principal atual no Nexus Mods. A versão adiciona um seletor de temas integrado e uma apresentação opcional para ElvUI / AddOnSkins." },
+      es: { category: "World of Warcraft", title: "GM Genie 1.1 publicado en Nexus Mods", summary: "GM Genie 1.1 es ahora el archivo principal actual en Nexus Mods. La versión añade un selector de apariencias integrado y una presentación opcional para ElvUI / AddOnSkins." },
+      fr: { category: "World of Warcraft", title: "GM Genie 1.1 publié sur Nexus Mods", summary: "GM Genie 1.1 est désormais le fichier principal actuel sur Nexus Mods. Cette version ajoute un sélecteur d’apparence intégré et une présentation ElvUI / AddOnSkins facultative." }
+    }
+  },
+  {
     id: "wotlk-loot-and-salvage-0-2-0",
     projectId: "loot-and-salvage",
     date: "2026-09-30",
