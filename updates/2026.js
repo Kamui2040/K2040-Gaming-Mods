@@ -1,5 +1,23 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "wotlk-loot-and-salvage-0-2-0",
+    projectId: "loot-and-salvage",
+    date: "2026-09-30",
+    href: "/K2040-Gaming-Mods/projects/project.html?project=loot-and-salvage",
+    links: [
+      "/K2040-Gaming-Mods/projects/project.html?project=loot-and-salvage",
+      "https://github.com/Kamui2040/K2040-WotLK-Addons/releases/tag/v0.2.0"
+    ],
+    source: "github",
+    strings: {
+      en: { category: "World of Warcraft", title: "Loot & Salvage 0.2.0 released on GitHub", summary: "Version 0.2.0 adds built-in Automatic, Vanilla, Modern Dark, Blue, and ElvUI presentation choices. The standalone pre-release is available on GitHub; AddOnSkins is needed only for the ElvUI presentation." },
+      de: { category: "World of Warcraft", title: "Loot & Salvage 0.2.0 auf GitHub veröffentlicht", summary: "Version 0.2.0 ergänzt integrierte Darstellungsoptionen für Automatisch, Vanilla, Modern Dark, Blau und ElvUI. Die eigenständige Vorabversion ist auf GitHub verfügbar; AddOnSkins wird nur für die ElvUI-Darstellung benötigt." },
+      "pt-PT": { category: "World of Warcraft", title: "Loot & Salvage 0.2.0 publicado no GitHub", summary: "A versão 0.2.0 adiciona as apresentações integradas Automático, Vanilla, Modern Dark, Azul e ElvUI. A pré-release independente está disponível no GitHub; o AddOnSkins só é necessário para a apresentação ElvUI." },
+      es: { category: "World of Warcraft", title: "Loot & Salvage 0.2.0 publicado en GitHub", summary: "La versión 0.2.0 añade las presentaciones integradas Automático, Vanilla, Modern Dark, Azul y ElvUI. La versión preliminar independiente está disponible en GitHub; AddOnSkins solo es necesario para la presentación ElvUI." },
+      fr: { category: "World of Warcraft", title: "Loot & Salvage 0.2.0 publié sur GitHub", summary: "La version 0.2.0 ajoute les présentations intégrées Automatique, Vanilla, Modern Dark, Bleu et ElvUI. La préversion autonome est disponible sur GitHub ; AddOnSkins n’est nécessaire que pour la présentation ElvUI." }
+    }
+  },
+  {
     id: "wotlk-loot-and-salvage-release",
     projectId: "loot-and-salvage",
     date: "2026-09-28",

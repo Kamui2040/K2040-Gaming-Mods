@@ -87,10 +87,13 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Schnelle Klassifizierung von Taschengegenständen und ein kompaktes Listenfenster mit zwei Bereichen.",
         "Vom Spieler gestartete Verarbeitung durch Entzaubern, Mahlen und Sondieren.",
         "Optionale AdiBags-Plunderkategorie.",
-        "Eigenständige Unterstützung der Blizzard-Standardoberfläche sowie eine optionale AddOnSkins-Erweiterung für ElvUI-Setups.",
+        "Integrierte Darstellungsoptionen Automatisch, Vanilla, Modern Dark, Blau und ElvUI; AddOnSkins wird nur für die ElvUI-Darstellung benötigt.",
         "Minikarten-Button mit Unterstützung gängiger Button-Sammler."
       ],
-      changelog: ["0.1.0 — Erste öffentliche Vorschauversion auf Nexus Mods und GitHub."]
+      changelog: [
+        "0.2.0 — Integrierte auswählbare Darstellungen hinzugefügt und die separate Bridge eingestellt. Diese GitHub-Vorabversion bleibt eigenständig; AddOnSkins wird nur für die ElvUI-Darstellung benötigt.",
+        "0.1.0 — Erste öffentliche Vorschauversion auf Nexus Mods und GitHub."
+      ]
     },
     "gm-genie": {
       description: "Game-Master-Werkzeug für Wrath of the Lich King 3.3.5a mit Schwerpunkt auf AzerothCore-Servern.",
@@ -205,10 +208,13 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Classificação rápida de itens dos sacos e uma janela compacta de listas com dois painéis.",
         "Processamento iniciado pelo jogador para Desencantamento, Moagem e Prospeção.",
         "Classificação opcional de lixo no AdiBags.",
-        "Funciona de forma independente com a interface Blizzard e inclui uma ponte opcional AddOnSkins para configurações ElvUI.",
+        "Opções de apresentação integradas Automático, Vanilla, Modern Dark, Azul e ElvUI; o AddOnSkins só é necessário para a apresentação ElvUI.",
         "Botão do minimapa compatível com coletores de botões comuns."
       ],
-      changelog: ["0.1.0 — Primeira versão pública de pré-visualização no Nexus Mods e GitHub."]
+      changelog: [
+        "0.2.0 — Adicionadas apresentações selecionáveis integradas e retirada a ponte separada. Esta pré-release do GitHub continua independente; o AddOnSkins só é necessário para a apresentação ElvUI.",
+        "0.1.0 — Primeira versão pública de pré-visualização no Nexus Mods e GitHub."
+      ]
     },
     "gm-genie": {
       description: "Addon utilitário de Game Master para Wrath of the Lich King 3.3.5a, focado em servidores AzerothCore.",
@@ -323,10 +329,13 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Clasificación rápida de objetos de las bolsas y una ventana compacta de listas con dos paneles.",
         "Procesamiento iniciado por el jugador para Desencantamiento, Molienda y Prospección.",
         "Clasificación opcional de basura en AdiBags.",
-        "Funciona de forma independiente con la interfaz predeterminada de Blizzard e incluye un puente AddOnSkins opcional para configuraciones con ElvUI.",
+        "Opciones de presentación integradas Automático, Vanilla, Modern Dark, Azul y ElvUI; AddOnSkins solo es necesario para la presentación ElvUI.",
         "Botón del minimapa compatible con recopiladores de botones habituales."
       ],
-      changelog: ["0.1.0 — Primera versión pública preliminar en Nexus Mods y GitHub."]
+      changelog: [
+        "0.2.0 — Se añadieron presentaciones seleccionables integradas y se retiró el puente separado. Esta versión preliminar de GitHub sigue siendo independiente; AddOnSkins solo es necesario para la presentación ElvUI.",
+        "0.1.0 — Primera versión pública preliminar en Nexus Mods y GitHub."
+      ]
     },
     "gm-genie": {
       description: "Addon de utilidad para Game Masters de Wrath of the Lich King 3.3.5a, centrado en servidores AzerothCore.",
@@ -441,10 +450,13 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Classement rapide des objets des sacs et fenêtre de listes compacte à deux panneaux.",
         "Traitement lancé par le joueur pour le Désenchantement, la Mouture et la Prospection.",
         "Classement facultatif des objets indésirables dans AdiBags.",
-        "Fonctionne seul avec l’interface Blizzard par défaut et propose un pont AddOnSkins facultatif pour les configurations ElvUI.",
+        "Modes de présentation intégrés Automatique, Vanilla, Modern Dark, Bleu et ElvUI ; AddOnSkins n’est nécessaire que pour la présentation ElvUI.",
         "Bouton de minicarte compatible avec les collecteurs de boutons courants."
       ],
-      changelog: ["0.1.0 — Première préversion publique sur Nexus Mods et GitHub."]
+      changelog: [
+        "0.2.0 — Ajout de présentations intégrées sélectionnables et retrait du pont séparé. Cette préversion GitHub reste autonome ; AddOnSkins n’est nécessaire que pour la présentation ElvUI.",
+        "0.1.0 — Première préversion publique sur Nexus Mods et GitHub."
+      ]
     },
     "gm-genie": {
       description: "Addon utilitaire pour Game Masters de Wrath of the Lich King 3.3.5a, principalement destiné aux serveurs AzerothCore.",
