@@ -153,7 +153,7 @@ window.K2040_PROJECTS = {
   "loot-and-salvage": {
     gameId: "world-of-warcraft-wotlk",
     game: "World of Warcraft: Wrath of the Lich King",
-    title: "Loot & Salvage 0.1.0",
+    title: "Loot & Salvage 0.2.0",
     cardLabel: "World of Warcraft",
     cardTitle: "Loot & Salvage",
     cardDescription: "Manage junk, protected items, vendor sales, and profession materials with less bag cleanup.",
@@ -169,7 +169,7 @@ window.K2040_PROJECTS = {
     wideHero: true,
     nexus: "https://www.nexusmods.com/worldofwarcraft/mods/906",
     githubRepo: "https://github.com/Kamui2040/K2040-WotLK-Addons",
-    github: "https://github.com/Kamui2040/K2040-WotLK-Addons/releases/tag/v0.1.0",
+    github: "https://github.com/Kamui2040/K2040-WotLK-Addons/releases/tag/v0.2.0",
     features: [
       "Unlimited Always Keep and Always Crap lists.",
       "Rules for quality, vendor value, food, water, potions, cloth, scrolls, and trade goods.",
@@ -177,10 +177,11 @@ window.K2040_PROJECTS = {
       "Quick bag-item classification and a compact two-pane list window.",
       "User-initiated Disenchant, Milling, and Prospecting processing.",
       "Optional AdiBags Junk classification.",
-      "Standalone support for the default Blizzard UI, plus an optional AddOnSkins bridge for ElvUI setups.",
+      "Built-in Automatic, Vanilla, Modern Dark, Blue, and ElvUI presentation choices; AddOnSkins is needed only for the ElvUI presentation.",
       "Minimap button support for common button collectors."
     ],
     changelog: [
+      "0.2.0 — Added built-in selectable presentation modes and retired the separate bridge. This GitHub pre-release remains standalone; AddOnSkins is needed only for the ElvUI presentation.",
       "0.1.0 — First public preview release on Nexus Mods and GitHub."
     ]
   },
