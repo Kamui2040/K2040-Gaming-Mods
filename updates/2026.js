@@ -1,5 +1,24 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "quick-attach-menu-release",
+    projectId: "quick-attach-menu",
+    date: "2026-09-30",
+    href: "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+    links: [
+      "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+      "https://www.nexusmods.com/fallout4/mods/109575",
+      "https://github.com/Kamui2040/K2040-Quick-Attach-Menu/releases/tag/v0.5.180"
+    ],
+    source: "site",
+    strings: {
+      en: { category: "Fallout 4", title: "K2040's Quick Attach Menu released", summary: "K2040's Quick Attach Menu 0.5.180 is now available on Nexus Mods and GitHub and is listed as the featured Gaming Mods project." },
+      de: { category: "Fallout 4", title: "K2040's Quick Attach Menu veröffentlicht", summary: "K2040's Quick Attach Menu 0.5.180 ist jetzt auf Nexus Mods und GitHub verfügbar und wird als hervorgehobenes Gaming-Mods-Projekt angezeigt." },
+      "pt-PT": { category: "Fallout 4", title: "K2040's Quick Attach Menu publicado", summary: "O K2040's Quick Attach Menu 0.5.180 está agora disponível no Nexus Mods e GitHub e aparece como projeto em destaque nos Gaming Mods." },
+      es: { category: "Fallout 4", title: "K2040's Quick Attach Menu publicado", summary: "K2040's Quick Attach Menu 0.5.180 ya está disponible en Nexus Mods y GitHub y aparece como proyecto destacado de Gaming Mods." },
+      fr: { category: "Fallout 4", title: "K2040's Quick Attach Menu publié", summary: "K2040's Quick Attach Menu 0.5.180 est désormais disponible sur Nexus Mods et GitHub et apparaît comme projet Gaming Mods à la une." }
+    }
+  },
+  {
     id: "wotlk-gm-genie-1-1",
     projectId: "gm-genie",
     date: "2026-09-30",

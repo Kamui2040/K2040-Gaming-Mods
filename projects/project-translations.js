@@ -60,6 +60,22 @@ window.K2040_PROJECT_TRANSLATIONS = {
         }
       ]
     },
+    "quick-attach-menu": {
+      description: "Wechsle kompatible Waffenaufsätze über ein schnelles Menü direkt im Spiel.",
+      overview: "Ein Aufsatzmenü für Fallout 4 1.10.163. Benötigt die passende F4SE-Version und PrismaUI_F4 2.1.1; ECO und Mod Configuration Menu sind optional.",
+      features: [
+        "Wechsle kompatible Waffenaufsätze direkt im Spiel, ohne zur Werkbank zurückzugehen.",
+        "Vier Darstellungen: Cascade, Radial Wheel, Compact Hybrid und Horizontal Bar.",
+        "Nutzt vorhandene ECO-Waffenmenüs oder erzeugt kompatible Menüs zur Laufzeit; ECO ist optional.",
+        "Konfiguriere Sichtbarkeit, Reihenfolge, Bezeichnungen, Menüquelle und Klammertext jeder Waffe im Builder.",
+        "Passe Tastenbelegung, Größe, Position, Deckkraft, Designs, Farben, Hinweise und das Verhalten nach dem Anwenden an.",
+        "Exportiere und importiere verteilbare Menüprofile für einzelne Waffen.",
+        "Validiert Aufsatzänderungen live mit Inventarprüfung, Provider-/Child-Reihenfolge und Rollback für unterstützte Änderungen."
+      ],
+      changelog: [
+        "0.5.180 — Erste öffentliche Version mit vier Menü-Darstellungen, Builder-Einstellungen pro Waffe, konfigurierbaren Optionen, Profil-Export/-Import und validierten Aufsatzänderungen."
+      ]
+    },
     "xedit-json-exporter": {
       description: "Exportiert Fallout 4 Plugin-Daten aus xEdit in strukturiertes JSON.",
       overview: "Ein allgemeines xEdit-/FO4Edit-Skript, das ausgewählte Records oder vollständige Plugin-Strukturen in gut lesbares JSON exportiert.",
@@ -182,6 +198,22 @@ window.K2040_PROJECT_TRANSLATIONS = {
             "28 mai 2026 — Patches para DKS-501 Unofficial Update Vanilla, DKS-501, .357 Cattleman Revolver, MW19 FAL e HK USP publicados."
           ]
         }
+      ]
+    },
+    "quick-attach-menu": {
+      description: "Troque acessórios de armas compatíveis através de um menu rápido dentro do jogo.",
+      overview: "Um menu de acessórios para Fallout 4 1.10.163. Requer a versão correspondente do F4SE e PrismaUI_F4 2.1.1; ECO e Mod Configuration Menu são opcionais.",
+      features: [
+        "Troque acessórios de armas compatíveis dentro do jogo sem voltar à bancada.",
+        "Quatro apresentações: Cascade, Radial Wheel, Compact Hybrid e Horizontal Bar.",
+        "Utiliza menus de armas ECO quando disponíveis ou gera menus compatíveis em tempo de execução; ECO é opcional.",
+        "Configure visibilidade, ordem, etiquetas, origem do menu e tratamento de texto entre parênteses retos para cada arma no Builder.",
+        "Personalize teclas, escala, posição, opacidade, temas, cores, dicas e o comportamento após aplicar uma alteração.",
+        "Exporte e importe perfis de menu distribuíveis por arma.",
+        "Valida alterações de acessórios em tempo real, com verificação de inventário, ordem provider/child e rollback para alterações suportadas."
+      ],
+      changelog: [
+        "0.5.180 — Primeira versão pública com quatro apresentações, controlos Builder por arma, definições configuráveis, exportação/importação de perfis e alterações de acessórios validadas."
       ]
     },
     "xedit-json-exporter": {
@@ -308,6 +340,22 @@ window.K2040_PROJECT_TRANSLATIONS = {
         }
       ]
     },
+    "quick-attach-menu": {
+      description: "Cambia accesorios de armas compatibles desde un menú rápido dentro del juego.",
+      overview: "Un menú de accesorios para Fallout 4 1.10.163. Requiere la versión correspondiente de F4SE y PrismaUI_F4 2.1.1; ECO y Mod Configuration Menu son opcionales.",
+      features: [
+        "Cambia accesorios de armas compatibles dentro del juego sin volver al banco de trabajo.",
+        "Cuatro presentaciones: Cascade, Radial Wheel, Compact Hybrid y Horizontal Bar.",
+        "Usa menús de armas de ECO cuando están disponibles o genera menús compatibles en tiempo de ejecución; ECO es opcional.",
+        "Configura la visibilidad, el orden, las etiquetas, el origen del menú y el tratamiento del texto entre corchetes de cada arma desde el Builder.",
+        "Personaliza teclas, escala, posición, opacidad, temas, colores, ayudas y el comportamiento después de aplicar un cambio.",
+        "Exporta e importa perfiles de menú distribuibles para cada arma.",
+        "Valida los cambios de accesorios en tiempo real, con verificación de inventario, orden de provider/child y rollback para cambios compatibles."
+      ],
+      changelog: [
+        "0.5.180 — Primera versión pública con cuatro presentaciones, controles Builder por arma, ajustes configurables, exportación/importación de perfiles y cambios de accesorios validados."
+      ]
+    },
     "xedit-json-exporter": {
       description: "Exporta datos de plugins de Fallout 4 desde xEdit a JSON estructurado.",
       overview: "Script genérico para xEdit/FO4Edit que exporta registros seleccionados o estructuras completas de plugins a JSON legible.",
@@ -430,6 +478,22 @@ window.K2040_PROJECT_TRANSLATIONS = {
             "28 mai 2026 — Publication des patchs DKS-501 Unofficial Update Vanilla, DKS-501, .357 Cattleman Revolver, MW19 FAL et HK USP."
           ]
         }
+      ]
+    },
+    "quick-attach-menu": {
+      description: "Changez les accessoires d’armes compatibles depuis un menu rapide en jeu.",
+      overview: "Un menu d’accessoires pour Fallout 4 1.10.163. Il nécessite la version F4SE correspondante et PrismaUI_F4 2.1.1 ; ECO et Mod Configuration Menu sont facultatifs.",
+      features: [
+        "Changez les accessoires d’armes compatibles directement en jeu sans retourner à l’établi.",
+        "Quatre présentations : Cascade, Radial Wheel, Compact Hybrid et Horizontal Bar.",
+        "Utilise les menus d’armes ECO lorsqu’ils sont disponibles ou génère des menus compatibles à l’exécution ; ECO est facultatif.",
+        "Configurez la visibilité, l’ordre, les libellés, la source du menu et le traitement du texte entre crochets de chaque arme dans le Builder.",
+        "Personnalisez les raccourcis, l’échelle, la position, l’opacité, les thèmes, les couleurs, les aides et le comportement après application.",
+        "Exportez et importez des profils de menu distribuables pour chaque arme.",
+        "Valide les changements d’accessoires en direct avec vérification d’inventaire, ordre provider/child et rollback pour les changements pris en charge."
+      ],
+      changelog: [
+        "0.5.180 — Première version publique avec quatre présentations, réglages Builder par arme, options configurables, export/import de profils et changements d’accessoires validés."
       ]
     },
     "xedit-json-exporter": {

@@ -1,6 +1,11 @@
 # K2040 Gaming Mods Project Context
 
-## Current WoW WotLK website state
+## Current Gaming website state
+
+- K2040's Quick Attach Menu 0.5.180 is the featured Fallout 4 project, with public Nexus Mods and GitHub release links plus dedicated 4:5 card artwork and 3:1 hero artwork.
+- ECO Quick Menu Additions remains listed as a released Fallout 4 project but is no longer the featured landing-page project.
+
+### WoW WotLK
 
 - The Gaming landing page uses one consolidated WoW WotLK Addons category card rather than separate top-level addon cards.
 - The WoW WotLK category page is `projects/wow-wotlk.html` and uses the shared 3:1 WotLK hero artwork.
