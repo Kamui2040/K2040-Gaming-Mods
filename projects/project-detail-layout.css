@@ -60,20 +60,28 @@
   }
 }
 
-/* Fallout 4 project pages share the 1920×549 workbench hero. Match the
-   desktop frame to the source artwork so it fills without letterboxing. */
+/* Fallout 4 project pages use the shared 1920×549 workbench image as the
+   frame's natural height. Keeping the artwork in normal flow lets the shared
+   K2040 frame wrap all four edges without fighting an imposed aspect box. */
+.project-detail-page .project-detail-hero--fallout-4 {
+  min-height: 0;
+  background: #080d12;
+}
+
+.project-detail-page .project-detail-hero--fallout-4 .project-detail-art {
+  position: relative;
+  inset: auto;
+  min-height: 0;
+}
+
+.project-detail-page .project-detail-hero--fallout-4 .project-detail-art img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
 @media (min-width: 761px) {
-  .project-detail-page .project-detail-hero--fallout-4 {
-    position: relative;
-    min-height: 0;
-    aspect-ratio: 1920 / 549;
-  }
-
-  .project-detail-page .project-detail-hero--fallout-4 .project-detail-art img {
-    object-fit: cover;
-    object-position: center;
-  }
-
   .project-detail-page .project-detail-hero--fallout-4 .project-detail-copy {
     position: absolute;
     inset: 0 auto 0 0;
@@ -90,11 +98,6 @@
 
 @media (max-width: 760px) {
   .project-detail-page .project-detail-hero--fallout-4 .project-detail-art {
-    aspect-ratio: 1920 / 549;
-  }
-
-  .project-detail-page .project-detail-hero--fallout-4 .project-detail-art img {
-    object-fit: cover;
-    object-position: center;
+    aspect-ratio: auto;
   }
 }
