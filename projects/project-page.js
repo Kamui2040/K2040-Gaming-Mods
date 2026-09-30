@@ -87,6 +87,10 @@
       hero.classList.add("project-detail-hero--wide-art");
     }
 
+    if (hero && project.gameId === "fallout-4") {
+      hero.classList.add("project-detail-hero--fallout-4");
+    }
+
     if (art && heroArtwork) {
       const image = document.createElement("img");
       image.src = heroArtwork;
