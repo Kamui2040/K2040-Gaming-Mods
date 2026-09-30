@@ -34,7 +34,7 @@ This public repository contains the K2040 Gaming Mods website, public project in
 
 ## Website media asset contract
 
-- Hero-header artwork uses a 3:1 aspect ratio. Prefer source dimensions such as 1920×640 when creating new artwork.
+- Hero-header artwork uses a 3:1 aspect ratio by default. Fallout 4 project-detail pages intentionally share `assets/quick-attach-menu-hero.webp` at 1920×549, and their frame must use that same aspect ratio.
 - Hero-header artwork must contain artwork only: no baked-in titles, descriptions, logos, UI, frames, borders, buttons, tags, or other website chrome.
 - The website owns hero framing, localized text, overlays, spacing, and responsive cropping. Source artwork must leave enough visually quiet space for those overlays where the page design requires it.
 - Project and category source artwork uses a 4:5 aspect ratio unless a page explicitly documents another requirement.
