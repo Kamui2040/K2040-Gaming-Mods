@@ -47,6 +47,39 @@ window.K2040_PROJECTS = {
     ]
   },
 
+  "quick-attach-menu": {
+    gameId: "fallout-4",
+    game: "Fallout 4",
+    title: "K2040's Quick Attach Menu 0.5.180",
+    cardTitle: "K2040's Quick Attach Menu",
+    cardDescription: "Change compatible weapon attachments from a fast in-game menu.",
+    href: "projects/project.html?project=quick-attach-menu",
+    available: true,
+    featured: true,
+    cardImage: "assets/quick-attach-menu-card.webp",
+    cardMeta: ["Windows", "F4SE", "Released"],
+    description: "Change compatible weapon attachments from a fast in-game menu.",
+    overview: "A Fallout 4 attachment menu for runtime 1.10.163. It requires the matching F4SE release and PrismaUI_F4 2.1.1; ECO and Mod Configuration Menu are optional.",
+    image: "../assets/quick-attach-menu-card.webp",
+    heroImage: "../assets/quick-attach-menu-hero.webp",
+    wideHero: true,
+    nexus: "https://www.nexusmods.com/fallout4/mods/109575",
+    githubRepo: "https://github.com/Kamui2040/K2040-Quick-Attach-Menu",
+    github: "https://github.com/Kamui2040/K2040-Quick-Attach-Menu/releases/download/v0.5.180/K2040s-Quick-Attach-Menu-0.5.180.zip",
+    features: [
+      "Change compatible weapon attachments from an in-game quick menu instead of returning to a workbench.",
+      "Choose Cascade, Radial Wheel, Compact Hybrid, or Horizontal Bar presentations.",
+      "Use ECO-authored weapon menus when available or generate compatible menus at runtime; ECO is optional.",
+      "Configure each weapon's visibility, order, labels, menu source, and bracketed-text handling through the Builder.",
+      "Customize keybindings, scale, position, opacity, themes, colors, hints, and close-after-apply behavior.",
+      "Export and import distributable per-weapon menu profiles.",
+      "Use live attachment validation, inventory verification, provider/child ordering, and rollback for supported changes."
+    ],
+    changelog: [
+      "0.5.180 — First public release with four menu presentations, per-weapon Builder controls, configurable settings, export/import profiles, and validated attachment changes."
+    ]
+  },
+
   "eco-quick-menu-additions": {
     gameId: "fallout-4",
     game: "Fallout 4",
@@ -54,7 +87,7 @@ window.K2040_PROJECTS = {
     cardDescription: "AiO installer and individual Quick Menu compatibility patches.",
     href: "projects/project.html?project=eco-quick-menu-additions",
     available: true,
-    featured: true,
+    featured: false,
     cardImage: "assets/eco-quick-menu-additions-avatar.png",
     cardMeta: ["AiO", "Single patches", "Released"],
     description: "Choose the all-in-one installer or individual optional compatibility patches.",
