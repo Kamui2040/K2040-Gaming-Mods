@@ -8,6 +8,12 @@
       es: "Port nativo para Linux con opciones de juego configurables y restauración segura.",
       fr: "Portage Linux natif avec des options de jeu configurables et une restauration sûre."
     },
+    "quick-attach-menu": {
+      de: "Wechsle kompatible Waffenaufsätze über ein schnelles Menü direkt im Spiel.",
+      "pt-PT": "Troque acessórios de armas compatíveis através de um menu rápido dentro do jogo.",
+      es: "Cambia accesorios de armas compatibles desde un menú rápido dentro del juego.",
+      fr: "Changez les accessoires d’armes compatibles depuis un menu rapide en jeu."
+    },
     "eco-quick-menu-additions": {
       de: "AiO-Installer und einzelne Quick-Menu-Kompatibilitätspatches.",
       "pt-PT": "Instalador AiO e patches individuais de compatibilidade para o Quick Menu.",
