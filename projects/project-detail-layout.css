@@ -59,3 +59,42 @@
     justify-content: center;
   }
 }
+
+/* Fallout 4 project pages share the 1920×549 workbench hero. Match the
+   desktop frame to the source artwork so it fills without letterboxing. */
+@media (min-width: 761px) {
+  .project-detail-page .project-detail-hero--fallout-4 {
+    position: relative;
+    min-height: 0;
+    aspect-ratio: 1920 / 549;
+  }
+
+  .project-detail-page .project-detail-hero--fallout-4 .project-detail-art img {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .project-detail-page .project-detail-hero--fallout-4 .project-detail-copy {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 58%;
+    min-height: 0;
+    max-width: none;
+    padding: clamp(1.25rem, 3vw, 2rem);
+  }
+
+  .project-detail-page .project-detail-hero--fallout-4 .project-detail-copy h1 {
+    font-size: clamp(2rem, 4.4vw, 3.2rem);
+  }
+}
+
+@media (max-width: 760px) {
+  .project-detail-page .project-detail-hero--fallout-4 .project-detail-art {
+    aspect-ratio: 1920 / 549;
+  }
+
+  .project-detail-page .project-detail-hero--fallout-4 .project-detail-art img {
+    object-fit: cover;
+    object-position: center;
+  }
+}
