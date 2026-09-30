@@ -61,7 +61,7 @@ window.K2040_PROJECTS = {
     description: "Change compatible weapon attachments from a fast in-game menu.",
     overview: "A Fallout 4 attachment menu for runtime 1.10.163. It requires the matching F4SE release and PrismaUI_F4 2.1.1; ECO and Mod Configuration Menu are optional.",
     image: "../assets/quick-attach-menu-card.webp?v=20260930imgfix1",
-    heroImage: "../assets/quick-attach-menu-hero.webp?v=20260930imgfix1",
+    heroImage: "../assets/quick-attach-menu-hero.webp?v=20260930205910",
     wideHero: true,
     nexus: "https://www.nexusmods.com/fallout4/mods/109575",
     githubRepo: "https://github.com/Kamui2040/K2040-Quick-Attach-Menu",
