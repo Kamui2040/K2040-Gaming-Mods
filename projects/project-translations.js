@@ -73,6 +73,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Validiert Aufsatzänderungen live mit Inventarprüfung, Provider-/Child-Reihenfolge und Rollback für unterstützte Änderungen."
       ],
       changelog: [
+        "0.5.181 — Kompatibilitätsfilter für erzeugte Aufsatzmenüs korrigiert, falsche Ersetzungsblockaden behoben, Prisma-Dock-Registrierung repariert und interne Hilfs-OMODs ausgeblendet.",
         "0.5.180 — Erste öffentliche Version mit vier Menü-Darstellungen, Builder-Einstellungen pro Waffe, konfigurierbaren Optionen, Profil-Export/-Import und validierten Aufsatzänderungen."
       ]
     },
@@ -213,6 +214,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Valida alterações de acessórios em tempo real, com verificação de inventário, ordem provider/child e rollback para alterações suportadas."
       ],
       changelog: [
+        "0.5.181 — Corrigidos os filtros de compatibilidade dos menus gerados, falsos bloqueios de substituição, o registo no Prisma Dock e a apresentação de OMODs internos.",
         "0.5.180 — Primeira versão pública com quatro apresentações, controlos Builder por arma, definições configuráveis, exportação/importação de perfis e alterações de acessórios validadas."
       ]
     },
@@ -353,6 +355,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Valida los cambios de accesorios en tiempo real, con verificación de inventario, orden de provider/child y rollback para cambios compatibles."
       ],
       changelog: [
+        "0.5.181 — Corregidos los filtros de compatibilidad de los menús generados, falsos bloqueos de reemplazo, el registro en Prisma Dock y la aparición de OMOD internos.",
         "0.5.180 — Primera versión pública con cuatro presentaciones, controles Builder por arma, ajustes configurables, exportación/importación de perfiles y cambios de accesorios validados."
       ]
     },
@@ -493,6 +496,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Valide les changements d’accessoires en direct avec vérification d’inventaire, ordre provider/child et rollback pour les changements pris en charge."
       ],
       changelog: [
+        "0.5.181 — Correction du filtrage de compatibilité des menus générés, des faux blocages de remplacement, de l’enregistrement dans Prisma Dock et de l’affichage d’OMOD internes.",
         "0.5.180 — Première version publique avec quatre présentations, réglages Builder par arme, options configurables, export/import de profils et changements d’accessoires validés."
       ]
     },
