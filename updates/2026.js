@@ -1,5 +1,24 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "quick-attach-menu-0-5-181",
+    projectId: "quick-attach-menu",
+    date: "2026-10-01",
+    href: "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+    links: [
+      "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+      "https://www.nexusmods.com/fallout4/mods/109575",
+      "https://github.com/Kamui2040/K2040-Quick-Attach-Menu/releases/tag/v0.5.181"
+    ],
+    source: "github",
+    strings: {
+      en: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.181 released", summary: "Version 0.5.181 fixes generated attachment compatibility, false replacement blocks, Prisma Dock registration, and internal helper entries." },
+      de: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.181 veröffentlicht", summary: "Version 0.5.181 korrigiert die Kompatibilität erzeugter Aufsätze, falsche Ersetzungsblockaden, die Prisma-Dock-Registrierung und interne Hilfseinträge." },
+      "pt-PT": { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.181 publicado", summary: "A versão 0.5.181 corrige a compatibilidade dos acessórios gerados, bloqueios incorretos de substituição, o registo no Prisma Dock e entradas internas." },
+      es: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.181 publicado", summary: "La versión 0.5.181 corrige la compatibilidad de accesorios generados, bloqueos erróneos de reemplazo, el registro en Prisma Dock y entradas internas." },
+      fr: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.181 publié", summary: "La version 0.5.181 corrige la compatibilité des accessoires générés, les faux blocages de remplacement, l’enregistrement dans Prisma Dock et les entrées internes." }
+    }
+  },
+  {
     id: "quick-attach-menu-release",
     projectId: "quick-attach-menu",
     date: "2026-09-30",

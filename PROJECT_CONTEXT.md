@@ -2,7 +2,7 @@
 
 ## Current Gaming website state
 
-- K2040's Quick Attach Menu 0.5.180 is the featured Fallout 4 project, with public Nexus Mods and GitHub release links. All Fallout 4 projects share the Quick Attach 4:5 card artwork and the 1920×549 workbench detail hero.
+- K2040's Quick Attach Menu 0.5.181 is the featured Fallout 4 project, with public Nexus Mods and GitHub release links. All Fallout 4 projects share the Quick Attach 4:5 card artwork and the 1920×549 workbench detail hero.
 - ECO Quick Menu Additions remains listed as a released Fallout 4 project but is no longer the featured landing-page project.
 
 ### WoW WotLK
