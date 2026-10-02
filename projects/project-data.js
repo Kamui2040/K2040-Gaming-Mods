@@ -50,7 +50,7 @@ window.K2040_PROJECTS = {
   "quick-attach-menu": {
     gameId: "fallout-4",
     game: "Fallout 4",
-    title: "K2040's Quick Attach Menu 0.5.181",
+    title: "K2040's Quick Attach Menu 0.5.192",
     cardTitle: "K2040's Quick Attach Menu",
     cardDescription: "Change compatible weapon attachments from a fast in-game menu.",
     href: "projects/project.html?project=quick-attach-menu",
@@ -59,13 +59,13 @@ window.K2040_PROJECTS = {
     cardImage: "assets/quick-attach-menu-card.webp?v=20260930fo4card1",
     cardMeta: ["Windows", "F4SE", "Released"],
     description: "Change compatible weapon attachments from a fast in-game menu.",
-    overview: "A Fallout 4 attachment menu for runtime 1.10.163. It requires the matching F4SE release and PrismaUI_F4 2.1.1; ECO and Mod Configuration Menu are optional.",
+    overview: "A Fallout 4 attachment menu tested on runtimes 1.10.163 and 1.11.240. It requires the matching F4SE release and compatible PrismaUI_F4; ECO and Mod Configuration Menu are optional.",
     image: "../assets/quick-attach-menu-card.webp?v=20260930fo4card1",
     heroImage: "../assets/quick-attach-menu-hero.webp?v=20260930fo4shared1",
     wideHero: true,
     nexus: "https://www.nexusmods.com/fallout4/mods/109575",
     githubRepo: "https://github.com/Kamui2040/K2040-Quick-Attach-Menu",
-    github: "https://github.com/Kamui2040/K2040-Quick-Attach-Menu/releases/download/v0.5.181/K2040s-Quick-Attach-Menu-0.5.181.zip",
+    github: "https://github.com/Kamui2040/K2040-Quick-Attach-Menu/releases/download/v0.5.192/K2040s-Quick-Attach-Menu-0.5.192.zip",
     features: [
       "Change compatible weapon attachments from an in-game quick menu instead of returning to a workbench.",
       "Choose Cascade, Radial Wheel, Compact Hybrid, or Horizontal Bar presentations.",
@@ -76,6 +76,7 @@ window.K2040_PROJECTS = {
       "Use live attachment validation, inventory verification, provider/child ordering, and rollback for supported changes."
     ],
     changelog: [
+      "0.5.192 — Fixed Fallout 4 1.11.x crashes, MODCOL weapons, valid no-MISC attachments, Mouse 4/5 menu toggles and switching, and dialogue-related input/focus problems.",
       "0.5.181 — Fixed generated attachment compatibility, false unsafe replacement errors, Prisma Dock registration, and filtering of internal helper OMODs.",
       "0.5.180 — First public release with four menu presentations, per-weapon Builder controls, configurable settings, export/import profiles, and validated attachment changes."
     ]

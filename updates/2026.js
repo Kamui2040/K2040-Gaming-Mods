@@ -1,5 +1,24 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "quick-attach-menu-0-5-192",
+    projectId: "quick-attach-menu",
+    date: "2026-10-02",
+    href: "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+    links: [
+      "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+      "https://www.nexusmods.com/fallout4/mods/109575",
+      "https://github.com/Kamui2040/K2040-Quick-Attach-Menu/releases/tag/v0.5.192"
+    ],
+    source: "github",
+    strings: {
+      en: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.192 released", summary: "Version 0.5.192 fixes Fallout 4 1.11.x crashes, MODCOL weapons, no-MISC attachments, Mouse 4/5 toggles and menu switching, plus dialogue input/focus issues." },
+      de: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.192 veröffentlicht", summary: "Version 0.5.192 behebt Abstürze mit Fallout 4 1.11.x, MODCOL-Waffen, Aufsätze ohne MISC-Eintrag, Mouse-4/5-Umschaltung und dialogbedingte Eingabe-/Fokusprobleme." },
+      "pt-PT": { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.192 publicado", summary: "A versão 0.5.192 corrige crashes no Fallout 4 1.11.x, armas MODCOL, acessórios sem item MISC, atalhos Mouse 4/5 e alternância de menus, além de problemas de input/foco durante diálogos." },
+      es: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.192 publicado", summary: "La versión 0.5.192 corrige bloqueos en Fallout 4 1.11.x, armas MODCOL, accesorios sin objeto MISC, atajos Mouse 4/5 y cambio entre menús, además de problemas de entrada/foco durante diálogos." },
+      fr: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.192 publié", summary: "La version 0.5.192 corrige les plantages avec Fallout 4 1.11.x, les armes MODCOL, les accessoires sans objet MISC, les raccourcis Mouse 4/5 et le changement de menu, ainsi que les problèmes d’entrée/focus pendant les dialogues." }
+    }
+  },
+  {
     id: "quick-attach-menu-0-5-181",
     projectId: "quick-attach-menu",
     date: "2026-10-01",
