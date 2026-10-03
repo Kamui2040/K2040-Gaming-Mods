@@ -62,17 +62,18 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Wechsle kompatible Waffenaufsätze über ein schnelles Menü direkt im Spiel.",
-      overview: "Ein Aufsatzmenü für Fallout 4, getestet mit 1.10.163 und 1.11.240. Benötigt die passende F4SE-Version und eine kompatible PrismaUI_F4-Version; ECO und Mod Configuration Menu sind optional.",
+      overview: "Ein Aufsatzmenü für Fallout 4 1.10.163 und 1.11.240. Version 0.5.197 wurde mit 1.11.240 getestet; der Pfad für die Originalversion bleibt enthalten, wurde aber nicht erneut getestet. Benötigt die passende F4SE-Version und eine kompatible PrismaUI_F4-Version; ECO und Mod Configuration Menu sind optional.",
       features: [
         "Wechsle kompatible Waffenaufsätze direkt im Spiel, ohne zur Werkbank zurückzugehen.",
         "Vier Darstellungen: Cascade, Radial Wheel, Compact Hybrid und Horizontal Bar.",
         "Nutzt vorhandene ECO-Waffenmenüs oder erzeugt kompatible Menüs zur Laufzeit; ECO ist optional.",
         "Konfiguriere Sichtbarkeit, Reihenfolge, Bezeichnungen, Menüquelle und Klammertext jeder Waffe im Builder.",
-        "Passe Tastenbelegung, Größe, Position, Deckkraft, Designs, Farben, Hinweise und das Verhalten nach dem Anwenden an.",
+        "Passe Tastenbelegung, Größe, Position, Deckkraft, Designs, Farben, Hinweise, das Verhalten nach dem Anwenden, die Spielverlangsamung und Diagnoseprotokolle an.",
         "Exportiere und importiere verteilbare Menüprofile für einzelne Waffen.",
         "Validiert Aufsatzänderungen live mit Inventarprüfung, Provider-/Child-Reihenfolge und Rollback für unterstützte Änderungen."
       ],
       changelog: [
+        "0.5.197 — Schalter für Diagnoseprotokolle und Menüverlangsamung hinzugefügt, ausgeblendete Cascade-Einträge nach Aufsatzwechseln weiter gefiltert und die eingeschränkte Mausbewegung in allen drei Ansichten behoben.",
         "0.5.192 — Abstürze mit Fallout 4 1.11.x, MODCOL-Waffen, gültige Aufsätze ohne MISC-Eintrag, Mouse-4/5-Umschaltung und dialogbedingte Eingabe- und Fokusprobleme behoben.",
         "0.5.181 — Kompatibilitätsfilter für erzeugte Aufsatzmenüs korrigiert, falsche Ersetzungsblockaden behoben, Prisma-Dock-Registrierung repariert und interne Hilfs-OMODs ausgeblendet.",
         "0.5.180 — Erste öffentliche Version mit vier Menü-Darstellungen, Builder-Einstellungen pro Waffe, konfigurierbaren Optionen, Profil-Export/-Import und validierten Aufsatzänderungen."
@@ -204,17 +205,18 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Troque acessórios de armas compatíveis através de um menu rápido dentro do jogo.",
-      overview: "Um menu de acessórios para Fallout 4, testado nas versões 1.10.163 e 1.11.240. Requer a versão correspondente do F4SE e uma versão compatível do PrismaUI_F4; ECO e Mod Configuration Menu são opcionais.",
+      overview: "Um menu de acessórios para Fallout 4 1.10.163 e 1.11.240. A versão 0.5.197 foi testada na 1.11.240; o suporte para a versão original continua incluído, mas não foi testado novamente. Requer a versão correspondente do F4SE e uma versão compatível do PrismaUI_F4; ECO e Mod Configuration Menu são opcionais.",
       features: [
         "Troque acessórios de armas compatíveis dentro do jogo sem voltar à bancada.",
         "Quatro apresentações: Cascade, Radial Wheel, Compact Hybrid e Horizontal Bar.",
         "Utiliza menus de armas ECO quando disponíveis ou gera menus compatíveis em tempo de execução; ECO é opcional.",
         "Configure visibilidade, ordem, etiquetas, origem do menu e tratamento de texto entre parênteses retos para cada arma no Builder.",
-        "Personalize teclas, escala, posição, opacidade, temas, cores, dicas e o comportamento após aplicar uma alteração.",
+        "Personalize teclas, escala, posição, opacidade, temas, cores, dicas, o comportamento após aplicar uma alteração, o abrandamento do jogo e o registo de diagnóstico.",
         "Exporte e importe perfis de menu distribuíveis por arma.",
         "Valida alterações de acessórios em tempo real, com verificação de inventário, ordem provider/child e rollback para alterações suportadas."
       ],
       changelog: [
+        "0.5.197 — Adicionados controlos para o registo de diagnóstico e o abrandamento dos menus, mantidos os itens ocultos do Cascade após mudanças de acessórios e corrigido o movimento limitado do cursor nas três vistas.",
         "0.5.192 — Corrigidos crashes no Fallout 4 1.11.x, armas MODCOL, acessórios válidos sem item MISC, atalhos Mouse 4/5 para abrir, fechar e alternar menus, e problemas de input/foco durante diálogos.",
         "0.5.181 — Corrigidos os filtros de compatibilidade dos menus gerados, falsos bloqueios de substituição, o registo no Prisma Dock e a apresentação de OMODs internos.",
         "0.5.180 — Primeira versão pública com quatro apresentações, controlos Builder por arma, definições configuráveis, exportação/importação de perfis e alterações de acessórios validadas."
@@ -346,17 +348,18 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Cambia accesorios de armas compatibles desde un menú rápido dentro del juego.",
-      overview: "Un menú de accesorios para Fallout 4, probado con las versiones 1.10.163 y 1.11.240. Requiere la versión correspondiente de F4SE y una versión compatible de PrismaUI_F4; ECO y Mod Configuration Menu son opcionales.",
+      overview: "Un menú de accesorios para Fallout 4 1.10.163 y 1.11.240. La versión 0.5.197 se probó en 1.11.240; la compatibilidad con la versión original sigue incluida, pero no se volvió a probar. Requiere la versión correspondiente de F4SE y una versión compatible de PrismaUI_F4; ECO y Mod Configuration Menu son opcionales.",
       features: [
         "Cambia accesorios de armas compatibles dentro del juego sin volver al banco de trabajo.",
         "Cuatro presentaciones: Cascade, Radial Wheel, Compact Hybrid y Horizontal Bar.",
         "Usa menús de armas de ECO cuando están disponibles o genera menús compatibles en tiempo de ejecución; ECO es opcional.",
         "Configura la visibilidad, el orden, las etiquetas, el origen del menú y el tratamiento del texto entre corchetes de cada arma desde el Builder.",
-        "Personaliza teclas, escala, posición, opacidad, temas, colores, ayudas y el comportamiento después de aplicar un cambio.",
+        "Personaliza teclas, escala, posición, opacidad, temas, colores, ayudas, el comportamiento después de aplicar un cambio, la ralentización del juego y el registro de diagnóstico.",
         "Exporta e importa perfiles de menú distribuibles para cada arma.",
         "Valida los cambios de accesorios en tiempo real, con verificación de inventario, orden de provider/child y rollback para cambios compatibles."
       ],
       changelog: [
+        "0.5.197 — Añadidos controles para el registro de diagnóstico y la ralentización de los menús, mantenidos ocultos los elementos filtrados de Cascade tras cambiar accesorios y corregido el movimiento limitado del cursor en las tres vistas.",
         "0.5.192 — Corregidos bloqueos en Fallout 4 1.11.x, armas MODCOL, accesorios válidos sin objeto MISC, los atajos Mouse 4/5 para abrir, cerrar y cambiar de menú, y problemas de entrada/foco durante diálogos.",
         "0.5.181 — Corregidos los filtros de compatibilidad de los menús generados, falsos bloqueos de reemplazo, el registro en Prisma Dock y la aparición de OMOD internos.",
         "0.5.180 — Primera versión pública con cuatro presentaciones, controles Builder por arma, ajustes configurables, exportación/importación de perfiles y cambios de accesorios validados."
@@ -488,17 +491,18 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Changez les accessoires d’armes compatibles depuis un menu rapide en jeu.",
-      overview: "Un menu d’accessoires pour Fallout 4, testé avec les versions 1.10.163 et 1.11.240. Il nécessite la version F4SE correspondante et une version compatible de PrismaUI_F4 ; ECO et Mod Configuration Menu sont facultatifs.",
+      overview: "Un menu d’accessoires pour Fallout 4 1.10.163 et 1.11.240. La version 0.5.197 a été testée avec 1.11.240 ; la compatibilité avec la version originale reste incluse, mais n’a pas été retestée. Il nécessite la version F4SE correspondante et une version compatible de PrismaUI_F4 ; ECO et Mod Configuration Menu sont facultatifs.",
       features: [
         "Changez les accessoires d’armes compatibles directement en jeu sans retourner à l’établi.",
         "Quatre présentations : Cascade, Radial Wheel, Compact Hybrid et Horizontal Bar.",
         "Utilise les menus d’armes ECO lorsqu’ils sont disponibles ou génère des menus compatibles à l’exécution ; ECO est facultatif.",
         "Configurez la visibilité, l’ordre, les libellés, la source du menu et le traitement du texte entre crochets de chaque arme dans le Builder.",
-        "Personnalisez les raccourcis, l’échelle, la position, l’opacité, les thèmes, les couleurs, les aides et le comportement après application.",
+        "Personnalisez les raccourcis, l’échelle, la position, l’opacité, les thèmes, les couleurs, les aides, le comportement après application, le ralentissement du jeu et la journalisation de diagnostic.",
         "Exportez et importez des profils de menu distribuables pour chaque arme.",
         "Valide les changements d’accessoires en direct avec vérification d’inventaire, ordre provider/child et rollback pour les changements pris en charge."
       ],
       changelog: [
+        "0.5.197 — Ajout de commandes pour la journalisation de diagnostic et le ralentissement des menus, maintien du filtrage des éléments Cascade masqués après un changement d’accessoire et correction du déplacement limité du curseur dans les trois vues.",
         "0.5.192 — Correction des plantages avec Fallout 4 1.11.x, des armes MODCOL, des accessoires valides sans objet MISC, des raccourcis Mouse 4/5 pour ouvrir, fermer et changer de menu, ainsi que des problèmes d’entrée/focus pendant les dialogues.",
         "0.5.181 — Correction du filtrage de compatibilité des menus générés, des faux blocages de remplacement, de l’enregistrement dans Prisma Dock et de l’affichage d’OMOD internes.",
         "0.5.180 — Première version publique avec quatre présentations, réglages Builder par arme, options configurables, export/import de profils et changements d’accessoires validés."

@@ -1,5 +1,24 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "quick-attach-menu-0-5-197",
+    projectId: "quick-attach-menu",
+    date: "2026-10-03",
+    href: "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+    links: [
+      "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+      "https://www.nexusmods.com/fallout4/mods/109575",
+      "https://github.com/Kamui2040/K2040-Quick-Attach-Menu/releases/tag/v0.5.197"
+    ],
+    source: "github",
+    strings: {
+      en: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.197 released", summary: "Version 0.5.197 adds logging and menu-slowdown controls, keeps hidden Cascade entries filtered after attachment changes, and fixes restricted cursor movement in all three views." },
+      de: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.197 veröffentlicht", summary: "Version 0.5.197 ergänzt Schalter für Diagnoseprotokolle und Menüverlangsamung, hält ausgeblendete Cascade-Einträge nach Aufsatzwechseln verborgen und behebt die eingeschränkte Mausbewegung in allen drei Ansichten." },
+      "pt-PT": { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.197 publicado", summary: "A versão 0.5.197 adiciona controlos para o registo de diagnóstico e o abrandamento dos menus, mantém ocultos os itens filtrados do Cascade após mudanças de acessórios e corrige o movimento limitado do cursor nas três vistas." },
+      es: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.197 publicado", summary: "La versión 0.5.197 añade controles para el registro de diagnóstico y la ralentización de los menús, mantiene ocultos los elementos filtrados de Cascade tras cambiar accesorios y corrige el movimiento limitado del cursor en las tres vistas." },
+      fr: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.197 publié", summary: "La version 0.5.197 ajoute des commandes pour la journalisation de diagnostic et le ralentissement des menus, maintient le filtrage des éléments Cascade masqués après un changement d’accessoire et corrige le déplacement limité du curseur dans les trois vues." }
+    }
+  },
+  {
     id: "quick-attach-menu-0-5-192",
     projectId: "quick-attach-menu",
     date: "2026-10-02",
