@@ -1,5 +1,23 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "quick-attach-menu-0-5-198",
+    projectId: "quick-attach-menu",
+    date: "2026-10-06",
+    href: "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+    links: [
+      "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+      "https://www.nexusmods.com/fallout4/mods/109575"
+    ],
+    source: "nexus",
+    strings: {
+      en: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.198 released", summary: "Version 0.5.198 fixes false “Attachment unable to swap safely” errors with Tactical Reload, improves internal/provider OMOD dependency handling, and adds a per-weapon Force Unsafe Swaps option. Safe swapping remains enabled by default." },
+      de: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.198 veröffentlicht", summary: "Version 0.5.198 behebt falsche „Attachment unable to swap safely“-Fehler mit Tactical Reload, verbessert die Abhängigkeitsverarbeitung interner/Provider-OMODs und ergänzt eine waffenbezogene Force-Unsafe-Swaps-Option. Sichere Wechsel bleiben standardmäßig aktiviert." },
+      "pt-PT": { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.198 publicado", summary: "A versão 0.5.198 corrige falsos erros “Attachment unable to swap safely” com o Tactical Reload, melhora o tratamento de dependências de OMODs internos/provider e adiciona a opção Force Unsafe Swaps por arma. As trocas seguras permanecem ativas por predefinição." },
+      es: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.198 publicado", summary: "La versión 0.5.198 corrige falsos errores “Attachment unable to swap safely” con Tactical Reload, mejora el tratamiento de dependencias de OMOD internos/provider y añade la opción Force Unsafe Swaps por arma. Los cambios seguros permanecen activados de forma predeterminada." },
+      fr: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.198 publié", summary: "La version 0.5.198 corrige les faux messages « Attachment unable to swap safely » avec Tactical Reload, améliore la gestion des dépendances des OMOD internes/provider et ajoute l’option Force Unsafe Swaps par arme. Les changements sécurisés restent activés par défaut." }
+    }
+  },
+  {
     id: "quick-attach-menu-0-5-197",
     projectId: "quick-attach-menu",
     date: "2026-10-03",
