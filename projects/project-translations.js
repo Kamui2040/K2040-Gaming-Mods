@@ -62,7 +62,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Wechsle kompatible Waffenaufsätze über ein schnelles Menü direkt im Spiel.",
-      overview: "Ein Aufsatzmenü für Fallout 4 1.10.163 und 1.11.240. Version 0.5.198 verbessert die Kompatibilität mit Tactical Reload und ergänzt die waffenbezogene Option Force Unsafe Swaps, die standardmäßig deaktiviert bleibt. Benötigt die passende F4SE-Version und eine kompatible PrismaUI_F4-Version; ECO und Mod Configuration Menu sind optional.",
+      overview: "Ein Aufsatzmenü für Fallout 4 1.10.163 und 1.11.240. Version 0.5.199 verbessert die Kompatibilität mit Tactical Reload und SREP, einschließlich der sicheren Installation eines Mündungsaufsatzes nach dem Wechsel zurück von einem M203-Lauf. Force Unsafe Swaps bleibt waffenbezogen und standardmäßig deaktiviert. Benötigt die passende F4SE-Version und eine kompatible PrismaUI_F4-Version; ECO und Mod Configuration Menu sind optional.",
       features: [
         "Wechsle kompatible Waffenaufsätze direkt im Spiel, ohne zur Werkbank zurückzugehen.",
         "Vier Darstellungen: Cascade, Radial Wheel, Compact Hybrid und Horizontal Bar.",
@@ -74,6 +74,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Validiert Aufsatzänderungen live mit Inventarprüfung, Provider-/Child-Reihenfolge und Rollback für unterstützte Änderungen."
       ],
       changelog: [
+        "0.5.199 — Die sichere Installation von Mündungs- und anderen Provider-Aufsätzen wurde behoben, nachdem ihre zuvor nicht verfügbare Aufsatzposition wiederhergestellt wurde, einschließlich des gemeldeten SREP-M203-Laufwechsels.",
         "0.5.198 — Falsche „Attachment unable to swap safely“-Fehler mit Tactical Reload behoben, die Abhängigkeitsverarbeitung interner/Provider-OMODs verbessert und eine waffenbezogene Force-Unsafe-Swaps-Option hinzugefügt. Sichere Wechsel bleiben standardmäßig aktiviert.",
         "0.5.197 — Schalter für Diagnoseprotokolle und Menüverlangsamung hinzugefügt, ausgeblendete Cascade-Einträge nach Aufsatzwechseln weiter gefiltert und die eingeschränkte Mausbewegung in allen drei Ansichten behoben.",
         "0.5.192 — Abstürze mit Fallout 4 1.11.x, MODCOL-Waffen, gültige Aufsätze ohne MISC-Eintrag, Mouse-4/5-Umschaltung und dialogbedingte Eingabe- und Fokusprobleme behoben.",
@@ -207,7 +208,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Troque acessórios de armas compatíveis através de um menu rápido dentro do jogo.",
-      overview: "Um menu de acessórios para Fallout 4 1.10.163 e 1.11.240. A versão 0.5.198 melhora a compatibilidade com o Tactical Reload e adiciona a opção Force Unsafe Swaps por arma, que permanece desativada por predefinição. Requer a versão correspondente do F4SE e uma versão compatível do PrismaUI_F4; ECO e Mod Configuration Menu são opcionais.",
+      overview: "Um menu de acessórios para Fallout 4 1.10.163 e 1.11.240. A versão 0.5.199 melhora a compatibilidade com o Tactical Reload e o SREP, incluindo a instalação segura de um acessório de boca do cano depois de voltar de um cano M203. A opção Force Unsafe Swaps continua a ser específica por arma e desativada por predefinição. Requer a versão correspondente do F4SE e uma versão compatível do PrismaUI_F4; ECO e Mod Configuration Menu são opcionais.",
       features: [
         "Troque acessórios de armas compatíveis dentro do jogo sem voltar à bancada.",
         "Quatro apresentações: Cascade, Radial Wheel, Compact Hybrid e Horizontal Bar.",
@@ -219,6 +220,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Valida alterações de acessórios em tempo real, com verificação de inventário, ordem provider/child e rollback para alterações suportadas."
       ],
       changelog: [
+        "0.5.199 — Corrigida a instalação segura de acessórios de boca do cano e outros acessórios provider depois de o respetivo ponto de montagem voltar a ficar disponível, incluindo a mudança de cano SREP M203 comunicada.",
         "0.5.198 — Corrigidos falsos erros “Attachment unable to swap safely” com o Tactical Reload, melhorado o tratamento de dependências de OMODs internos/provider e adicionada a opção Force Unsafe Swaps por arma. As trocas seguras permanecem ativas por predefinição.",
         "0.5.197 — Adicionados controlos para o registo de diagnóstico e o abrandamento dos menus, mantidos os itens ocultos do Cascade após mudanças de acessórios e corrigido o movimento limitado do cursor nas três vistas.",
         "0.5.192 — Corrigidos crashes no Fallout 4 1.11.x, armas MODCOL, acessórios válidos sem item MISC, atalhos Mouse 4/5 para abrir, fechar e alternar menus, e problemas de input/foco durante diálogos.",
@@ -352,7 +354,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Cambia accesorios de armas compatibles desde un menú rápido dentro del juego.",
-      overview: "Un menú de accesorios para Fallout 4 1.10.163 y 1.11.240. La versión 0.5.198 mejora la compatibilidad con Tactical Reload y añade la opción Force Unsafe Swaps por arma, desactivada de forma predeterminada. Requiere la versión correspondiente de F4SE y una versión compatible de PrismaUI_F4; ECO y Mod Configuration Menu son opcionales.",
+      overview: "Un menú de accesorios para Fallout 4 1.10.163 y 1.11.240. La versión 0.5.199 mejora la compatibilidad con Tactical Reload y SREP, incluida la instalación segura de un accesorio de boca de cañón después de volver de un cañón M203. Force Unsafe Swaps sigue siendo una opción por arma y está desactivada de forma predeterminada. Requiere la versión correspondiente de F4SE y una versión compatible de PrismaUI_F4; ECO y Mod Configuration Menu son opcionales.",
       features: [
         "Cambia accesorios de armas compatibles dentro del juego sin volver al banco de trabajo.",
         "Cuatro presentaciones: Cascade, Radial Wheel, Compact Hybrid y Horizontal Bar.",
@@ -364,6 +366,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Valida los cambios de accesorios en tiempo real, con verificación de inventario, orden de provider/child y rollback para cambios compatibles."
       ],
       changelog: [
+        "0.5.199 — Corregida la instalación segura de accesorios de boca de cañón y otros accesorios provider después de que su punto de montaje volviera a estar disponible, incluido el cambio de cañón SREP M203 comunicado.",
         "0.5.198 — Corregidos falsos errores “Attachment unable to swap safely” con Tactical Reload, mejorado el tratamiento de dependencias de OMOD internos/provider y añadida la opción Force Unsafe Swaps por arma. Los cambios seguros permanecen activados de forma predeterminada.",
         "0.5.197 — Añadidos controles para el registro de diagnóstico y la ralentización de los menús, mantenidos ocultos los elementos filtrados de Cascade tras cambiar accesorios y corregido el movimiento limitado del cursor en las tres vistas.",
         "0.5.192 — Corregidos bloqueos en Fallout 4 1.11.x, armas MODCOL, accesorios válidos sin objeto MISC, los atajos Mouse 4/5 para abrir, cerrar y cambiar de menú, y problemas de entrada/foco durante diálogos.",
@@ -497,7 +500,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Changez les accessoires d’armes compatibles depuis un menu rapide en jeu.",
-      overview: "Un menu d’accessoires pour Fallout 4 1.10.163 et 1.11.240. La version 0.5.198 améliore la compatibilité avec Tactical Reload et ajoute l’option Force Unsafe Swaps par arme, désactivée par défaut. Il nécessite la version F4SE correspondante et une version compatible de PrismaUI_F4 ; ECO et Mod Configuration Menu sont facultatifs.",
+      overview: "Un menu d’accessoires pour Fallout 4 1.10.163 et 1.11.240. La version 0.5.199 améliore la compatibilité avec Tactical Reload et SREP, notamment l’installation sûre d’un accessoire de bouche après être revenu d’un canon M203. Force Unsafe Swaps reste une option par arme, désactivée par défaut. Il nécessite la version F4SE correspondante et une version compatible de PrismaUI_F4 ; ECO et Mod Configuration Menu sont facultatifs.",
       features: [
         "Changez les accessoires d’armes compatibles directement en jeu sans retourner à l’établi.",
         "Quatre présentations : Cascade, Radial Wheel, Compact Hybrid et Horizontal Bar.",
@@ -509,6 +512,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Valide les changements d’accessoires en direct avec vérification d’inventaire, ordre provider/child et rollback pour les changements pris en charge."
       ],
       changelog: [
+        "0.5.199 — Correction de l’installation sûre des accessoires de bouche et autres accessoires provider après le rétablissement de leur point de montage, notamment lors du changement de canon SREP M203 signalé.",
         "0.5.198 — Correction des faux messages « Attachment unable to swap safely » avec Tactical Reload, amélioration de la gestion des dépendances des OMOD internes/provider et ajout de l’option Force Unsafe Swaps par arme. Les changements sécurisés restent activés par défaut.",
         "0.5.197 — Ajout de commandes pour la journalisation de diagnostic et le ralentissement des menus, maintien du filtrage des éléments Cascade masqués après un changement d’accessoire et correction du déplacement limité du curseur dans les trois vues.",
         "0.5.192 — Correction des plantages avec Fallout 4 1.11.x, des armes MODCOL, des accessoires valides sans objet MISC, des raccourcis Mouse 4/5 pour ouvrir, fermer et changer de menu, ainsi que des problèmes d’entrée/focus pendant les dialogues.",

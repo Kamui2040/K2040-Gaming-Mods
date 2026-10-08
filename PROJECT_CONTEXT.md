@@ -2,7 +2,7 @@
 
 ## Current Gaming website state
 
-- K2040's Quick Attach Menu 0.5.198 is the featured Fallout 4 project, with the current Nexus Mods release and public GitHub source link. The project page covers the Tactical Reload compatibility fix and the per-weapon Force Unsafe Swaps option, which remains off by default. All Fallout 4 projects share the Quick Attach 4:5 card artwork and the 1920×549 workbench detail hero.
+- K2040's Quick Attach Menu 0.5.199 is the featured Fallout 4 project, with the current GitHub release, the existing Nexus Mods page, and the public GitHub source link. The project page covers the Tactical Reload compatibility work, the restored attachment-point fix for the reported SREP M203 barrel path, and the per-weapon Force Unsafe Swaps option, which remains off by default. All Fallout 4 projects share the Quick Attach 4:5 card artwork and the 1920×549 workbench detail hero.
 - ECO Quick Menu Additions remains listed as a released Fallout 4 project but is no longer the featured landing-page project.
 
 ### WoW WotLK
