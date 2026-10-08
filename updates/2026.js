@@ -1,5 +1,23 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "quick-attach-menu-0-5-199",
+    projectId: "quick-attach-menu",
+    date: "2026-10-08",
+    href: "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+    links: [
+      "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+      "https://github.com/Kamui2040/K2040-Quick-Attach-Menu/releases/tag/v0.5.199"
+    ],
+    source: "github",
+    strings: {
+      en: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.199 released", summary: "Version 0.5.199 fixes safe installation into restored attachment points, including the reported SREP M203 barrel-to-muzzle path. Force Unsafe Swaps is not required for this case; normal safety checks remain enabled." },
+      de: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.199 veröffentlicht", summary: "Version 0.5.199 behebt die sichere Installation an wiederhergestellten Aufsatzpositionen, einschließlich des gemeldeten SREP-Wechsels vom M203-Lauf zum Mündungsaufsatz. Force Unsafe Swaps ist dafür nicht erforderlich; die normalen Sicherheitsprüfungen bleiben aktiv." },
+      "pt-PT": { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.199 publicado", summary: "A versão 0.5.199 corrige a instalação segura em pontos de montagem restaurados, incluindo a mudança comunicada do cano SREP M203 para o acessório de boca do cano. Force Unsafe Swaps não é necessário neste caso; as verificações de segurança normais permanecem ativas." },
+      es: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.199 publicado", summary: "La versión 0.5.199 corrige la instalación segura en puntos de montaje restaurados, incluido el cambio comunicado del cañón SREP M203 al accesorio de boca. Force Unsafe Swaps no es necesario en este caso; las comprobaciones de seguridad normales permanecen activadas." },
+      fr: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.199 publié", summary: "La version 0.5.199 corrige l’installation sûre sur les points de montage rétablis, notamment le passage signalé du canon SREP M203 à l’accessoire de bouche. Force Unsafe Swaps n’est pas nécessaire dans ce cas ; les contrôles de sécurité normaux restent actifs." }
+    }
+  },
+  {
     id: "quick-attach-menu-0-5-198",
     projectId: "quick-attach-menu",
     date: "2026-10-06",
