@@ -71,8 +71,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Passe Tastenbelegung, Größe, Position, Deckkraft, Designs, Farben, Hinweise, das Verhalten nach dem Anwenden, die Spielverlangsamung und Diagnoseprotokolle an.",
         "Exportiere und importiere verteilbare Menüprofile für einzelne Waffen.",
         "Aktiviere Force Unsafe Swaps bei Bedarf für einzelne Waffen; die normalen Sicherheitsprüfungen bleiben standardmäßig aktiv.",
-        "Validiert Aufsatzänderungen live mit Inventarprüfung, Provider-/Child-Reihenfolge und Rollback für unterstützte Änderungen."
-,
+        "Validiert Aufsatzänderungen live mit Inventarprüfung, Provider-/Child-Reihenfolge und Rollback für unterstützte Änderungen.",
         "Steuere die Menüs mit einem Controller und belege eigene Controller-Kurzbefehle für Quick Attach.",
         "Aktiviere bei Bedarf den experimentellen Cheat-Modus, um kompatible Aufsätze ohne lose Mod-Gegenstände zu installieren.",
         "Nutze den mitgelieferten gemeinsamen K2040-Mods-Eintrag in MCM und wähle das überarbeitete Classic-Pip-Boy- oder das Fallout-76-Design."
@@ -222,8 +221,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Personalize teclas, escala, posição, opacidade, temas, cores, dicas, o comportamento após aplicar uma alteração, o abrandamento do jogo e o registo de diagnóstico.",
         "Exporte e importe perfis de menu distribuíveis por arma.",
         "Ative Force Unsafe Swaps para armas individuais quando necessário; as verificações de segurança normais permanecem ativas por predefinição.",
-        "Valida alterações de acessórios em tempo real, com verificação de inventário, ordem provider/child e rollback para alterações suportadas."
-,
+        "Valida alterações de acessórios em tempo real, com verificação de inventário, ordem provider/child e rollback para alterações suportadas.",
         "Navegue com um comando e configure atalhos específicos do comando para o Quick Attach.",
         "Ative o modo Cheat experimental, opcional, para instalar acessórios compatíveis sem exigir mods soltos no inventário.",
         "Utilize a entrada K2040 Mods partilhada no MCM, incluída no pacote, e escolha entre os temas Classic Pip-Boy melhorado e inspirado em Fallout 76."
@@ -373,8 +371,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Personaliza teclas, escala, posición, opacidad, temas, colores, ayudas, el comportamiento después de aplicar un cambio, la ralentización del juego y el registro de diagnóstico.",
         "Exporta e importa perfiles de menú distribuibles para cada arma.",
         "Activa Force Unsafe Swaps para armas individuales cuando sea necesario; las comprobaciones de seguridad normales permanecen activadas de forma predeterminada.",
-        "Valida los cambios de accesorios en tiempo real, con verificación de inventario, orden de provider/child y rollback para cambios compatibles."
-,
+        "Valida los cambios de accesorios en tiempo real, con verificación de inventario, orden de provider/child y rollback para cambios compatibles.",
         "Navega con un mando y configura atajos independientes para Quick Attach.",
         "Activa el modo Cheat experimental y opcional para instalar accesorios compatibles sin disponer de mods sueltos en el inventario.",
         "Usa la entrada compartida K2040 Mods de MCM incluida en el paquete y elige entre los temas Classic Pip-Boy mejorado o inspirado en Fallout 76."
@@ -524,8 +521,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Personnalisez les raccourcis, l’échelle, la position, l’opacité, les thèmes, les couleurs, les aides, le comportement après application, le ralentissement du jeu et la journalisation de diagnostic.",
         "Exportez et importez des profils de menu distribuables pour chaque arme.",
         "Activez Force Unsafe Swaps pour certaines armes si nécessaire ; les contrôles de sécurité normaux restent activés par défaut.",
-        "Valide les changements d’accessoires en direct avec vérification d’inventaire, ordre provider/child et rollback pour les changements pris en charge."
-,
+        "Valide les changements d’accessoires en direct avec vérification d’inventaire, ordre provider/child et rollback pour les changements pris en charge.",
         "Naviguez à la manette et configurez des raccourcis de manette propres à Quick Attach.",
         "Activez le mode Cheat expérimental et facultatif pour installer des accessoires compatibles sans exiger de modules libres dans l’inventaire.",
         "Utilisez l’entrée MCM commune K2040 Mods incluse dans le paquet et choisissez les thèmes Classic Pip-Boy amélioré ou inspiré de Fallout 76."
