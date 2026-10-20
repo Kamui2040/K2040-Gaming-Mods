@@ -62,7 +62,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Wechsle kompatible Waffenaufsätze über ein schnelles Menü direkt im Spiel.",
-      overview: "Stabile GitHub-Version 0.5.216 für Fallout 4 1.10.163 und 1.11.240. Der vom ursprünglichen Melder bestätigte Fehler bei der erneuten Anzeige von RIS-Schienenaufsätzen ist behoben. Enthalten sind Controller-Unterstützung, ein optionaler experimenteller Cheat-Modus, überarbeitete Classic-Pip-Boy- und Fallout-76-Designs sowie der gemeinsame K2040-Mods-MCM-Eintrag mit eigener Quick-Attach-Einstellungsseite. Laut Entwickler sind die abschließenden Spieltests erfolgreich verlaufen. Passendes F4SE und kompatibles PrismaUI_F4 sind erforderlich; ECO und MCM sind optional. Auf GitHub ist 0.5.216 stabil, auf Nexus weiterhin 0.5.199.",
+      overview: "Stabile GitHub-Version 0.5.216 für Fallout 4 1.10.163 und 1.11.240. Der vom ursprünglichen Melder bestätigte Fehler bei der erneuten Anzeige von RIS-Schienenaufsätzen ist behoben. Enthalten sind Controller-Unterstützung, ein optionaler experimenteller Cheat-Modus, überarbeitete Classic-Pip-Boy- und Fallout-76-Designs sowie der gemeinsame K2040-Mods-MCM-Eintrag mit eigener Quick-Attach-Einstellungsseite. Laut Entwickler sind die abschließenden Spieltests erfolgreich verlaufen. Passendes F4SE und kompatibles PrismaUI_F4 sind erforderlich; ECO und MCM sind optional. Version 0.5.216 ist auf GitHub und Nexus Mods erhältlich.",
       features: [
         "Wechsle kompatible Waffenaufsätze direkt im Spiel, ohne zur Werkbank zurückzugehen.",
         "Vier Darstellungen: Cascade, Radial Wheel, Compact Hybrid und Horizontal Bar.",
@@ -212,7 +212,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Troque acessórios de armas compatíveis através de um menu rápido dentro do jogo.",
-      overview: "Versão estável 0.5.216 no GitHub para Fallout 4 1.10.163 e 1.11.240. Corrige o problema de reapresentação dos acessórios de calhas RIS, confirmado pelo utilizador que o reportou. Inclui suporte para comando, modo Cheat experimental opcional, temas Classic Pip-Boy melhorado e inspirado em Fallout 76, e a entrada K2040 Mods partilhada no MCM com a página própria do Quick Attach. O responsável confirmou que os testes finais no jogo passaram. Requer F4SE correspondente e PrismaUI_F4 compatível; ECO e MCM são opcionais. A versão estável no GitHub é a 0.5.216; no Nexus permanece a 0.5.199.",
+      overview: "Versão estável 0.5.216 no GitHub para Fallout 4 1.10.163 e 1.11.240. Corrige o problema de reapresentação dos acessórios de calhas RIS, confirmado pelo utilizador que o reportou. Inclui suporte para comando, modo Cheat experimental opcional, temas Classic Pip-Boy melhorado e inspirado em Fallout 76, e a entrada K2040 Mods partilhada no MCM com a página própria do Quick Attach. O responsável confirmou que os testes finais no jogo passaram. Requer F4SE correspondente e PrismaUI_F4 compatível; ECO e MCM são opcionais. A versão 0.5.216 está disponível no GitHub e no Nexus Mods.",
       features: [
         "Troque acessórios de armas compatíveis dentro do jogo sem voltar à bancada.",
         "Quatro apresentações: Cascade, Radial Wheel, Compact Hybrid e Horizontal Bar.",
@@ -362,7 +362,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Cambia accesorios de armas compatibles desde un menú rápido dentro del juego.",
-      overview: "Versión estable 0.5.216 en GitHub para Fallout 4 1.10.163 y 1.11.240. Corrige el fallo de reaparición de accesorios en raíles RIS, confirmado por el usuario que lo notificó. Incluye compatibilidad con mando, modo Cheat experimental opcional, temas Classic Pip-Boy mejorado e inspirado en Fallout 76 y la entrada compartida K2040 Mods en MCM con ajustes propios de Quick Attach. El responsable confirma que las pruebas finales en el juego han pasado. Requiere F4SE correspondiente y PrismaUI_F4 compatible; ECO y MCM son opcionales. La versión estable de GitHub es 0.5.216; en Nexus sigue 0.5.199.",
+      overview: "Versión estable 0.5.216 en GitHub para Fallout 4 1.10.163 y 1.11.240. Corrige el fallo de reaparición de accesorios en raíles RIS, confirmado por el usuario que lo notificó. Incluye compatibilidad con mando, modo Cheat experimental opcional, temas Classic Pip-Boy mejorado e inspirado en Fallout 76 y la entrada compartida K2040 Mods en MCM con ajustes propios de Quick Attach. El responsable confirma que las pruebas finales en el juego han pasado. Requiere F4SE correspondiente y PrismaUI_F4 compatible; ECO y MCM son opcionales. La versión 0.5.216 está disponible en GitHub y Nexus Mods.",
       features: [
         "Cambia accesorios de armas compatibles dentro del juego sin volver al banco de trabajo.",
         "Cuatro presentaciones: Cascade, Radial Wheel, Compact Hybrid y Horizontal Bar.",
@@ -512,7 +512,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Changez les accessoires d’armes compatibles depuis un menu rapide en jeu.",
-      overview: "Version stable GitHub 0.5.216 pour Fallout 4 1.10.163 et 1.11.240. Corrige la réapparition des accessoires de rails RIS après leur retrait, correction confirmée par la personne ayant signalé le problème. Comprend la prise en charge de la manette, un mode Cheat expérimental facultatif, les thèmes Classic Pip-Boy amélioré et inspiré de Fallout 76, ainsi que l’entrée MCM commune K2040 Mods avec la page Quick Attach. Le responsable confirme la réussite des derniers tests en jeu. Nécessite la version F4SE correspondante et un PrismaUI_F4 compatible ; ECO et MCM restent facultatifs. La version GitHub stable est 0.5.216 ; Nexus reste à 0.5.199.",
+      overview: "Version stable GitHub 0.5.216 pour Fallout 4 1.10.163 et 1.11.240. Corrige la réapparition des accessoires de rails RIS après leur retrait, correction confirmée par la personne ayant signalé le problème. Comprend la prise en charge de la manette, un mode Cheat expérimental facultatif, les thèmes Classic Pip-Boy amélioré et inspiré de Fallout 76, ainsi que l’entrée MCM commune K2040 Mods avec la page Quick Attach. Le responsable confirme la réussite des derniers tests en jeu. Nécessite la version F4SE correspondante et un PrismaUI_F4 compatible ; ECO et MCM restent facultatifs. La version 0.5.216 est disponible sur GitHub et Nexus Mods.",
       features: [
         "Changez les accessoires d’armes compatibles directement en jeu sans retourner à l’établi.",
         "Quatre présentations : Cascade, Radial Wheel, Compact Hybrid et Horizontal Bar.",

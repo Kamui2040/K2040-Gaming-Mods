@@ -59,7 +59,7 @@ window.K2040_PROJECTS = {
     cardImage: "assets/quick-attach-menu-card.webp?v=20260930fo4card1",
     cardMeta: ["Windows", "F4SE", "Released"],
     description: "Change compatible weapon attachments from a fast in-game menu.",
-    overview: "Stable GitHub release 0.5.216 for Fallout 4 1.10.163 and 1.11.240. Fixes the reported RIS rail attachment rediscovery bug, confirmed by the original reporter. Includes controller input, optional experimental Cheat mode, improved Classic Pip-Boy and Fallout 76-inspired themes, and the bundled unified K2040 Mods MCM parent with Quick Attach settings. The maintainer reports the final combined-version gameplay tests passed. Matching F4SE and compatible PrismaUI_F4 are required; ECO and MCM are optional. GitHub 0.5.216 is stable; Nexus still lists 0.5.199.",
+    overview: "Stable GitHub release 0.5.216 for Fallout 4 1.10.163 and 1.11.240. Fixes the reported RIS rail attachment rediscovery bug, confirmed by the original reporter. Includes controller input, optional experimental Cheat mode, improved Classic Pip-Boy and Fallout 76-inspired themes, and the bundled unified K2040 Mods MCM parent with Quick Attach settings. The maintainer reports the final combined-version gameplay tests passed. Matching F4SE and compatible PrismaUI_F4 are required; ECO and MCM are optional. Version 0.5.216 is available on both GitHub and Nexus Mods.",
     image: "../assets/quick-attach-menu-card.webp?v=20260930fo4card1",
     heroImage: "../assets/quick-attach-menu-hero.webp?v=20260930fo4shared1",
     wideHero: true,
