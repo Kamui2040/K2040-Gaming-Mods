@@ -62,7 +62,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Wechsle kompatible Waffenaufsätze über ein schnelles Menü direkt im Spiel.",
-      overview: "Ein Aufsatzmenü für Fallout 4 1.10.163 und 1.11.240. Version 0.5.199 verbessert die Kompatibilität mit Tactical Reload und SREP, einschließlich der sicheren Installation eines Mündungsaufsatzes nach dem Wechsel zurück von einem M203-Lauf. Force Unsafe Swaps bleibt waffenbezogen und standardmäßig deaktiviert. Benötigt die passende F4SE-Version und eine kompatible PrismaUI_F4-Version; ECO und Mod Configuration Menu sind optional.",
+      overview: "GitHub-Vorabversion 0.5.216 für Fallout 4 1.10.163 und 1.11.240. Ein gemeldeter Fehler, bei dem RIS-Schienenaufsätze nach dem Entfernen aus dem Menü verschwanden, wurde laut ursprünglichem Melder behoben. Neu sind Controller-Unterstützung, ein optionaler experimenteller Cheat-Modus, überarbeitete Classic-Pip-Boy- und Fallout-76-Designs sowie der gemeinsam mit den anderen K2040-Mods genutzte MCM-Haupteintrag mit eigener Quick-Attach-Einstellungsseite. Passendes F4SE und kompatibles PrismaUI_F4 sind erforderlich; ECO und MCM sind optional. Auf Nexus bleibt 0.5.199 die stabile Version; weitere Kompatibilitätstests stehen aus.",
       features: [
         "Wechsle kompatible Waffenaufsätze direkt im Spiel, ohne zur Werkbank zurückzugehen.",
         "Vier Darstellungen: Cascade, Radial Wheel, Compact Hybrid und Horizontal Bar.",
@@ -71,9 +71,13 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Passe Tastenbelegung, Größe, Position, Deckkraft, Designs, Farben, Hinweise, das Verhalten nach dem Anwenden, die Spielverlangsamung und Diagnoseprotokolle an.",
         "Exportiere und importiere verteilbare Menüprofile für einzelne Waffen.",
         "Aktiviere Force Unsafe Swaps bei Bedarf für einzelne Waffen; die normalen Sicherheitsprüfungen bleiben standardmäßig aktiv.",
-        "Validiert Aufsatzänderungen live mit Inventarprüfung, Provider-/Child-Reihenfolge und Rollback für unterstützte Änderungen."
+        "Validiert Aufsatzänderungen live mit Inventarprüfung, Provider-/Child-Reihenfolge und Rollback für unterstützte Änderungen.",
+        "Steuere die Menüs mit einem Controller und belege eigene Controller-Kurzbefehle für Quick Attach.",
+        "Aktiviere bei Bedarf den experimentellen Cheat-Modus, um kompatible Aufsätze ohne lose Mod-Gegenstände zu installieren.",
+        "Nutze den mitgelieferten gemeinsamen K2040-Mods-Eintrag in MCM und wähle das überarbeitete Classic-Pip-Boy- oder das Fallout-76-Design."
       ],
       changelog: [
+        "0.5.216 (GitHub-Vorabversion) — RIS-Schienenaufsätze bleiben nach dem Entfernen erneut auswählbar; der ursprüngliche Melder hat die Fehlerbehebung bestätigt. Neu sind Controller-Unterstützung, experimenteller Cheat-Modus, einheitliche MCM-Einbindung, überarbeitete Designs und sicherere AE-Aktualisierung mit optionalem Workaround. Weitere Spieltests stehen aus.",
         "0.5.199 — Die sichere Installation von Mündungs- und anderen Provider-Aufsätzen wurde behoben, nachdem ihre zuvor nicht verfügbare Aufsatzposition wiederhergestellt wurde, einschließlich des gemeldeten SREP-M203-Laufwechsels.",
         "0.5.198 — Falsche „Attachment unable to swap safely“-Fehler mit Tactical Reload behoben, die Abhängigkeitsverarbeitung interner/Provider-OMODs verbessert und eine waffenbezogene Force-Unsafe-Swaps-Option hinzugefügt. Sichere Wechsel bleiben standardmäßig aktiviert.",
         "0.5.197 — Schalter für Diagnoseprotokolle und Menüverlangsamung hinzugefügt, ausgeblendete Cascade-Einträge nach Aufsatzwechseln weiter gefiltert und die eingeschränkte Mausbewegung in allen drei Ansichten behoben.",
@@ -208,7 +212,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Troque acessórios de armas compatíveis através de um menu rápido dentro do jogo.",
-      overview: "Um menu de acessórios para Fallout 4 1.10.163 e 1.11.240. A versão 0.5.199 melhora a compatibilidade com o Tactical Reload e o SREP, incluindo a instalação segura de um acessório de boca do cano depois de voltar de um cano M203. A opção Force Unsafe Swaps continua a ser específica por arma e desativada por predefinição. Requer a versão correspondente do F4SE e uma versão compatível do PrismaUI_F4; ECO e Mod Configuration Menu são opcionais.",
+      overview: "Pré-lançamento 0.5.216 no GitHub para Fallout 4 1.10.163 e 1.11.240. Corrige o desaparecimento de acessórios de calhas RIS do menu após a remoção, conforme confirmado pelo utilizador que comunicou o problema. Acrescenta suporte para comando, modo Cheat experimental opcional, temas Classic Pip-Boy melhorado e inspirado em Fallout 76, e o menu principal K2040 Mods partilhado no MCM com a página própria do Quick Attach. Requer a versão correspondente do F4SE e uma versão compatível do PrismaUI_F4; ECO e MCM são opcionais. A versão estável no Nexus continua a ser a 0.5.199; prosseguem os testes de compatibilidade.",
       features: [
         "Troque acessórios de armas compatíveis dentro do jogo sem voltar à bancada.",
         "Quatro apresentações: Cascade, Radial Wheel, Compact Hybrid e Horizontal Bar.",
@@ -217,9 +221,13 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Personalize teclas, escala, posição, opacidade, temas, cores, dicas, o comportamento após aplicar uma alteração, o abrandamento do jogo e o registo de diagnóstico.",
         "Exporte e importe perfis de menu distribuíveis por arma.",
         "Ative Force Unsafe Swaps para armas individuais quando necessário; as verificações de segurança normais permanecem ativas por predefinição.",
-        "Valida alterações de acessórios em tempo real, com verificação de inventário, ordem provider/child e rollback para alterações suportadas."
+        "Valida alterações de acessórios em tempo real, com verificação de inventário, ordem provider/child e rollback para alterações suportadas.",
+        "Navegue com um comando e configure atalhos específicos do comando para o Quick Attach.",
+        "Ative o modo Cheat experimental, opcional, para instalar acessórios compatíveis sem exigir mods soltos no inventário.",
+        "Utilize a entrada K2040 Mods partilhada no MCM, incluída no pacote, e escolha entre os temas Classic Pip-Boy melhorado e inspirado em Fallout 76."
       ],
       changelog: [
+        "0.5.216 (pré-lançamento GitHub) — Corrigido o desaparecimento de acessórios de calhas RIS após a remoção, com confirmação do utilizador que reportou o erro. Inclui suporte para comando, modo Cheat experimental, MCM K2040 Mods integrado, temas renovados e atualização AE mais segura com solução alternativa opcional. Os testes de compatibilidade mais amplos continuam.",
         "0.5.199 — Corrigida a instalação segura de acessórios de boca do cano e outros acessórios provider depois de o respetivo ponto de montagem voltar a ficar disponível, incluindo a mudança de cano SREP M203 comunicada.",
         "0.5.198 — Corrigidos falsos erros “Attachment unable to swap safely” com o Tactical Reload, melhorado o tratamento de dependências de OMODs internos/provider e adicionada a opção Force Unsafe Swaps por arma. As trocas seguras permanecem ativas por predefinição.",
         "0.5.197 — Adicionados controlos para o registo de diagnóstico e o abrandamento dos menus, mantidos os itens ocultos do Cascade após mudanças de acessórios e corrigido o movimento limitado do cursor nas três vistas.",
@@ -354,7 +362,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Cambia accesorios de armas compatibles desde un menú rápido dentro del juego.",
-      overview: "Un menú de accesorios para Fallout 4 1.10.163 y 1.11.240. La versión 0.5.199 mejora la compatibilidad con Tactical Reload y SREP, incluida la instalación segura de un accesorio de boca de cañón después de volver de un cañón M203. Force Unsafe Swaps sigue siendo una opción por arma y está desactivada de forma predeterminada. Requiere la versión correspondiente de F4SE y una versión compatible de PrismaUI_F4; ECO y Mod Configuration Menu son opcionales.",
+      overview: "Versión preliminar 0.5.216 en GitHub para Fallout 4 1.10.163 y 1.11.240. Corrige un fallo por el que los accesorios de raíles RIS desaparecían del menú tras retirarlos; el usuario que lo notificó confirmó la solución. Añade compatibilidad con mando, modo Cheat experimental opcional, temas Classic Pip-Boy mejorado e inspirado en Fallout 76, y la entrada compartida K2040 Mods en MCM con una página propia para Quick Attach. Requiere la versión correspondiente de F4SE y una versión compatible de PrismaUI_F4; ECO y MCM son opcionales. Nexus mantiene la versión estable 0.5.199 y siguen pendientes más pruebas de compatibilidad.",
       features: [
         "Cambia accesorios de armas compatibles dentro del juego sin volver al banco de trabajo.",
         "Cuatro presentaciones: Cascade, Radial Wheel, Compact Hybrid y Horizontal Bar.",
@@ -363,9 +371,13 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Personaliza teclas, escala, posición, opacidad, temas, colores, ayudas, el comportamiento después de aplicar un cambio, la ralentización del juego y el registro de diagnóstico.",
         "Exporta e importa perfiles de menú distribuibles para cada arma.",
         "Activa Force Unsafe Swaps para armas individuales cuando sea necesario; las comprobaciones de seguridad normales permanecen activadas de forma predeterminada.",
-        "Valida los cambios de accesorios en tiempo real, con verificación de inventario, orden de provider/child y rollback para cambios compatibles."
+        "Valida los cambios de accesorios en tiempo real, con verificación de inventario, orden de provider/child y rollback para cambios compatibles.",
+        "Navega con un mando y configura atajos independientes para Quick Attach.",
+        "Activa el modo Cheat experimental y opcional para instalar accesorios compatibles sin disponer de mods sueltos en el inventario.",
+        "Usa la entrada compartida K2040 Mods de MCM incluida en el paquete y elige entre los temas Classic Pip-Boy mejorado o inspirado en Fallout 76."
       ],
       changelog: [
+        "0.5.216 (versión preliminar de GitHub) — Solucionada la desaparición de accesorios de raíles RIS tras retirarlos, confirmada por el usuario que informó del error. Añade mando, modo Cheat experimental, MCM K2040 Mods integrado, temas renovados y actualización AE más segura con alternativa opcional. Quedan pruebas generales de compatibilidad.",
         "0.5.199 — Corregida la instalación segura de accesorios de boca de cañón y otros accesorios provider después de que su punto de montaje volviera a estar disponible, incluido el cambio de cañón SREP M203 comunicado.",
         "0.5.198 — Corregidos falsos errores “Attachment unable to swap safely” con Tactical Reload, mejorado el tratamiento de dependencias de OMOD internos/provider y añadida la opción Force Unsafe Swaps por arma. Los cambios seguros permanecen activados de forma predeterminada.",
         "0.5.197 — Añadidos controles para el registro de diagnóstico y la ralentización de los menús, mantenidos ocultos los elementos filtrados de Cascade tras cambiar accesorios y corregido el movimiento limitado del cursor en las tres vistas.",
@@ -500,7 +512,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Changez les accessoires d’armes compatibles depuis un menu rapide en jeu.",
-      overview: "Un menu d’accessoires pour Fallout 4 1.10.163 et 1.11.240. La version 0.5.199 améliore la compatibilité avec Tactical Reload et SREP, notamment l’installation sûre d’un accessoire de bouche après être revenu d’un canon M203. Force Unsafe Swaps reste une option par arme, désactivée par défaut. Il nécessite la version F4SE correspondante et une version compatible de PrismaUI_F4 ; ECO et Mod Configuration Menu sont facultatifs.",
+      overview: "Préversion GitHub 0.5.216 pour Fallout 4 1.10.163 et 1.11.240. Corrige un problème faisant disparaître les accessoires de rails RIS du menu après leur retrait, correction confirmée par la personne ayant signalé le bug. Ajoute la prise en charge de la manette, un mode Cheat expérimental facultatif, des thèmes Classic Pip-Boy amélioré et inspiré de Fallout 76, ainsi que l’entrée MCM commune K2040 Mods avec une page dédiée à Quick Attach. Nécessite la version correspondante de F4SE et une version compatible de PrismaUI_F4 ; ECO et MCM restent facultatifs. La version stable sur Nexus demeure la 0.5.199 ; des tests de compatibilité plus larges restent à effectuer.",
       features: [
         "Changez les accessoires d’armes compatibles directement en jeu sans retourner à l’établi.",
         "Quatre présentations : Cascade, Radial Wheel, Compact Hybrid et Horizontal Bar.",
@@ -509,9 +521,13 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Personnalisez les raccourcis, l’échelle, la position, l’opacité, les thèmes, les couleurs, les aides, le comportement après application, le ralentissement du jeu et la journalisation de diagnostic.",
         "Exportez et importez des profils de menu distribuables pour chaque arme.",
         "Activez Force Unsafe Swaps pour certaines armes si nécessaire ; les contrôles de sécurité normaux restent activés par défaut.",
-        "Valide les changements d’accessoires en direct avec vérification d’inventaire, ordre provider/child et rollback pour les changements pris en charge."
+        "Valide les changements d’accessoires en direct avec vérification d’inventaire, ordre provider/child et rollback pour les changements pris en charge.",
+        "Naviguez à la manette et configurez des raccourcis de manette propres à Quick Attach.",
+        "Activez le mode Cheat expérimental et facultatif pour installer des accessoires compatibles sans exiger de modules libres dans l’inventaire.",
+        "Utilisez l’entrée MCM commune K2040 Mods incluse dans le paquet et choisissez les thèmes Classic Pip-Boy amélioré ou inspiré de Fallout 76."
       ],
       changelog: [
+        "0.5.216 (préversion GitHub) — Correction de la disparition des accessoires de rails RIS après leur retrait, confirmée par la personne ayant signalé le problème. Ajout de la manette, du mode Cheat expérimental, du MCM commun K2040 Mods, de thèmes améliorés et d’une actualisation AE plus sûre avec contournement facultatif. Les tests de compatibilité approfondis se poursuivent.",
         "0.5.199 — Correction de l’installation sûre des accessoires de bouche et autres accessoires provider après le rétablissement de leur point de montage, notamment lors du changement de canon SREP M203 signalé.",
         "0.5.198 — Correction des faux messages « Attachment unable to swap safely » avec Tactical Reload, amélioration de la gestion des dépendances des OMOD internes/provider et ajout de l’option Force Unsafe Swaps par arme. Les changements sécurisés restent activés par défaut.",
         "0.5.197 — Ajout de commandes pour la journalisation de diagnostic et le ralentissement des menus, maintien du filtrage des éléments Cascade masqués après un changement d’accessoire et correction du déplacement limité du curseur dans les trois vues.",

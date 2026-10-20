@@ -1,5 +1,23 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "quick-attach-menu-0-5-216",
+    projectId: "quick-attach-menu",
+    date: "2026-10-20",
+    href: "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+    links: [
+      "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+      "https://github.com/Kamui2040/K2040-Quick-Attach-Menu/releases/tag/v0.5.216"
+    ],
+    source: "github",
+    strings: {
+      en: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.216 preview released", summary: "The GitHub preview adds controller support, optional experimental Cheat mode, a shared K2040 Mods MCM entry, and new themes. The reporting user confirmed that the RIS rail attachment rediscovery bug is fixed. Broader testing remains open; Nexus stable stays on 0.5.199." },
+      de: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.216 als Vorabversion veröffentlicht", summary: "Die GitHub-Vorabversion bringt Controller-Unterstützung, einen optionalen experimentellen Cheat-Modus, den gemeinsamen K2040-Mods-Eintrag in MCM und neue Designs. Der ursprüngliche Melder bestätigte die Behebung des RIS-Schienenfehlers. Weitere Tests stehen aus; auf Nexus bleibt 0.5.199 stabil." },
+      "pt-PT": { category: "Fallout 4", title: "Pré-lançamento 0.5.216 de K2040's Quick Attach Menu disponível", summary: "A préversão do GitHub adiciona suporte para comando, modo Cheat experimental opcional, entrada partilhada K2040 Mods no MCM e novos temas. O utilizador que reportou o erro confirmou a correção da redescoberta de acessórios RIS. Os testes prosseguem; a versão estável no Nexus continua a ser a 0.5.199." },
+      es: { category: "Fallout 4", title: "Versión preliminar 0.5.216 de K2040's Quick Attach Menu disponible", summary: "La versión preliminar de GitHub incluye mando, modo Cheat experimental opcional, entrada compartida K2040 Mods en MCM y nuevos temas. El usuario que notificó el fallo confirmó la solución para los accesorios de raíles RIS. Siguen las pruebas; la versión estable en Nexus es la 0.5.199." },
+      fr: { category: "Fallout 4", title: "Préversion 0.5.216 de K2040's Quick Attach Menu disponible", summary: "La préversion GitHub ajoute la manette, un mode Cheat expérimental facultatif, l’entrée commune K2040 Mods dans MCM et de nouveaux thèmes. La personne ayant signalé le problème a confirmé la correction concernant les accessoires RIS. Des tests restent à effectuer ; la version stable Nexus demeure la 0.5.199." }
+    }
+  },
+  {
     id: "quick-attach-menu-0-5-199",
     projectId: "quick-attach-menu",
     date: "2026-10-08",
