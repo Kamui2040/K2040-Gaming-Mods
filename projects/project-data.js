@@ -50,16 +50,16 @@ window.K2040_PROJECTS = {
   "quick-attach-menu": {
     gameId: "fallout-4",
     game: "Fallout 4",
-    title: "K2040's Quick Attach Menu 0.5.216 (Preview)",
+    title: "K2040's Quick Attach Menu 0.5.216",
     cardTitle: "K2040's Quick Attach Menu",
     cardDescription: "Change compatible weapon attachments from a fast in-game menu.",
     href: "projects/project.html?project=quick-attach-menu",
     available: true,
     featured: true,
     cardImage: "assets/quick-attach-menu-card.webp?v=20260930fo4card1",
-    cardMeta: ["Windows", "F4SE", "Preview"],
+    cardMeta: ["Windows", "F4SE", "Released"],
     description: "Change compatible weapon attachments from a fast in-game menu.",
-    overview: "GitHub preview 0.5.216 for Fallout 4 1.10.163 and 1.11.240. Fixes a reported RIS rail attachment disappearing after removal, confirmed by the original reporter. Adds controller input, optional experimental Cheat mode, Fallout 76-inspired and improved Classic Pip-Boy themes, and a bundled shared K2040 Mods MCM parent with Quick Attach settings. Matching F4SE and compatible PrismaUI_F4 are required; ECO and MCM are optional. The Nexus release remains at stable 0.5.199, and broader gameplay compatibility is still being tested.",
+    overview: "Stable GitHub release 0.5.216 for Fallout 4 1.10.163 and 1.11.240. Fixes the reported RIS rail attachment rediscovery bug, confirmed by the original reporter. Includes controller input, optional experimental Cheat mode, improved Classic Pip-Boy and Fallout 76-inspired themes, and the bundled unified K2040 Mods MCM parent with Quick Attach settings. The maintainer reports the final combined-version gameplay tests passed. Matching F4SE and compatible PrismaUI_F4 are required; ECO and MCM are optional. GitHub 0.5.216 is stable; Nexus still lists 0.5.199.",
     image: "../assets/quick-attach-menu-card.webp?v=20260930fo4card1",
     heroImage: "../assets/quick-attach-menu-hero.webp?v=20260930fo4shared1",
     wideHero: true,
@@ -80,7 +80,7 @@ window.K2040_PROJECTS = {
       "Use the bundled unified K2040 Mods MCM entry with Quick Attach's own settings, and choose an improved Classic Pip-Boy or Fallout 76-inspired theme."
     ],
     changelog: [
-      "0.5.216 (GitHub preview) — Restored RIS rail attachment rediscovery after removal, confirmed by the original reporter; added controller support, experimental Cheat mode, self-contained unified K2040 Mods MCM, improved themes, and safer AE refresh with an optional workaround. Broader in-game QA remains open.",
+      "0.5.216 — Fixed reporter-confirmed RIS rail attachment rediscovery; added controller support, experimental Cheat mode, self-contained K2040 Mods MCM, refreshed themes, and safer AE handling with an optional workaround. Final maintainer gameplay checks passed; known AE and Cheat mode limitations remain documented.",
       "0.5.199 — Fixed safe installation of muzzle and other provider attachments after switching back from a configuration where their attachment point was unavailable, including the reported SREP M203 barrel path.",
       "0.5.198 — Fixed false “Attachment unable to swap safely” errors with Tactical Reload, improved internal/provider OMOD dependency handling, and added a per-weapon Force Unsafe Swaps option. Safe swapping remains enabled by default.",
       "0.5.197 — Added logging and menu-slowdown controls, kept hidden Cascade entries filtered after attachment changes, and fixed restricted cursor movement in all three views.",
