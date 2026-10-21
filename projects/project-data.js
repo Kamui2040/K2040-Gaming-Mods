@@ -59,7 +59,7 @@ window.K2040_PROJECTS = {
     cardImage: "assets/quick-attach-menu-card.webp?v=20260930fo4card1",
     cardMeta: ["Windows", "F4SE", "Released"],
     description: "Change compatible weapon attachments from a fast in-game menu.",
-    overview: "GitHub release 0.5.219 fixes MCM hotkeys appearing as None or losing reassigned keys, and prevents the Pip-Boy opening when a shortcut closes Quick Menu or Builder. The author verified the fixes in Fallout 4 1.10.163; wider AE coverage is not independently retested for this update. Includes the earlier reporter-confirmed RIS rail fix, controller support, optional experimental Cheat mode, improved Classic Pip-Boy and Fallout 76 themes, and self-contained K2040 Mods MCM. Matching F4SE and compatible PrismaUI_F4 are required; ECO and MCM are optional. GitHub offers 0.5.219; Nexus Mods still lists the last confirmed 0.5.216 update.",
+    overview: "GitHub release 0.5.219 fixes MCM hotkeys appearing as None or losing reassigned keys, and prevents the Pip-Boy opening when a shortcut closes Quick Menu or Builder. The author verified the fixes in Fallout 4 1.10.163; wider AE coverage is not independently retested for this update. Includes the earlier reporter-confirmed RIS rail fix, controller support, optional experimental Cheat mode, improved Classic Pip-Boy and Fallout 76 themes, and self-contained K2040 Mods MCM. Matching F4SE and compatible PrismaUI_F4 are required; ECO and MCM are optional. Version 0.5.219 is published on GitHub and Nexus Mods, with the Nexus update confirmed by the maintainer.",
     image: "../assets/quick-attach-menu-card.webp?v=20260930fo4card1",
     heroImage: "../assets/quick-attach-menu-hero.webp?v=20260930fo4shared1",
     wideHero: true,
