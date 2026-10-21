@@ -2,7 +2,7 @@
 
 ## Current Gaming website state
 
-- K2040's Quick Attach Menu 0.5.216 is the latest stable GitHub release and featured Fallout 4 project, with the stable ZIP and checksum, the matching Nexus Mods 0.5.216 listing, and the public source link kept distinct. The maintainer reported the final 0.5.216 gameplay tests passed. The page covers the reporter-confirmed RIS rail attachment rediscovery fix, controller support, optional experimental Cheat mode, unified self-contained K2040 Mods MCM, refreshed Classic Pip-Boy/Fallout 76 themes, and the AE refresh limitations. It does not claim exhaustive compatibility validation. All Fallout 4 projects continue to share the Quick Attach 4:5 card artwork and the 1920×549 workbench detail hero.
+- K2040's Quick Attach Menu 0.5.219 is the latest stable GitHub release and featured Fallout 4 project, with the stable ZIP and checksum, the separately linked Nexus Mods page (latest confirmed published version 0.5.216), and the public source link kept distinct. The maintainer reported the final 0.5.219 hotkey and menu-close gameplay tests passed on Fallout 4 1.10.163. The page covers the 0.5.219 MCM hotkey persistence and held-shortcut Pip-Boy fixes, the previously reporter-confirmed RIS rail attachment rediscovery fix, controller support, optional experimental Cheat mode, unified self-contained K2040 Mods MCM, refreshed Classic Pip-Boy/Fallout 76 themes, and the AE refresh limitations. It does not claim exhaustive compatibility validation. All Fallout 4 projects continue to share the Quick Attach 4:5 card artwork and the 1920×549 workbench detail hero.
 - ECO Quick Menu Additions remains listed as a released Fallout 4 project but is no longer the featured landing-page project.
 
 ### WoW WotLK
