@@ -1,5 +1,24 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "quick-attach-menu-0-5-220",
+    projectId: "quick-attach-menu",
+    date: "2026-10-25",
+    href: "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+    links: [
+      "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+      "https://github.com/Kamui2040/K2040-Quick-Attach-Menu/releases/tag/v0.5.220",
+      "https://www.nexusmods.com/fallout4/mods/109575"
+    ],
+    source: "github",
+    strings: {
+      en: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.220 released", summary: "Version 0.5.220 is available on GitHub and Nexus Mods. Fixed Settings/MCM keybind synchronization, improved Mouse 4/5 shortcut capture and generated OMOD attachment labels. The keybinding fix was confirmed in Fallout 4 1.10.163; AE support remains beta." },
+      de: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.220 veröffentlicht", summary: "Version 0.5.220 ist auf GitHub und Nexus Mods erhältlich. Synchronisierung der Tastenbelegungen zwischen Einstellungen und MCM korrigiert, Mouse-4/5-Tastenkombinationen verbessert und OMOD-Namen für erzeugte Menüs bevorzugt. Tastenbelegungs-Fix in Fallout 4 1.10.163 bestätigt; AE bleibt Beta." },
+      "pt-PT": { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.220 lançado", summary: "A versão 0.5.220 está disponível no GitHub e Nexus Mods. Corrigidos os atalhos entre Definições e MCM, melhorada a captura de Mouse 4/5 e os nomes OMOD nos menus gerados. Correção dos atalhos confirmada no Fallout 4 1.10.163; AE continua em beta." },
+      es: { category: "Fallout 4", title: "Publicado K2040's Quick Attach Menu 0.5.220", summary: "La versión 0.5.220 está disponible en GitHub y Nexus Mods. Corregida la sincronización de teclas entre Ajustes y MCM, mejorada la captura de Mouse 4/5 y los nombres OMOD en los menús generados. Corrección confirmada en Fallout 4 1.10.163; AE sigue en beta." },
+      fr: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.220 publié", summary: "La version 0.5.220 est disponible sur GitHub et Nexus Mods. Synchronisation des raccourcis entre paramètres et MCM corrigée, détection de Mouse 4/5 améliorée et noms OMOD privilégiés dans les menus générés. Correction confirmée sur Fallout 4 1.10.163 ; AE reste en bêta." }
+    }
+  },
+  {
     id: "quick-attach-menu-0-5-219",
     projectId: "quick-attach-menu",
     date: "2026-10-21",
