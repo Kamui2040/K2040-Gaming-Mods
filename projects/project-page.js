@@ -21,6 +21,8 @@
   const fallbackProject = projects["eco-quick-menu-additions"];
   const baseProject = projects[id] || fallbackProject;
   if (!baseProject) return;
+  // Allow a project-specific gallery layout without changing other mods.
+  document.documentElement.dataset.project = id;
 
   const storedLanguage = (() => {
     const hashLanguage = location.hash.slice(1);
