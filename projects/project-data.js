@@ -110,6 +110,7 @@ window.K2040_PROJECTS = {
     wideHero: true,
     githubRepo: "https://github.com/Kamui2040/K2040-FO4-Quest-Journal",
     github: "https://github.com/Kamui2040/K2040-FO4-Quest-Journal/releases/tag/v0.0.2",
+    nexus: "https://www.nexusmods.com/fallout4/mods/110911",
     features: [
       "Browse quests and objectives in a full-screen journal.",
       "Find quests with search, sorting, categories, and favorites.",
