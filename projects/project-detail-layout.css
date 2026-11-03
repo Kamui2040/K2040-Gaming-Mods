@@ -68,21 +68,24 @@ html[data-project="quest-journal"] .project-detail-page .screenshot-grid figure 
   height: auto;
   min-height: 0;
   align-self: start;
-  flex: none;
+  display: flex;
+  flex-direction: column;
   margin: 0;
 }
 
 html[data-project="quest-journal"] .project-detail-page .screenshot-grid figure:first-child {
   grid-row: span 2;
+  align-self: center;
 }
 
 html[data-project="quest-journal"] .project-detail-page .screenshot-grid .screenshot-open {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  height: auto;
   min-height: 0;
   aspect-ratio: auto;
-  flex: none;
+  flex: 0 0 auto;
   overflow: hidden;
 }
 
@@ -96,7 +99,10 @@ html[data-project="quest-journal"] .project-detail-page .screenshot-grid .screen
 }
 
 html[data-project="quest-journal"] .project-detail-page .screenshot-grid figcaption {
-  margin-top: 0;
+  order: -1;
+  margin: 0;
+  padding: .65rem .8rem;
+  font-weight: 600;
 }
 
 @media (max-width: 760px) {

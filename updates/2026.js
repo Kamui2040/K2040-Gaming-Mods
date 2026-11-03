@@ -1,5 +1,24 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "quest-journal-nexus-release",
+    projectId: "quest-journal",
+    date: "2026-11-03",
+    href: "/K2040-Gaming-Mods/projects/project.html?project=quest-journal",
+    links: [
+      "/K2040-Gaming-Mods/projects/project.html?project=quest-journal",
+      "https://www.nexusmods.com/fallout4/mods/110911",
+      "https://github.com/Kamui2040/K2040-FO4-Quest-Journal/releases/tag/v0.0.2"
+    ],
+    source: "nexus",
+    strings: {
+      en: { category: "Fallout 4", title: "Quest Journal is now on Nexus Mods", summary: "Quest Journal adds a full-screen quest list and customizable mini tracker. Download it from Nexus Mods or GitHub." },
+      de: { category: "Fallout 4", title: "Quest Journal jetzt auf Nexus Mods", summary: "Quest Journal ergänzt Fallout 4 um ein Questtagebuch im Vollbild und einen anpassbaren Mini-Tracker. Jetzt auf Nexus Mods und GitHub erhältlich." },
+      "pt-PT": { category: "Fallout 4", title: "Quest Journal já disponível no Nexus Mods", summary: "O Quest Journal adiciona um diário de missões em ecrã inteiro e um mini rastreador personalizável. Disponível no Nexus Mods e no GitHub." },
+      es: { category: "Fallout 4", title: "Quest Journal ya está en Nexus Mods", summary: "Quest Journal añade un diario de misiones a pantalla completa y un mini rastreador personalizable. Disponible en Nexus Mods y GitHub." },
+      fr: { category: "Fallout 4", title: "Quest Journal est disponible sur Nexus Mods", summary: "Quest Journal ajoute un journal de quêtes en plein écran et un mini suivi personnalisable. Disponible sur Nexus Mods et GitHub." }
+    }
+  },
+  {
     id: "quick-attach-menu-0-5-220",
     projectId: "quick-attach-menu",
     date: "2026-10-25",

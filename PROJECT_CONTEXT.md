@@ -18,4 +18,7 @@
 
 - Quest Journal `0.0.2` is published on GitHub and listed in the Gaming Mods project catalog. Its card and project header use the same Fallout 4 artwork as Quick Attach Menu and the other Fallout 4 projects.
 - The project page includes a gallery with three user-supplied screenshots in this order: Mini tracker, Full journal, Settings. The original screenshots were converted to WebP to keep the site fast; the main game mod artwork remains unchanged.
-- The page links to the official GitHub release and source repository, with English, German, Portuguese, Spanish and French descriptions, features and screenshot captions.
+- The page links to the official GitHub release, source repository and Nexus Mods page, with English, German, Portuguese, Spanish and French descriptions, features and screenshot captions.
+
+- Quest Journal is also available on Nexus Mods (Fallout 4 mod 110911). A single November 3 release announcement appears in the Gaming updates feed, with links to the project page, Nexus Mods and GitHub release, translated into all five site languages.
+- The gallery now places image names above the screenshots and centers the portrait screenshot card beside the full journal and settings cards. Widescreen previews keep their natural proportions; on phones the gallery stacks vertically. Other mod galleries are unchanged.
