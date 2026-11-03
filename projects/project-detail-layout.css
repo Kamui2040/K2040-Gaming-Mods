@@ -64,6 +64,7 @@ html[data-project="quest-journal"] .project-detail-page .screenshot-grid {
 }
 
 html[data-project="quest-journal"] .project-detail-page .screenshot-grid figure {
+  position: relative;
   width: 100%;
   height: auto;
   min-height: 0;
@@ -99,10 +100,18 @@ html[data-project="quest-journal"] .project-detail-page .screenshot-grid .screen
 }
 
 html[data-project="quest-journal"] .project-detail-page .screenshot-grid figcaption {
-  order: -1;
+  position: absolute;
+  z-index: 2;
+  top: 1px;
+  right: 1px;
+  left: 1px;
   margin: 0;
   padding: .65rem .8rem;
+  background: linear-gradient(to bottom, rgba(3, 10, 15, .91), rgba(3, 10, 15, .72));
+  color: #f4f7fa;
   font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .65);
+  pointer-events: none;
 }
 
 @media (max-width: 760px) {
