@@ -53,6 +53,64 @@
   margin-top: auto;
 }
 
+/* Quest Journal mixes a portrait HUD tracker with two widescreen views.
+   Keep each screenshot at its natural ratio instead of stretching all three
+   cards to the height of the portrait image. */
+html[data-project="quest-journal"] .project-detail-page .screenshot-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.58fr);
+  gap: clamp(14px, 2vw, 24px);
+  align-items: start;
+}
+
+html[data-project="quest-journal"] .project-detail-page .screenshot-grid figure {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  align-self: start;
+  flex: none;
+  margin: 0;
+}
+
+html[data-project="quest-journal"] .project-detail-page .screenshot-grid figure:first-child {
+  grid-row: span 2;
+}
+
+html[data-project="quest-journal"] .project-detail-page .screenshot-grid .screenshot-open {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  aspect-ratio: auto;
+  flex: none;
+  overflow: hidden;
+}
+
+html[data-project="quest-journal"] .project-detail-page .screenshot-grid .screenshot-open img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
+html[data-project="quest-journal"] .project-detail-page .screenshot-grid figcaption {
+  margin-top: 0;
+}
+
+@media (max-width: 760px) {
+  html[data-project="quest-journal"] .project-detail-page .screenshot-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  html[data-project="quest-journal"] .project-detail-page .screenshot-grid figure:first-child {
+    grid-row: auto;
+    width: min(100%, 360px);
+    justify-self: center;
+  }
+}
+
 @media (max-width: 560px) {
   .project-about-links .text-link {
     width: 100%;
