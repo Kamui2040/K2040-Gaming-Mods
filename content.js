@@ -14,6 +14,12 @@
       es: "Cambia accesorios de armas compatibles desde un menú rápido dentro del juego.",
       fr: "Changez les accessoires d’armes compatibles depuis un menu rapide en jeu."
     },
+    "quest-journal": {
+      de: "Questtagebuch im Vollbild und kompakter HUD-Tracker für Fallout 4.",
+      "pt-PT": "Diário de missões em ecrã inteiro e rastreador compacto para Fallout 4.",
+      es: "Diario de misiones a pantalla completa y rastreador compacto para Fallout 4.",
+      fr: "Journal de quêtes en plein écran et suivi compact pour Fallout 4."
+    },
     "eco-quick-menu-additions": {
       de: "AiO-Installer und einzelne Quick-Menu-Kompatibilitätspatches.",
       "pt-PT": "Instalador AiO e patches individuais de compatibilidade para o Quick Menu.",

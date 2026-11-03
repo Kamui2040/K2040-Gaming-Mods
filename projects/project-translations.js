@@ -23,6 +23,24 @@ window.K2040_PROJECT_TRANSLATIONS = {
         { caption: "Info und Mitwirkende", alt: "Info-Dialog von DIRDE UE Linux mit Projekt- und Urheberangaben" }
       ]
     },
+    "quest-journal": {
+      description: "Questtagebuch im Vollbild und kompakter HUD-Tracker für Fallout 4.",
+      overview: "Mit Quest Journal kannst du deine Quests übersichtlich durchsuchen, wichtige Ziele im HUD anzeigen und die Darstellung anpassen. Unterstützt wird Fallout 4 in der Originalversion 1.10.163. Benötigt werden F4SE, Address Library und PrismaUI; MCM ist optional.",
+      features: [
+        "Durchsuche Quests und Aufgaben in einem übersichtlichen Vollbild-Tagebuch.",
+        "Finde Quests mit Suche, Sortierung, Kategorien und Favoriten.",
+        "Verfolge unterstützte Quests und gleiche sie mit dem Pip-Boy ab.",
+        "Hefte Quests an den kompakten HUD-Tracker und passe Position und Größe an.",
+        "Wähle unterschiedliche Designs und Farben für Tagebuch und Tracker.",
+        "Öffne das Tagebuch mit Umschalt + G und schalte den Tracker mit G um; beide Tasten lassen sich ändern."
+      ],
+      changelog: ["0.0.2 — Vollbild-Questtagebuch, HUD-Tracker, Questverfolgung, Designs und anpassbare Einstellungen."],
+      screenshots: [
+        { caption: "Mini-Tracker", alt: "Mini-Tracker mit Quests und Zielen im Fallout-4-HUD" },
+        { caption: "Questtagebuch", alt: "Questtagebuch mit Questliste, Zielen und Tracking-Steuerung" },
+        { caption: "Einstellungen", alt: "Einstellungen für Designs und Mini-Tracker" }
+      ]
+    },
     "eco-quick-menu-additions": {
       description: "Wähle den AiO-Installer oder einzelne optionale Kompatibilitätspatches.",
       overview: "Die zentrale Seite für K2040s veröffentlichte ECO Quick Menu Patches. Nutze den AiO-Installer für die komplette Sammlung oder installiere nur die Einzelpatches, die du brauchst.",
@@ -173,6 +191,24 @@ window.K2040_PROJECT_TRANSLATIONS = {
       screenshots: [
         { caption: "Janela principal", alt: "Janela principal do DIRDE UE Linux com as opções de gameplay" },
         { caption: "Informação e créditos", alt: "Janela Sobre do DIRDE UE Linux com dados do projeto e créditos" }
+      ]
+    },
+    "quest-journal": {
+      description: "Diário de missões em ecrã inteiro e rastreador compacto para Fallout 4.",
+      overview: "O Quest Journal ajuda a consultar missões, manter objetivos importantes no ecrã e personalizar o HUD. Funciona com Fallout 4 na versão original 1.10.163 e requer F4SE, Address Library e PrismaUI. O MCM é opcional.",
+      features: [
+        "Consulte missões e objetivos num diário em ecrã inteiro.",
+        "Encontre missões com pesquisa, ordenação, categorias e favoritos.",
+        "Acompanhe missões compatíveis e mantenha-as sincronizadas com o Pip-Boy.",
+        "Fixe missões no rastreador do HUD e ajuste a posição e o tamanho.",
+        "Personalize o diário e o rastreador com temas e cores diferentes.",
+        "Abra o diário com Shift + G e mostre ou oculte o rastreador com G; pode alterar ambas as teclas."
+      ],
+      changelog: ["0.0.2 — Diário em ecrã inteiro, rastreador do HUD, acompanhamento de missões, temas e definições personalizáveis."],
+      screenshots: [
+        { caption: "Mini rastreador", alt: "Rastreador compacto com missões e objetivos no HUD de Fallout 4" },
+        { caption: "Diário completo", alt: "Diário de missões com lista, objetivos e opções de acompanhamento" },
+        { caption: "Definições", alt: "Definições de temas e do mini rastreador" }
       ]
     },
     "eco-quick-menu-additions": {
@@ -327,6 +363,24 @@ window.K2040_PROJECT_TRANSLATIONS = {
         { caption: "Información y créditos", alt: "Ventana Acerca de de DIRDE UE Linux con información del proyecto y créditos" }
       ]
     },
+    "quest-journal": {
+      description: "Diario de misiones a pantalla completa y rastreador compacto para Fallout 4.",
+      overview: "Quest Journal te permite consultar tus misiones, mantener los objetivos importantes en pantalla y personalizar el HUD. Funciona con la versión original de Fallout 4 (1.10.163) y requiere F4SE, Address Library y PrismaUI. MCM es opcional.",
+      features: [
+        "Consulta misiones y objetivos en un diario a pantalla completa.",
+        "Encuentra misiones con búsqueda, ordenación, categorías y favoritos.",
+        "Sigue misiones compatibles y mantenlas sincronizadas con el Pip-Boy.",
+        "Fija misiones en el rastreador del HUD y ajusta su posición y tamaño.",
+        "Personaliza el diario y el rastreador con distintos temas y colores.",
+        "Abre el diario con Mayús + G y muestra u oculta el rastreador con G; ambas teclas se pueden cambiar."
+      ],
+      changelog: ["0.0.2 — Diario a pantalla completa, rastreador del HUD, seguimiento de misiones, temas y ajustes personalizables."],
+      screenshots: [
+        { caption: "Mini rastreador", alt: "Mini rastreador con misiones y objetivos en el HUD de Fallout 4" },
+        { caption: "Diario completo", alt: "Diario de misiones con lista, objetivos y controles de seguimiento" },
+        { caption: "Ajustes", alt: "Ajustes de temas y del mini rastreador" }
+      ]
+    },
     "eco-quick-menu-additions": {
       description: "Elige el instalador AiO o parches de compatibilidad opcionales individuales.",
       overview: "La página central para los parches ECO Quick Menu publicados por K2040. Usa el instalador AiO para la colección completa o instala solo los parches individuales que necesites.",
@@ -477,6 +531,24 @@ window.K2040_PROJECT_TRANSLATIONS = {
       screenshots: [
         { caption: "Fenêtre principale", alt: "Fenêtre principale de DIRDE UE Linux avec les options de gameplay" },
         { caption: "Informations et crédits", alt: "Fenêtre À propos de DIRDE UE Linux avec les informations du projet et les crédits" }
+      ]
+    },
+    "quest-journal": {
+      description: "Journal de quêtes en plein écran et suivi compact pour Fallout 4.",
+      overview: "Quest Journal permet de parcourir vos quêtes, de garder les objectifs importants à l’écran et de personnaliser le HUD. Il fonctionne avec Fallout 4 en version originale 1.10.163 et nécessite F4SE, Address Library et PrismaUI. MCM est facultatif.",
+      features: [
+        "Consultez vos quêtes et objectifs dans un journal en plein écran.",
+        "Retrouvez vos quêtes grâce à la recherche, au tri, aux catégories et aux favoris.",
+        "Suivez les quêtes compatibles et synchronisez-les avec le Pip-Boy.",
+        "Épinglez les quêtes au suivi du HUD et ajustez sa position et sa taille.",
+        "Personnalisez le journal et le suivi avec différents thèmes et couleurs.",
+        "Ouvrez le journal avec Maj + G et affichez ou masquez le suivi avec G ; les raccourcis sont modifiables."
+      ],
+      changelog: ["0.0.2 — Journal en plein écran, suivi du HUD, suivi des quêtes, thèmes et paramètres personnalisables."],
+      screenshots: [
+        { caption: "Mini suivi", alt: "Suivi compact des quêtes et objectifs dans le HUD de Fallout 4" },
+        { caption: "Journal complet", alt: "Journal des quêtes avec liste, objectifs et commandes de suivi" },
+        { caption: "Paramètres", alt: "Paramètres des thèmes et du mini suivi" }
       ]
     },
     "eco-quick-menu-additions": {
