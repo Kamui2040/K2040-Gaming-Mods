@@ -92,6 +92,54 @@ window.K2040_PROJECTS = {
     ]
   },
 
+  "quest-journal": {
+    gameId: "fallout-4",
+    game: "Fallout 4",
+    title: "K2040's Quest Journal 0.0.2",
+    cardTitle: "K2040's Quest Journal",
+    cardDescription: "A full-screen quest journal and compact tracker for Fallout 4.",
+    href: "projects/project.html?project=quest-journal",
+    available: true,
+    featured: false,
+    cardImage: "assets/quick-attach-menu-card.webp?v=20260930fo4card1",
+    cardMeta: ["Windows", "F4SE", "Released"],
+    description: "A full-screen quest journal and compact tracker for Fallout 4.",
+    overview: "Quest Journal makes it easier to browse your quests, keep important objectives on screen, and customize your HUD. It supports the original Fallout 4 (1.10.163) and requires F4SE, Address Library, and PrismaUI. MCM is optional.",
+    image: "../assets/quick-attach-menu-card.webp?v=20260930fo4card1",
+    heroImage: "../assets/quick-attach-menu-hero.webp?v=20260930fo4shared1",
+    wideHero: true,
+    githubRepo: "https://github.com/Kamui2040/K2040-FO4-Quest-Journal",
+    github: "https://github.com/Kamui2040/K2040-FO4-Quest-Journal/releases/tag/v0.0.2",
+    features: [
+      "Browse quests and objectives in a full-screen journal.",
+      "Find quests with search, sorting, categories, and favorites.",
+      "Track supported quests and keep them in sync with your Pip-Boy.",
+      "Pin quests to a compact HUD tracker with adjustable position and size.",
+      "Customize the Journal and tracker with different themes and colors.",
+      "Use Shift + G to open the Journal and G to show or hide the tracker; both shortcuts can be changed."
+    ],
+    changelog: [
+      "0.0.2 — Full-screen quest journal, compact HUD tracker, quest tracking, themes, and customizable settings."
+    ],
+    screenshots: [
+      {
+        src: "../assets/quest-journal-mini-tracker.webp",
+        alt: "The mini tracker showing quests and objectives on the Fallout 4 HUD",
+        caption: "Mini tracker"
+      },
+      {
+        src: "../assets/quest-journal-full-journal.webp",
+        alt: "The full Quest Journal showing the quest list, objectives, and tracking controls",
+        caption: "Full journal"
+      },
+      {
+        src: "../assets/quest-journal-settings.webp",
+        alt: "Quest Journal settings with themes and mini tracker options",
+        caption: "Settings"
+      }
+    ]
+  },
+
   "eco-quick-menu-additions": {
     gameId: "fallout-4",
     game: "Fallout 4",

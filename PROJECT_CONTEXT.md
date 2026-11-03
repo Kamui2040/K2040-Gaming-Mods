@@ -13,3 +13,9 @@
 - Loot & Salvage has a dedicated project-detail view through `projects/project.html?project=loot-and-salvage`, with the Nexus Mods `0.1.0` link and current GitHub `0.2.0` pre-release link. Its built-in presentation choices and optional AddOnSkins requirement for ElvUI mode are documented in every supported language.
 - GM Genie is the second addon entry and has a dedicated project-detail view through `projects/project.html?project=gm-genie`, its current Nexus Mods `1.1` main-file link, localized built-in skin-selector details, and six interface screenshots.
 - Website-rendered titles, descriptions, tags, status, actions, frames, and localization remain separate from the source artwork.
+
+### Fallout 4 — Quest Journal
+
+- Quest Journal `0.0.2` is published on GitHub and listed in the Gaming Mods project catalog. Its card and project header use the same Fallout 4 artwork as Quick Attach Menu and the other Fallout 4 projects.
+- The project page includes a gallery with three user-supplied screenshots in this order: Mini tracker, Full journal, Settings. The original screenshots were converted to WebP to keep the site fast; the main game mod artwork remains unchanged.
+- The page links to the official GitHub release and source repository, with English, German, Portuguese, Spanish and French descriptions, features and screenshot captions.
