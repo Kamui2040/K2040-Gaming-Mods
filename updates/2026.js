@@ -1,5 +1,24 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "quick-attach-menu-0-5-222",
+    projectId: "quick-attach-menu",
+    date: "2026-11-05",
+    href: "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+    links: [
+      "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+      "https://github.com/Kamui2040/K2040-Quick-Attach-Menu/releases/tag/v0.5.222",
+      "https://www.nexusmods.com/fallout4/mods/109575"
+    ],
+    source: "github",
+    strings: {
+      en: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.222 released", summary: "Version 0.5.222 is available on GitHub. It restores the Quick Attach Builder shortcut in MCM and includes an optional MCM Categorizer compatibility file. The optional file still needs an in-game check with Categorizer. Nexus Mods still lists 0.5.220." },
+      de: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.222 veröffentlicht", summary: "Version 0.5.222 ist auf GitHub erhältlich. Sie stellt den Quick-Attach-Builder-Kurzbefehl im MCM wieder her und enthält eine optionale Kompatibilitätsdatei für MCM Categorizer. Diese Datei muss noch im Spiel mit Categorizer geprüft werden. Auf Nexus Mods steht noch 0.5.220." },
+      "pt-PT": { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.222 lançado", summary: "A versão 0.5.222 está disponível no GitHub. Restaura o atalho do Builder do Quick Attach no MCM e inclui um ficheiro opcional de compatibilidade com o MCM Categorizer. Ainda é necessário testar esse ficheiro no jogo com o Categorizer. O Nexus Mods ainda apresenta a versão 0.5.220." },
+      es: { category: "Fallout 4", title: "Publicado K2040's Quick Attach Menu 0.5.222", summary: "La versión 0.5.222 ya está disponible en GitHub. Recupera el atajo del Builder de Quick Attach en MCM e incluye un archivo opcional de compatibilidad con MCM Categorizer. Aún hay que probar ese archivo en el juego con Categorizer. Nexus Mods aún muestra la versión 0.5.220." },
+      fr: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.222 publié", summary: "La version 0.5.222 est disponible sur GitHub. Elle rétablit le raccourci du Builder de Quick Attach dans le MCM et inclut un fichier de compatibilité facultatif pour MCM Categorizer. Ce fichier doit encore être testé en jeu avec Categorizer. Nexus Mods propose encore la version 0.5.220." }
+    }
+  },
+  {
     id: "quick-attach-menu-0-5-221",
     projectId: "quick-attach-menu",
     date: "2026-11-05",

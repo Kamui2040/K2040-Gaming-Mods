@@ -50,7 +50,7 @@ window.K2040_PROJECTS = {
   "quick-attach-menu": {
     gameId: "fallout-4",
     game: "Fallout 4",
-    title: "K2040's Quick Attach Menu 0.5.221",
+    title: "K2040's Quick Attach Menu 0.5.222",
     cardTitle: "K2040's Quick Attach Menu",
     cardDescription: "Change compatible weapon attachments from a fast in-game menu.",
     href: "projects/project.html?project=quick-attach-menu",
@@ -59,13 +59,13 @@ window.K2040_PROJECTS = {
     cardImage: "assets/quick-attach-menu-card.webp?v=20260930fo4card1",
     cardMeta: ["Windows", "F4SE", "Released"],
     description: "Change compatible weapon attachments from a fast in-game menu.",
-    overview: "Version 0.5.221 is available on GitHub; Nexus Mods still lists 0.5.220. This update fixes the reported Hunting Rifle attachment swaps, improves Quick Menu keyboard navigation and category ordering, keeps clipped items in view, and adds optional movement and mouse-look while the menu is open. The tester confirmed the movement and ordering changes in game. Matching F4SE and PrismaUI_F4 2.1.1 are required; ECO and MCM are optional.",
+    overview: "Version 0.5.222 is available on GitHub; Nexus Mods still lists 0.5.220. This update restores the Quick Attach Builder shortcut in MCM. An optional file is available for MCM Categorizer if the Quick Attach page is missing under K2040 Mods; it still needs an in-game check with Categorizer. Matching F4SE and PrismaUI_F4 2.1.1 are required; ECO and MCM are optional.",
     image: "../assets/quick-attach-menu-card.webp?v=20260930fo4card1",
     heroImage: "../assets/quick-attach-menu-hero.webp?v=20260930fo4shared1",
     wideHero: true,
     nexus: "https://www.nexusmods.com/fallout4/mods/109575",
     githubRepo: "https://github.com/Kamui2040/K2040-Quick-Attach-Menu",
-    github: "https://github.com/Kamui2040/K2040-Quick-Attach-Menu/releases/tag/v0.5.221",
+    github: "https://github.com/Kamui2040/K2040-Quick-Attach-Menu/releases/tag/v0.5.222",
     features: [
       "Change compatible weapon attachments from an in-game quick menu instead of returning to a workbench.",
       "Choose Cascade, Radial Wheel, Compact Hybrid, or Horizontal Bar presentations.",
@@ -80,6 +80,7 @@ window.K2040_PROJECTS = {
       "Use the bundled unified K2040 Mods MCM entry with Quick Attach's own settings, and choose an improved Classic Pip-Boy or Fallout 76-inspired theme."
     ],
     changelog: [
+      "0.5.222 — Restored the Quick Attach Builder shortcut in MCM. An optional MCM Categorizer compatibility file is available; it still needs an in-game check.",
       "0.5.221 — Fixed the reported Hunting Rifle attachment swaps, improved Quick Menu navigation and category ordering, kept clipped items in view, and added optional movement and mouse-look while the menu is open. The tester confirmed the movement and ordering changes in game; the Nexus upload is still pending.",
       "0.5.220 — Fixed Settings/MCM keybinds reverting after Reset or remapping, improved Mouse 4/5 and modifier capture under Proton/PrismaUI, and made generated attachment menus prefer OMOD display names. The keybinding fix was confirmed in-game on Fallout 4 1.10.163; AE support remains beta.",
       "0.5.219 — Fixed MCM hotkeys showing None or reverting after assignment. Closing Quick Menu or Builder with the assigned shortcut no longer opens the Pip-Boy. Existing custom bindings remain preserved; verified in-game on Fallout 4 1.10.163.",
