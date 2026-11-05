@@ -1,5 +1,24 @@
 window.K2040_GAMING_UPDATES = [
   {
+    id: "quick-attach-menu-0-5-221",
+    projectId: "quick-attach-menu",
+    date: "2026-11-05",
+    href: "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+    links: [
+      "/K2040-Gaming-Mods/projects/project.html?project=quick-attach-menu",
+      "https://github.com/Kamui2040/K2040-Quick-Attach-Menu/releases/tag/v0.5.221",
+      "https://www.nexusmods.com/fallout4/mods/109575"
+    ],
+    source: "github",
+    strings: {
+      en: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.221 released", summary: "Version 0.5.221 is available on GitHub. It fixes the Hunting Rifle attachment swap, improves Quick Menu navigation and category ordering, keeps clipped items visible, and adds optional movement and mouse-look while the menu is open. Nexus Mods still lists 0.5.220." },
+      de: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.221 veröffentlicht", summary: "Version 0.5.221 ist auf GitHub erhältlich. Sie behebt den Aufsatzwechsel beim Hunting Rifle, verbessert Quick-Menu-Steuerung und Kategorienreihenfolge, hält abgeschnittene Einträge sichtbar und ergänzt optionale Bewegung und Maussteuerung bei geöffnetem Menü. Auf Nexus Mods steht noch 0.5.220." },
+      "pt-PT": { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.221 lançado", summary: "A versão 0.5.221 está disponível no GitHub. Corrige a troca de acessórios da Hunting Rifle, melhora a navegação e a ordem das categorias, mantém os itens visíveis e permite mover e olhar em redor com o menu aberto. O Nexus Mods ainda apresenta a versão 0.5.220." },
+      es: { category: "Fallout 4", title: "Publicado K2040's Quick Attach Menu 0.5.221", summary: "La versión 0.5.221 ya está disponible en GitHub. Corrige el cambio de accesorios del Hunting Rifle, mejora la navegación y el orden de las categorías, mantiene visibles los elementos y permite moverse y mirar con el menú abierto. Nexus Mods aún muestra la versión 0.5.220." },
+      fr: { category: "Fallout 4", title: "K2040's Quick Attach Menu 0.5.221 publié", summary: "La version 0.5.221 est disponible sur GitHub. Elle corrige le changement d’accessoires du Hunting Rifle, améliore la navigation et l’ordre des catégories, garde les éléments visibles et permet de bouger et de regarder avec le menu ouvert. Nexus Mods affiche encore la version 0.5.220." }
+    }
+  },
+  {
     id: "quest-journal-nexus-release",
     projectId: "quest-journal",
     date: "2026-11-03",

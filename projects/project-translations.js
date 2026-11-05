@@ -80,7 +80,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Wechsle kompatible Waffenaufsätze über ein schnelles Menü direkt im Spiel.",
-      overview: "Version 0.5.220 ist auf GitHub und Nexus Mods veröffentlicht. Die Synchronisierung zwischen den Tastenbelegungen in Einstellungen und MCM wurde korrigiert, einschließlich Zurücksetzen und Neubelegen. Mouse 4/5 und Kombinationen mit Umschalt-, Strg- oder Alt-Tasten werden unter Proton/PrismaUI zuverlässiger erfasst. Automatisch erzeugte Menüs verwenden bevorzugt OMOD-Anzeigenamen. Der Entwickler hat die Korrektur der Tastenbelegung in Fallout 4 1.10.163 im Spiel bestätigt; AE bleibt Beta. Controller-Unterstützung, experimenteller Cheat-Modus und das gemeinsame K2040-Mods-MCM sind weiterhin enthalten. Passendes F4SE und PrismaUI_F4 2.1.1 sind erforderlich; ECO und MCM sind optional.",
+      overview: "Version 0.5.221 ist auf GitHub erhältlich; Nexus Mods führt noch 0.5.220. Dieses Update behebt den gemeldeten Aufsatzwechsel-Fehler beim Hunting Rifle, verbessert die Tastatursteuerung und Reihenfolge der Kategorien, hält abgeschnittene Einträge sichtbar und ergänzt optionale Bewegung und Maussteuerung bei geöffnetem Menü. Der Tester bestätigte Bewegung und Reihenfolge im Spiel. Passendes F4SE und PrismaUI_F4 2.1.1 sind erforderlich; ECO und MCM sind optional.",
       features: [
         "Wechsle kompatible Waffenaufsätze direkt im Spiel, ohne zur Werkbank zurückzugehen.",
         "Vier Darstellungen: Cascade, Radial Wheel, Compact Hybrid und Horizontal Bar.",
@@ -95,6 +95,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Nutze den mitgelieferten gemeinsamen K2040-Mods-Eintrag in MCM und wähle das überarbeitete Classic-Pip-Boy- oder das Fallout-76-Design."
       ],
       changelog: [
+        "0.5.221 — Hunting-Rifle-Aufsatzwechsel behoben, Tastatursteuerung und Kategorienreihenfolge verbessert, abgeschnittene Einträge sichtbar gehalten und optionale Bewegung und Maussteuerung bei geöffnetem Menü ergänzt. Bewegung und Reihenfolge im Spiel bestätigt.",
         "0.5.220 — Synchronisierung der Tastenbelegungen zwischen Einstellungen und MCM korrigiert, Mouse-4/5-Kombinationen unter Proton/PrismaUI verbessert und OMOD-Anzeigenamen für erzeugte Menüs bevorzugt. Tastenbelegungs-Fix in Fallout 4 1.10.163 im Spiel bestätigt; AE bleibt Beta.",
         "0.5.219 — MCM-Tastenbelegungen bleiben nach der Zuweisung gespeichert statt auf „None“ zurückzufallen. Das Schließen von Quick Menu oder Builder mit dem Tastenkürzel öffnet nicht mehr den Pip-Boy. Eigene Belegungen bleiben erhalten; in Fallout 4 1.10.163 im Spiel getestet.",
         "0.5.216 — Erneute Anzeige von RIS-Schienenaufsätzen nach dem Entfernen korrigiert und vom ursprünglichen Melder bestätigt. Controller-Unterstützung, experimenteller Cheat-Modus, gemeinsame K2040-Mods-MCM-Einbindung, neue Designs und sicherere AE-Aktualisierung ergänzt. Abschließende Spieltests erfolgreich; bekannte AE- und Cheat-Modus-Einschränkungen bleiben dokumentiert.",
@@ -250,7 +251,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Troque acessórios de armas compatíveis através de um menu rápido dentro do jogo.",
-      overview: "A versão 0.5.220 está disponível no GitHub e no Nexus Mods. Corrige a sincronização dos atalhos entre as Definições e o MCM após remapear ou repor os controlos, melhora a captura de Mouse 4/5 e combinações com modificadores no Proton/PrismaUI e dá prioridade aos nomes dos OMOD nos menus gerados. A correção dos atalhos foi confirmada no Fallout 4 1.10.163; o suporte para AE continua em beta. Inclui navegação com comando, modo Cheat experimental e MCM K2040 Mods integrado. F4SE compatível e PrismaUI_F4 2.1.1 são necessários; ECO e MCM são opcionais.",
+      overview: "A versão 0.5.221 está disponível no GitHub; o Nexus Mods ainda apresenta a 0.5.220. Esta atualização corrige a troca de acessórios da Hunting Rifle, melhora a navegação e a ordem das categorias, mantém os itens visíveis e permite mover e olhar em redor com o menu aberto. O tester confirmou o movimento e a ordem no jogo. É necessário F4SE compatível e PrismaUI_F4 2.1.1; ECO e MCM são opcionais.",
       features: [
         "Troque acessórios de armas compatíveis dentro do jogo sem voltar à bancada.",
         "Quatro apresentações: Cascade, Radial Wheel, Compact Hybrid e Horizontal Bar.",
@@ -265,6 +266,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Utilize a entrada K2040 Mods partilhada no MCM, incluída no pacote, e escolha entre os temas Classic Pip-Boy melhorado e inspirado em Fallout 76."
       ],
       changelog: [
+        "0.5.221 — Corrigida a troca de acessórios da Hunting Rifle, melhoradas a navegação e a ordem das categorias, mantidos os itens visíveis e adicionados movimento e olhar opcionais com o menu aberto. Movimento e ordem confirmados no jogo.",
         "0.5.220 — Corrigida a sincronização dos atalhos nas Definições e no MCM; melhorada a captura de Mouse 4/5 com modificadores no Proton/PrismaUI e os nomes OMOD nos menus gerados. Correção confirmada no Fallout 4 1.10.163; AE continua em beta.",
         "0.5.219 — Corrigidos os atalhos do MCM que apareciam como «None» ou voltavam a ficar sem atribuição. Fechar o Quick Menu ou o Builder com o atalho já não abre o Pip-Boy. As teclas personalizadas são preservadas; testado no Fallout 4 1.10.163.",
         "0.5.216 — Corrigido o reaparecimento dos acessórios de calhas RIS após a remoção, confirmado pelo utilizador que reportou o problema. Adicionado suporte para comando, modo Cheat experimental, MCM K2040 Mods integrado, novos temas e atualização AE mais segura. Testes finais no jogo aprovados; limitações conhecidas de AE e Cheat mode documentadas.",
@@ -420,7 +422,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Cambia accesorios de armas compatibles desde un menú rápido dentro del juego.",
-      overview: "La versión 0.5.220 está disponible en GitHub y Nexus Mods. Corrige la sincronización de las teclas entre Ajustes y MCM al reasignarlas o restablecerlas, mejora la captura de Mouse 4/5 y las combinaciones con modificadores en Proton/PrismaUI y da prioridad a los nombres de OMOD en los menús generados. El autor confirmó la corrección de los atajos en Fallout 4 1.10.163; AE sigue en fase beta. Incluye navegación con mando, modo Cheat experimental y MCM K2040 Mods integrado. Se necesitan F4SE compatible y PrismaUI_F4 2.1.1; ECO y MCM son opcionales.",
+      overview: "La versión 0.5.221 está disponible en GitHub; Nexus Mods aún ofrece la 0.5.220. Esta actualización corrige el cambio de accesorios del Hunting Rifle, mejora la navegación y el orden de las categorías, mantiene visibles los elementos y permite moverse y mirar con el menú abierto. El tester confirmó el movimiento y el orden en el juego. Se necesitan F4SE compatible y PrismaUI_F4 2.1.1; ECO y MCM son opcionales.",
       features: [
         "Cambia accesorios de armas compatibles dentro del juego sin volver al banco de trabajo.",
         "Cuatro presentaciones: Cascade, Radial Wheel, Compact Hybrid y Horizontal Bar.",
@@ -435,6 +437,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Usa la entrada compartida K2040 Mods de MCM incluida en el paquete y elige entre los temas Classic Pip-Boy mejorado o inspirado en Fallout 76."
       ],
       changelog: [
+        "0.5.221 — Corregido el cambio de accesorios del Hunting Rifle, mejoradas la navegación y el orden de las categorías, mantenidos visibles los elementos y añadido movimiento y mirada opcionales con el menú abierto. Movimiento y orden confirmados en el juego.",
         "0.5.220 — Corregida la sincronización de atajos entre Ajustes y MCM; mejorada la captura de Mouse 4/5 con modificadores en Proton/PrismaUI y los nombres OMOD de los menús generados. Corrección probada en Fallout 4 1.10.163; AE sigue en beta.",
         "0.5.219 — Corregidos los atajos de MCM que mostraban «None» o perdían la asignación. Cerrar Quick Menu o Builder con su atajo ya no abre el Pip-Boy. Se conservan las teclas personalizadas; probado en Fallout 4 1.10.163.",
         "0.5.216 — Corregida la reaparición de accesorios RIS tras retirarlos, confirmada por quien informó del error. Añade mando, modo Cheat experimental, MCM K2040 Mods integrado, temas renovados y actualización AE más segura. Pruebas finales superadas; se mantienen documentadas las limitaciones de AE y Cheat mode.",
@@ -590,7 +593,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
     },
     "quick-attach-menu": {
       description: "Changez les accessoires d’armes compatibles depuis un menu rapide en jeu.",
-      overview: "La version 0.5.220 est disponible sur GitHub et Nexus Mods. Elle corrige la synchronisation des raccourcis entre les paramètres et le MCM après réattribution ou réinitialisation, améliore la détection des boutons Mouse 4/5 avec modificateurs sous Proton/PrismaUI et privilégie les noms des OMOD dans les menus générés. La correction des raccourcis a été confirmée en jeu sur Fallout 4 1.10.163 ; la compatibilité AE reste en bêta. La navigation à la manette, le mode Cheat expérimental et le MCM commun K2040 Mods sont conservés. Une version adaptée de F4SE et PrismaUI_F4 2.1.1 sont nécessaires ; ECO et MCM sont facultatifs.",
+      overview: "La version 0.5.221 est disponible sur GitHub ; Nexus Mods propose encore la 0.5.220. Cette mise à jour corrige le changement d’accessoires du Hunting Rifle, améliore la navigation et l’ordre des catégories, garde les éléments visibles et permet de bouger et de regarder avec le menu ouvert. Le testeur a confirmé le mouvement et l’ordre en jeu. Une version adaptée de F4SE et PrismaUI_F4 2.1.1 sont nécessaires ; ECO et MCM sont facultatifs.",
       features: [
         "Changez les accessoires d’armes compatibles directement en jeu sans retourner à l’établi.",
         "Quatre présentations : Cascade, Radial Wheel, Compact Hybrid et Horizontal Bar.",
@@ -605,6 +608,7 @@ window.K2040_PROJECT_TRANSLATIONS = {
         "Utilisez l’entrée MCM commune K2040 Mods incluse dans le paquet et choisissez les thèmes Classic Pip-Boy amélioré ou inspiré de Fallout 76."
       ],
       changelog: [
+        "0.5.221 — Correction du changement d’accessoires du Hunting Rifle, amélioration de la navigation et de l’ordre des catégories, affichage complet des éléments et mouvement/regard facultatifs avec le menu ouvert. Mouvement et ordre confirmés en jeu.",
         "0.5.220 — Synchronisation des raccourcis entre paramètres et MCM corrigée ; détection de Mouse 4/5 avec modificateurs améliorée sous Proton/PrismaUI et noms OMOD privilégiés dans les menus générés. Correction confirmée sur Fallout 4 1.10.163 ; AE reste en bêta.",
         "0.5.219 — Correction des raccourcis MCM affichés «None» ou perdus après attribution. Fermer Quick Menu ou Builder avec le raccourci n’ouvre plus le Pip-Boy. Les raccourcis personnalisés sont conservés ; testé sur Fallout 4 1.10.163.",
         "0.5.216 — Correction confirmée de la réapparition des accessoires de rails RIS après leur retrait. Ajout de la manette, du mode Cheat expérimental, du MCM commun K2040 Mods, de thèmes améliorés et d’une actualisation AE plus sûre. Derniers tests en jeu réussis ; les limites connues d’AE et du mode Cheat restent documentées.",
