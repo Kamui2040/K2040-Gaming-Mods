@@ -59,7 +59,7 @@ window.K2040_PROJECTS = {
     cardImage: "assets/quick-attach-menu-card.webp?v=20260930fo4card1",
     cardMeta: ["Windows", "F4SE", "Released"],
     description: "Change compatible weapon attachments from a fast in-game menu.",
-    overview: "Version 0.5.222 is available on GitHub; Nexus Mods still lists 0.5.220. This update restores the Quick Attach Builder shortcut in MCM. An optional file is available for MCM Categorizer if the Quick Attach page is missing under K2040 Mods; it still needs an in-game check with Categorizer. Matching F4SE and PrismaUI_F4 2.1.1 are required; ECO and MCM are optional.",
+    overview: "Version 0.5.222 is available on GitHub; Nexus Mods still lists 0.5.220. It restores the Quick Attach Builder shortcut in MCM and fixes the Quick Attach page display when MCM Categorizer is installed. The tester confirmed this works with the main package. Matching F4SE and PrismaUI_F4 2.1.1 are required; ECO and MCM are optional.",
     image: "../assets/quick-attach-menu-card.webp?v=20260930fo4card1",
     heroImage: "../assets/quick-attach-menu-hero.webp?v=20260930fo4shared1",
     wideHero: true,
@@ -80,7 +80,7 @@ window.K2040_PROJECTS = {
       "Use the bundled unified K2040 Mods MCM entry with Quick Attach's own settings, and choose an improved Classic Pip-Boy or Fallout 76-inspired theme."
     ],
     changelog: [
-      "0.5.222 — Restored the Quick Attach Builder shortcut in MCM. An optional MCM Categorizer compatibility file is available; it still needs an in-game check.",
+      "0.5.222 — Restored the Quick Attach Builder shortcut in MCM and fixed the Quick Attach page display with MCM Categorizer. Confirmed with the main package.",
       "0.5.221 — Fixed the reported Hunting Rifle attachment swaps, improved Quick Menu navigation and category ordering, kept clipped items in view, and added optional movement and mouse-look while the menu is open. The tester confirmed the movement and ordering changes in game; the Nexus upload is still pending.",
       "0.5.220 — Fixed Settings/MCM keybinds reverting after Reset or remapping, improved Mouse 4/5 and modifier capture under Proton/PrismaUI, and made generated attachment menus prefer OMOD display names. The keybinding fix was confirmed in-game on Fallout 4 1.10.163; AE support remains beta.",
       "0.5.219 — Fixed MCM hotkeys showing None or reverting after assignment. Closing Quick Menu or Builder with the assigned shortcut no longer opens the Pip-Boy. Existing custom bindings remain preserved; verified in-game on Fallout 4 1.10.163.",
